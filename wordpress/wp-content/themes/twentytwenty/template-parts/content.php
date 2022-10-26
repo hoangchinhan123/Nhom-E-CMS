@@ -148,54 +148,6 @@ if (!is_single()) :
 							</ul>
 						</div>
 					</div>
-					<!-- Detail -->
-					<div class="col-md-6">
-						<div class="row title">
-							<div class="col-md-10 col-xs-9">
-								<h1><?php
-									get_template_part('template-parts/entry-header');
-
-									if (!is_search()) {
-										get_template_part('template-parts/featured-image');
-									}
-									?></h1>
-							</div>
-							<div class="col-md-2 col-xs-3">
-								<div class="headlinesdate">
-									<div class="headlinesdm">
-										<div class="headlinesday"><?php echo get_the_date('d', get_the_ID()); ?></div>
-										<div class="headlinesmonth"><?php echo get_the_date('m', get_the_ID()); ?></div>
-									</div>
-									<div class="headlinesyear">'<?php echo get_the_date('y', get_the_ID()); ?></div>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12">
-								<div class="overviewline"></div>
-							</div>
-						</div>
-						<div class="row maincontent">
-							<div class="col-md-12">
-								<p>
-									<?php
-									if (is_search() || !is_singular() && 'summary' === get_theme_mod('blog_content', 'full')) {
-										the_excerpt();
-									} else {
-										// the_content(__('Continue reading', 'twentytwenty'));
-										if (is_single()) {
-											the_content(__('Continue reading', 'twentytwenty'));
-										} else {
-											//gioi han 100 ky tu
-											$post = get_post();
-											echo substr($post->post_content, 0, 100);
-										}
-									}
-									?>
-								</p>
-							</div>
-						</div>
-					</div>
 					<!-- Recent-posts -->
 					<div class="col-md-3"></div>
 				</div>
