@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 31/1-header
@@ -14,6 +15,9 @@
 =======
 
 >>>>>>> 32/4-search_result
+=======
+
+>>>>>>> 32/7-prev_next_post
 /**
  * Displays the next and previous post navigation in single posts.
  *
@@ -25,6 +29,7 @@
 $next_post = get_next_post();
 $prev_post = get_previous_post();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,6 +83,8 @@ if ( $next_post || $prev_post ) {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post
 if ($next_post || $prev_post) {
 
 	$pagination_classes = '';
@@ -156,6 +163,7 @@ if ($next_post || $prev_post) {
 			<?php
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
@@ -163,10 +171,13 @@ if ($next_post || $prev_post) {
 >>>>>>> 32/4-search
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post
 			}
 			?>
 
 		</div><!-- .pagination-single-inner -->
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -197,4 +208,9 @@ if ($next_post || $prev_post) {
 
 <?php
 >>>>>>> 32/4-search_result
+=======
+	</nav><!-- .pagination-single -->
+
+<?php
+>>>>>>> 32/7-prev_next_post
 }

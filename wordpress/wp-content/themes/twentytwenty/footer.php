@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 31/1-header
@@ -12,6 +13,8 @@
 >>>>>>> 32/4-search
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post
 /**
  * The template for displaying the footer
  *
@@ -25,6 +28,7 @@
  */
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -63,6 +67,8 @@
 >>>>>>> 32/4-search
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post
 			<footer id="site-footer" class="header-footer-group">
 
 				<div class="section-inner">
@@ -119,6 +125,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
@@ -126,3 +133,5 @@
 >>>>>>> 32/4-search
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post

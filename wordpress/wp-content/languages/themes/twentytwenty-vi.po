@@ -11,6 +11,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "X-Generator: GlotPress/4.0.0-alpha.1\n"
 =======
 "X-Generator: GlotPress/4.0.0-alpha.3\n"
@@ -24,6 +25,9 @@ msgstr ""
 =======
 "X-Generator: GlotPress/4.0.0-alpha.3\n"
 >>>>>>> 32/4-search_result
+=======
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+>>>>>>> 32/7-prev_next_post
 "Language: vi_VN\n"
 "Project-Id-Version: Themes - Twenty Twenty\n"
 
@@ -561,6 +565,7 @@ msgid "https://wordpress.org/themes/twentytwenty/"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "https://wordpress.org/themes/twentytwenty/"
 =======
 msgstr "https://wordpress.org/themes/twentytwenty/"
@@ -574,3 +579,6 @@ msgstr "https://wordpress.org/themes/twentytwenty/"
 =======
 msgstr "https://wordpress.org/themes/twentytwenty/"
 >>>>>>> 32/4-search_result
+=======
+msgstr "https://wordpress.org/themes/twentytwenty/"
+>>>>>>> 32/7-prev_next_post

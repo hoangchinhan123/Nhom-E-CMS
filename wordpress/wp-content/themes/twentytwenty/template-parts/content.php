@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 $class = '';
 if (!is_single()) :
 	$class = "danh-sach";
@@ -30,6 +31,8 @@ if (!is_single()) :
 >>>>>>> 32/4-search
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post
 if (!is_single()) { ?>
 	<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 
@@ -43,6 +46,7 @@ if (!is_single()) { ?>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
@@ -50,10 +54,13 @@ if (!is_single()) { ?>
 >>>>>>> 32/4-search
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post
 
 		<div class="post-inner <?php echo is_page_template('templates/template-full-width.php') ? '' : 'thin'; ?> ">
 
 			<div class="entry-content">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -148,16 +155,29 @@ if (!is_single()) { ?>
 				<?php $post = get_post(get_the_ID() );
 				$image_size = apply_filters( 'twenty_twenty_one_attachment_size', 'full' );
 				$img= wp_get_attachment_image( get_the_ID(), $image_size );
+=======
+				<?php
+				if(is_search()){?>
+				<?php $post = get_post(get_the_ID() );
+				
+>>>>>>> 32/7-prev_next_post
 				$day = date('d',strtotime($post->post_date));
 				$month = date('m',strtotime($post->post_date));
 				$year = date('y',strtotime($post->post_date));
 				$title = $post->post_title;
 				$content = $post->post_content;
+<<<<<<< HEAD
 				var_dump(get_the_ID());
 				var_dump($img);
 				 ?>
 				 <div class="search_detail" style="display: flex;">
 				<div class="left_search_detail">
+=======
+				 ?>
+				 <div class="search_detail" style="display: flex;">
+				<div class="left_search_detail">
+					<?php var_dump(get_the_post_thumbnail()); ?>
+>>>>>>> 32/7-prev_next_post
 					 <img src="<?php echo $img; ?>" alt="">
 				</div>
 				<div class="middle_search_detail">
@@ -178,9 +198,12 @@ if (!is_single()) { ?>
 				}
 				?>
 				
+<<<<<<< HEAD
 >>>>>>> 32/4-search
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post
 				<?php
 				if (is_search() || !is_singular() && 'summary' === get_theme_mod('blog_content', 'full')) {
 					// the_excerpt();		
@@ -194,6 +217,7 @@ if (!is_single()) { ?>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
@@ -201,10 +225,13 @@ if (!is_single()) { ?>
 >>>>>>> 32/4-search
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post
 			</div><!-- .entry-content -->
 
 		</div><!-- .post-inner -->
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -240,6 +267,8 @@ if (!is_single()) { ?>
 >>>>>>> 32/4-search
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post
 		<div class="section-inner">
 			<?php
 			wp_link_pages(
@@ -265,6 +294,7 @@ if (!is_single()) { ?>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
@@ -272,6 +302,8 @@ if (!is_single()) { ?>
 >>>>>>> 32/4-search
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post
 
 		<?php
 
@@ -280,6 +312,7 @@ if (!is_single()) { ?>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 31/1-header
@@ -289,6 +322,8 @@ if (!is_single()) { ?>
 >>>>>>> 32/4-search
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post
 			get_template_part('template-parts/navigation');
 		}
 
@@ -304,6 +339,7 @@ if (!is_single()) { ?>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 31/1-header
@@ -313,6 +349,8 @@ if (!is_single()) { ?>
 >>>>>>> 32/4-search
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post
 				<?php comments_template(); ?>
 
 			</div><!-- .comments-wrapper -->
@@ -322,6 +360,7 @@ if (!is_single()) { ?>
 		?>
 
 	</article><!-- .post -->
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -511,6 +550,8 @@ if (!is_single()) { ?>
 >>>>>>> 32/4-search
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post
 	<!-- Trang detail post -->
 <?php
 } else { ?>
@@ -521,6 +562,7 @@ if (!is_single()) { ?>
 
 		<div class="post-inner <?php echo is_page_template('templates/template-full-width.php') ? '' : 'thin'; ?> ">
 			<div class="entry-content">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -542,6 +584,8 @@ if (!is_single()) { ?>
 
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 32/7-prev_next_post
 				<div class="detail-content" 
 				style="display: flex; max-width:100%;">
 				<div class="left_entry-content"
@@ -561,9 +605,12 @@ if (!is_single()) { ?>
 				</div>
 				</div>
 			
+<<<<<<< HEAD
 >>>>>>> 32/4-search
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post
 			</div>
 		</div>
 
@@ -616,6 +663,7 @@ if (!is_single()) { ?>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ?>
 >>>>>>> 31/1-header
 =======
@@ -627,3 +675,6 @@ if (!is_single()) { ?>
 =======
 ?>
 >>>>>>> 32/4-search_result
+=======
+?>
+>>>>>>> 32/7-prev_next_post

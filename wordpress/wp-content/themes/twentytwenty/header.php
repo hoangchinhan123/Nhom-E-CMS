@@ -1,12 +1,15 @@
 <?php
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 32/4-search
 =======
 
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post
 /**
  * Header file for the Twenty Twenty WordPress default theme.
  *
@@ -17,6 +20,7 @@
  * @since Twenty Twenty 1.0
  */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 ?>
@@ -245,6 +249,8 @@
 
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 32/7-prev_next_post
 ?><!DOCTYPE html>
 
 <html class="no-js" <?php language_attributes(); ?>>
@@ -368,13 +374,17 @@
 						if ( has_nav_menu( 'expanded' ) ) {
 							?>
 
+<<<<<<< HEAD
 >>>>>>> 32/4-search
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post
 							<div class="toggle-wrapper nav-toggle-wrapper has-expanded-menu">
 
 								<button class="toggle nav-toggle desktop-nav-toggle" data-toggle-target=".menu-modal" data-toggle-body-class="showing-menu-modal" aria-expanded="false" data-set-focus=".close-nav-toggle">
 									<span class="toggle-inner">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 										<span class="toggle-text"><?php _e('Menu', 'twentytwenty'); ?></span>
@@ -390,11 +400,17 @@
 										<span class="toggle-icon">
 											<?php twentytwenty_the_theme_svg('ellipsis'); ?>
 >>>>>>> 32/4-search_result
+=======
+										<span class="toggle-text"><?php _e( 'Menu', 'twentytwenty' ); ?></span>
+										<span class="toggle-icon">
+											<?php twentytwenty_the_theme_svg( 'ellipsis' ); ?>
+>>>>>>> 32/7-prev_next_post
 										</span>
 									</span>
 								</button><!-- .nav-toggle -->
 
 							</div><!-- .nav-toggle-wrapper -->
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -413,19 +429,25 @@
 						?>
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 32/7-prev_next_post
 							<?php
 						}
 
 						if ( true === $enable_header_search ) {
 							?>
+<<<<<<< HEAD
 >>>>>>> 32/4-search
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post
 
 							<div class="toggle-wrapper search-toggle-wrapper">
 
 								<button class="toggle search-toggle desktop-search-toggle" data-toggle-target=".search-modal" data-toggle-body-class="showing-search-modal" data-set-focus=".search-modal .search-field" aria-expanded="false">
 									<span class="toggle-inner">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -492,6 +514,8 @@
 	get_template_part('template-parts/modal-menu');
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 32/7-prev_next_post
 										<?php twentytwenty_the_theme_svg( 'search' ); ?>
 										<span class="toggle-text"><?php _ex( 'Search', 'toggle text', 'twentytwenty' ); ?></span>
 									</span>
@@ -526,6 +550,9 @@
 		<?php
 		// Output the menu modal.
 		get_template_part( 'template-parts/modal-menu' );
+<<<<<<< HEAD
 >>>>>>> 32/4-search
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post

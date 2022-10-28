@@ -2364,6 +2364,7 @@ function comment_form( $args = array(), $post_id = null ) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	$required_indicator = ' <span class="required" aria-hidden="true">*</span>';
 =======
 	$required_indicator = ' <span class="required" aria-hidden="true"></span>';
@@ -2377,6 +2378,9 @@ function comment_form( $args = array(), $post_id = null ) {
 =======
 	$required_indicator = ' <span class="required" aria-hidden="true"></span>';
 >>>>>>> 32/4-search_result
+=======
+	$required_indicator = ' <span class="required" aria-hidden="true"></span>';
+>>>>>>> 32/7-prev_next_post
 
 	$fields = array(
 		'author' => sprintf(
@@ -2466,6 +2470,7 @@ function comment_form( $args = array(), $post_id = null ) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				_x( 'Comment', 'noun' ),
 				$required_indicator
 			),
@@ -2477,11 +2482,14 @@ function comment_form( $args = array(), $post_id = null ) {
 >>>>>>> 32/4-search
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post
 				_x( 'Make a post', 'noun' ),
 				$required_indicator
 			),
 			'<textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525"' . $required_attribute . '
 			placeholder="What are you thingking..."></textarea>'
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2492,6 +2500,8 @@ function comment_form( $args = array(), $post_id = null ) {
 >>>>>>> 32/4-search
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post
 		),
 		'must_log_in'          => sprintf(
 			'<p class="must-log-in">%s</p>',
@@ -2544,6 +2554,7 @@ function comment_form( $args = array(), $post_id = null ) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		'label_submit'         => __( 'Post Comment' ),
 =======
 		'label_submit'         => __( 'Share' ),
@@ -2557,6 +2568,9 @@ function comment_form( $args = array(), $post_id = null ) {
 =======
 		'label_submit'         => __( 'Share' ),
 >>>>>>> 32/4-search_result
+=======
+		'label_submit'         => __( 'Share' ),
+>>>>>>> 32/7-prev_next_post
 		'submit_button'        => '<input name="%1$s" type="submit" id="%2$s" class="%3$s" value="%4$s" />',
 		'submit_field'         => '<p class="form-submit">%1$s %2$s</p>',
 		'format'               => 'xhtml',

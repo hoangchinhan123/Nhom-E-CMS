@@ -55,6 +55,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 31/1-header
@@ -64,6 +65,8 @@
 >>>>>>> 32/4-search
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post
 							<?php
 
 							/**
@@ -86,6 +89,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 									</div>
 									<!-- .entry-categories-inner -->
 =======
@@ -100,6 +104,9 @@
 =======
 									</div><!-- .entry-categories-inner -->
 >>>>>>> 32/4-search_result
+=======
+									</div><!-- .entry-categories-inner -->
+>>>>>>> 32/7-prev_next_post
 								</div><!-- .entry-categories -->
 
 								<?php
@@ -115,6 +122,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 31/1-header
@@ -124,6 +132,8 @@
 >>>>>>> 32/4-search
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post
 									<a href="#post-inner" class="to-the-content fill-children-current-color">
 										<?php twentytwenty_the_theme_svg( 'arrow-down' ); ?>
 										<div class="screen-reader-text"><?php _e( 'Scroll Down', 'twentytwenty' ); ?></div>
@@ -174,6 +184,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		
 >>>>>>> 31/1-header
@@ -186,6 +197,9 @@
 =======
 		
 >>>>>>> 32/4-search_result
+=======
+		
+>>>>>>> 32/7-prev_next_post
 		?>
 
 		</div><!-- .entry-content -->

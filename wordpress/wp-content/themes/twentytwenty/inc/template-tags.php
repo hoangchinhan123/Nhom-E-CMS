@@ -363,6 +363,7 @@ function twentytwenty_get_post_meta( $post_id = null, $location = 'single-top' )
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				// if ( post_type_supports( get_post_type( $post_id ), 'author' ) && in_array( 'author', $post_meta, true ) ) {
 
 				// 	$has_meta = true;
@@ -392,6 +393,8 @@ function twentytwenty_get_post_meta( $post_id = null, $location = 'single-top' )
 >>>>>>> 32/4-search
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post
 				if ( post_type_supports( get_post_type( $post_id ), 'author' ) && in_array( 'author', $post_meta, true ) ) {
 
 					$has_meta = true;
@@ -417,6 +420,7 @@ function twentytwenty_get_post_meta( $post_id = null, $location = 'single-top' )
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
@@ -424,12 +428,15 @@ function twentytwenty_get_post_meta( $post_id = null, $location = 'single-top' )
 >>>>>>> 32/4-search
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post
 
 				// Post date.
 				if ( in_array( 'post-date', $post_meta, true ) ) {
 
 					$has_meta = true;
 					?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -446,6 +453,8 @@ function twentytwenty_get_post_meta( $post_id = null, $location = 'single-top' )
 >>>>>>> 32/4-search
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post
 					<li class="post-date meta-wrapper">
 						<span class="meta-icon">
 							<span class="screen-reader-text"><?php _e( 'Post date', 'twentytwenty' ); ?></span>
@@ -458,6 +467,7 @@ function twentytwenty_get_post_meta( $post_id = null, $location = 'single-top' )
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
@@ -465,6 +475,8 @@ function twentytwenty_get_post_meta( $post_id = null, $location = 'single-top' )
 >>>>>>> 32/4-search
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post
 					<?php
 
 				}
@@ -514,6 +526,7 @@ function twentytwenty_get_post_meta( $post_id = null, $location = 'single-top' )
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 					<!-- <li class="post-comment-link meta-wrapper">
 =======
 					<li class="post-comment-link meta-wrapper">
@@ -527,12 +540,16 @@ function twentytwenty_get_post_meta( $post_id = null, $location = 'single-top' )
 =======
 					<li class="post-comment-link meta-wrapper">
 >>>>>>> 32/4-search_result
+=======
+					<li class="post-comment-link meta-wrapper">
+>>>>>>> 32/7-prev_next_post
 						<span class="meta-icon">
 							<?php twentytwenty_the_theme_svg( 'comment' ); ?>
 						</span>
 						<span class="meta-text">
 							<?php comments_popup_link(); ?>
 						</span>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -550,6 +567,9 @@ function twentytwenty_get_post_meta( $post_id = null, $location = 'single-top' )
 =======
 					</li>
 >>>>>>> 32/4-search_result
+=======
+					</li>
+>>>>>>> 32/7-prev_next_post
 					<?php
 
 				}

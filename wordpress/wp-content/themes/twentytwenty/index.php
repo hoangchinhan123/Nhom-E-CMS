@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 31/1-header
@@ -15,6 +16,9 @@
 =======
 
 >>>>>>> 32/4-search_result
+=======
+
+>>>>>>> 32/7-prev_next_post
 /**
  * The main template file
  *
@@ -38,6 +42,7 @@ get_header();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 31/1-header
@@ -50,11 +55,15 @@ get_header();
 =======
 
 >>>>>>> 32/4-search_result
+=======
+
+>>>>>>> 32/7-prev_next_post
 	<?php
 
 	$archive_title    = '';
 	$archive_subtitle = '';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72,10 +81,14 @@ get_header();
 =======
 	if (is_search()) {
 >>>>>>> 32/4-search_result
+=======
+	if (is_search()) {
+>>>>>>> 32/7-prev_next_post
 		global $wp_query;
 
 		$archive_title = sprintf(
 			'%1$s %2$s',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -92,11 +105,14 @@ get_header();
 >>>>>>> 32/4-search
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post
 			'<span class="color-accent">' . __('Search:', 'twentytwenty') . '</span>',
 			'&ldquo;' . get_search_query() . '&rdquo;'
 		);
 
 		if ($wp_query->found_posts) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -107,6 +123,8 @@ get_header();
 >>>>>>> 32/4-search
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post
 			$archive_subtitle = sprintf(
 				/* translators: %s: Number of search results. */
 				_n(
@@ -115,6 +133,7 @@ get_header();
 					$wp_query->found_posts,
 					'twentytwenty'
 				),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -134,6 +153,8 @@ get_header();
 >>>>>>> 32/4-search
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post
 				number_format_i18n($wp_query->found_posts)
 			);
 		} else {
@@ -145,6 +166,7 @@ get_header();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
@@ -152,10 +174,13 @@ get_header();
 >>>>>>> 32/4-search
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post
 		$archive_title    = get_the_archive_title();
 		$archive_subtitle = get_the_archive_description();
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -180,6 +205,8 @@ get_header();
 >>>>>>> 32/4-search
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post
 	if ($archive_title || $archive_subtitle) {
 	?>
 
@@ -194,6 +221,7 @@ get_header();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
@@ -201,12 +229,15 @@ get_header();
 >>>>>>> 32/4-search
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post
 				<?php } ?>
 
 			</div><!-- .archive-header-inner -->
 
 		</header><!-- .archive-header -->
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -260,6 +291,8 @@ get_header();
 >>>>>>> 32/4-search
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post
 	<?php
 	}
 
@@ -278,11 +311,14 @@ get_header();
 	?>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 32/4-search
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post
 		<div class="no-search-results-form section-inner thin">
 			<form role="search" <?php echo $twentytwenty_aria_label;
 								?> method="get" class="search-form" action="<?php echo esc_url(home_url('/')); ?>">
@@ -312,6 +348,7 @@ get_header();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
@@ -319,6 +356,8 @@ get_header();
 >>>>>>> 32/4-search
 =======
 >>>>>>> 32/4-search_result
+=======
+>>>>>>> 32/7-prev_next_post
 
 <?php
 get_footer();
