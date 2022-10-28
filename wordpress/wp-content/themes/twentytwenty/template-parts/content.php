@@ -16,48 +16,83 @@
 <?php
 $class = '';
 if (!is_single()) :
-	$class = "danh-sach";
 ?>
-	<article <?php post_class($class); ?> id="post-<?php the_ID(); ?>">
+	<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 
 		<div class="post-inner <?php echo is_page_template('templates/template-full-width.php') ? '' : 'thin'; ?> ">
 
 			<div class="entry-content">
-				<div class="container">
-					<div class="row">
-						<!-- Post -->
-						<div class="col-md-3 col-xs-3 topnewstime">
-							<span class="meta-text">
-								<a href="<?php the_permalink(); ?>">
-									<span style="font-weight: 700; font-size: 45px;"><?php echo get_the_date('d', get_the_ID()); ?></span>
-									<p style="font-size: 20px;"><?php echo 'Tháng' . get_the_date(' m', get_the_ID()); ?></p>
-								</a>
-							</span>
-						</div>
-						<div class="col-md-9 col-xs-9 shortdesc">
-							<?php
-							get_template_part('template-parts/entry-header');
+				<?php
+				if (!is_search()) : ?>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-3 col-xs-3 topnewstime">
+								<span class="meta-text">
+									<a href="<?php the_permalink(); ?>">
+										<span style="font-weight: 700; font-size: 45px;"><?php echo get_the_date('d', get_the_ID()); ?></span>
+										<p style="font-size: 20px;"><?php echo 'Tháng' . get_the_date(' m', get_the_ID()); ?></p>
+									</a>
+								</span>
+							</div>
+							<div class="col-md-9 col-xs-9 shortdesc">
+								<?php
+								get_template_part('template-parts/entry-header');
 
-							if (!is_search()) {
-								get_template_part('template-parts/featured-image');
-							}
-							?>
-							<?php
-							if (is_search() || !is_singular() && 'summary' === get_theme_mod('blog_content', 'full')) {
-								the_excerpt();
-							} else {
-								// the_content(__('Continue reading', 'twentytwenty'));
-								if (is_single()) {
-									the_content(__('Continue reading', 'twentytwenty'));
-								} else {
-									$post = get_post();
-									echo substr($post->post_content, 0, 100);
+								if (!is_search()) {
+									get_template_part('template-parts/featured-image');
 								}
-							}
-							?>
+								?>
+								<?php
+								if (is_search() || !is_singular() && 'summary' === get_theme_mod('blog_content', 'full')) {
+									the_excerpt();
+								} else {
+									if (is_single()) {
+										the_content(__('Continue reading', 'twentytwenty'));
+									} else {
+										$post = get_post();
+										echo substr($post->post_content, 0, 100);
+									}
+								}
+								?>
+							</div>
 						</div>
 					</div>
-				</div>
+				<?php endif ?>
+				<?php
+				if (is_search()) : ?>
+					<?php $post = get_post(get_the_ID());
+					$day = date('d', strtotime($post->post_date));
+					$month = date('m', strtotime($post->post_date));
+					$year = date('y', strtotime($post->post_date));
+					$title = $post->post_title;
+					$content = $post->post_content;
+					?>
+					<div class="list_search_detail">
+						<div class="left_search_detail">
+							<?php echo get_the_post_thumbnail() ?>
+						</div>
+						<div class="middle_search_detail">
+							<div class="date">
+								<?php
+								echo $day;
+								?>
+							</div>
+							<div class="month">
+								<?php echo "Tháng" . $month; ?>
+							</div>
+						</div>
+						<div class="right_search_detail">
+							<div class="title_search_detail">
+								<?php
+								echo $title;
+								?>
+							</div>
+							<div class="content_search_detail">
+								<?php echo $content ?>
+							</div>
+						</div>
+					</div>
+				<?php endif ?>
 			</div><!-- .entry-content -->
 
 		</div><!-- .post-inner -->
