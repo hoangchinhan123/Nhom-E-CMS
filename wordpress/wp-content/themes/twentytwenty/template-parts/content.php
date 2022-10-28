@@ -122,6 +122,7 @@ if (!is_single()) :
 			<div class="container detail-page">
 				<div class="row title">
 					<!-- Categories -->
+<<<<<<< HEAD
 					<div class="col-md-3"></div>
 					<!-- Detail -->
 					<div class="col-md-6">
@@ -169,6 +170,32 @@ if (!is_single()) :
 									?>
 								</p>
 							</div>
+=======
+					<div class="col-md-3">
+						<div class="panel-heading">
+							<h2>Categories</h2>
+						</div>
+						<div class="crossedbg"></div>
+						<div class="panel-body">
+							<ul class="list-group">
+								<?php
+								$args = array(
+									'type'      => 'post',
+									'number'    => 5,
+									'parent'    => 0
+								);
+								$categories = get_categories($args);
+								foreach ($categories as $category) { ?>
+									<li class="list-group-item">
+										<span class="meta-text">
+											<a href="<?php echo get_term_link($category->slug, 'category'); ?>">
+												<?php echo $category->name; ?>
+											</a>
+										</span>
+									</li>
+								<?php } ?>
+							</ul>
+>>>>>>> 10/9_categories
 						</div>
 					</div>
 					<!-- Recent-posts -->
@@ -227,4 +254,8 @@ if (!is_single()) :
 		}
 		?>
 	</article><!-- .post -->
+<<<<<<< HEAD
 <?php endif ?>
+=======
+<?php endif ?>
+>>>>>>> 10/9_categories
