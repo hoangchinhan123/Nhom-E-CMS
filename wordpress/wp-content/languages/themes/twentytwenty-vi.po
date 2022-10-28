@@ -7,7 +7,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+<<<<<<< HEAD
 "X-Generator: GlotPress/4.0.0-alpha.1\n"
+=======
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+>>>>>>> 31/1-header
 "Language: vi_VN\n"
 "Project-Id-Version: Themes - Twenty Twenty\n"
 
@@ -541,4 +545,8 @@ msgstr "Nhóm Phát Triển WordPress"
 #. Theme URI of the theme
 #, gp-priority: low
 msgid "https://wordpress.org/themes/twentytwenty/"
+<<<<<<< HEAD
 msgstr "https://wordpress.org/themes/twentytwenty/"
+=======
+msgstr "https://wordpress.org/themes/twentytwenty/"
+>>>>>>> 31/1-header

@@ -31,6 +31,7 @@ if ( is_singular() ) {
 
 		if ( true === $show_categories && has_category() ) {
 			?>
+<<<<<<< HEAD
 
 			<div class="entry-categories" style="display: none;">
 				<span class="screen-reader-text"><?php _e( 'Categories', 'twentytwenty' ); ?></span>
@@ -38,6 +39,13 @@ if ( is_singular() ) {
 					<?php the_category( ' ' ); ?>
 				</div>
 				<!-- .entry-categories-inner -->
+=======
+			<div class="entry-categories">
+				<span class="screen-reader-text"><?php _e( 'Categories', 'twentytwenty' ); ?></span>
+				<div class="entry-categories-inner">
+					<?php the_category( ' ' ); ?>
+				</div><!-- .entry-categories-inner -->
+>>>>>>> 31/1-header
 			</div><!-- .entry-categories -->
 
 			<?php
@@ -54,6 +62,10 @@ if ( is_singular() ) {
 		if ( is_singular() ) {
 			$intro_text_width = ' small';
 		} else {
+<<<<<<< HEAD
+=======
+			
+>>>>>>> 31/1-header
 			$intro_text_width = ' thin';
 		}
 
@@ -61,7 +73,12 @@ if ( is_singular() ) {
 			?>
 
 			<div class="intro-text section-inner max-percentage<?php echo $intro_text_width; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- static output ?>">
+<<<<<<< HEAD
 				<?php the_excerpt(); ?>
+=======
+			<?php the_excerpt(); ?>
+
+>>>>>>> 31/1-header
 			</div>
 
 			<?php
@@ -70,7 +87,10 @@ if ( is_singular() ) {
 		// Default to displaying the post meta.
 		twentytwenty_the_post_meta( get_the_ID(), 'single-top' );
 		?>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 31/1-header
 	</div><!-- .entry-header-inner -->
 
 </header><!-- .entry-header -->

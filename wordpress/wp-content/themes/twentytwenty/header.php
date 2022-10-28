@@ -12,7 +12,15 @@
 
 ?>
 <!DOCTYPE html>
+<<<<<<< HEAD
 
+=======
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+>>>>>>> 31/1-header
 <html class="no-js" <?php language_attributes(); ?>>
 
 <head>
@@ -21,13 +29,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="profile" href="https://gmpg.org/xfn/11">
+<<<<<<< HEAD
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+=======
+
+>>>>>>> 31/1-header
 	<?php wp_head(); ?>
 
 </head>
 
 <body <?php body_class(); ?>>
+<<<<<<< HEAD
 	<style>
 		@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 	</style>
@@ -37,6 +50,16 @@
 	<header id="site-header" class="header-footer-group">
 		</div>
 		<div class="header-inner section-inner" style="height: 85px;">
+=======
+
+	<?php
+	wp_body_open();
+	?>
+
+	<header id="site-header" class="header-footer-group">
+
+		<div class="header-inner section-inner">
+>>>>>>> 31/1-header
 
 			<div class="header-titles-wrapper">
 
@@ -59,6 +82,10 @@
 					</button><!-- .search-toggle -->
 
 				<?php } ?>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 31/1-header
 				<div class="header-titles">
 
 					<?php
@@ -67,6 +94,7 @@
 
 					// Site description.
 					twentytwenty_site_description();
+<<<<<<< HEAD
 					?>
 
 				</div><!-- .header-titles -->
@@ -75,6 +103,15 @@
 						<div class="wp-block-search__inside-wrapper "><input type="search" id="wp-block-search__input-1" class="wp-block-search__input " name="s" value="" placeholder="" required="" style="border-radius: 10px;height: 46px;"><button type="submit" class="wp-block-search__button  " style="border-radius: 10px;">Submit</button></div>
 					</form>
 				</div>
+=======
+
+					//Add search in menu
+					get_search_form();
+					?>
+
+				</div><!-- .header-titles -->
+
+>>>>>>> 31/1-header
 				<button class="toggle nav-toggle mobile-nav-toggle" data-toggle-target=".menu-modal" data-toggle-body-class="showing-menu-modal" aria-expanded="false" data-set-focus=".close-nav-toggle">
 					<span class="toggle-inner">
 						<span class="toggle-icon">
@@ -122,7 +159,10 @@
 						</ul>
 
 					</nav><!-- .primary-menu-wrapper -->
+<<<<<<< HEAD
 
+=======
+>>>>>>> 31/1-header
 				<?php
 				}
 
@@ -147,7 +187,10 @@
 								</button><!-- .nav-toggle -->
 
 							</div><!-- .nav-toggle-wrapper -->
+<<<<<<< HEAD
 
+=======
+>>>>>>> 31/1-header
 						<?php
 						}
 
@@ -164,6 +207,23 @@
 								</button><!-- .search-toggle -->
 
 							</div>
+<<<<<<< HEAD
+=======
+							<!-- Add icon user -->
+							<div class="icon">
+								<i class="bi bi-person-circle"></i>
+								<div class="dropdown show">
+									<a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Account
+									</a>
+
+									<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+										<a class="dropdown-item" href="http://localhost/wordpress/wp-login.php">Login</a>
+										<a class="dropdown-item" href="#">Logout</a>
+									</div>
+								</div>
+							</div>
+>>>>>>> 31/1-header
 
 						<?php
 						}
