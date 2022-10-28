@@ -1,11 +1,14 @@
 <?php
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
+=======
+>>>>>>> 32/4-search
 /**
  * The template for displaying the footer
  *
@@ -19,6 +22,7 @@
  */
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <footer id="site-footer" class="header-footer-group bg-green-ft">
@@ -51,6 +55,8 @@
 =======
 =======
 >>>>>>> 31/8-comment
+=======
+>>>>>>> 32/4-search
 			<footer id="site-footer" class="header-footer-group">
 
 				<div class="section-inner">
@@ -105,6 +111,9 @@
 	</body>
 </html>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
+=======
+>>>>>>> 32/4-search

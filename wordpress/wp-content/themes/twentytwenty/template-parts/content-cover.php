@@ -53,11 +53,14 @@
 						<div class="entry-header-inner section-inner medium">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
+=======
+>>>>>>> 32/4-search
 							<?php
 
 							/**
@@ -78,6 +81,7 @@
 										<?php the_category( ' ' ); ?>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 									</div>
 									<!-- .entry-categories-inner -->
 =======
@@ -86,6 +90,9 @@
 =======
 									</div><!-- .entry-categories-inner -->
 >>>>>>> 31/8-comment
+=======
+									</div><!-- .entry-categories-inner -->
+>>>>>>> 32/4-search
 								</div><!-- .entry-categories -->
 
 								<?php
@@ -99,11 +106,14 @@
 								<div class="to-the-content-wrapper">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
+=======
+>>>>>>> 32/4-search
 									<a href="#post-inner" class="to-the-content fill-children-current-color">
 										<?php twentytwenty_the_theme_svg( 'arrow-down' ); ?>
 										<div class="screen-reader-text"><?php _e( 'Scroll Down', 'twentytwenty' ); ?></div>
@@ -152,12 +162,16 @@
 		the_content();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		
 >>>>>>> 31/1-header
 =======
 		
 >>>>>>> 31/8-comment
+=======
+		
+>>>>>>> 32/4-search
 		?>
 
 		</div><!-- .entry-content -->

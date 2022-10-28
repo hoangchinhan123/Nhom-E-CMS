@@ -9,6 +9,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "X-Generator: GlotPress/4.0.0-alpha.1\n"
 =======
 "X-Generator: GlotPress/4.0.0-alpha.3\n"
@@ -16,6 +17,9 @@ msgstr ""
 =======
 "X-Generator: GlotPress/4.0.0-alpha.3\n"
 >>>>>>> 31/8-comment
+=======
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+>>>>>>> 32/4-search
 "Language: vi_VN\n"
 "Project-Id-Version: Themes - Twenty Twenty\n"
 
@@ -551,6 +555,7 @@ msgstr "Nhóm Phát Triển WordPress"
 msgid "https://wordpress.org/themes/twentytwenty/"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "https://wordpress.org/themes/twentytwenty/"
 =======
 msgstr "https://wordpress.org/themes/twentytwenty/"
@@ -558,3 +563,6 @@ msgstr "https://wordpress.org/themes/twentytwenty/"
 =======
 msgstr "https://wordpress.org/themes/twentytwenty/"
 >>>>>>> 31/8-comment
+=======
+msgstr "https://wordpress.org/themes/twentytwenty/"
+>>>>>>> 32/4-search

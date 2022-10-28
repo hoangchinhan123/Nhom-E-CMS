@@ -47,6 +47,7 @@ $required_php_version = '5.6.20';
 $required_mysql_version = '5.0';
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 $wp_local_package = 'vi';
@@ -55,3 +56,7 @@ $wp_local_package = 'vi';
 
 $wp_local_package = 'vi';
 >>>>>>> 31/8-comment
+=======
+
+$wp_local_package = 'vi';
+>>>>>>> 32/4-search

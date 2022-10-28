@@ -1,12 +1,15 @@
 <?php
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 31/1-header
 =======
 
 >>>>>>> 31/8-comment
+=======
+>>>>>>> 32/4-search
 /**
  * Displays the next and previous post navigation in single posts.
  *
@@ -20,6 +23,9 @@ $prev_post = get_previous_post();
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 32/4-search
 if ( $next_post || $prev_post ) {
 
 	$pagination_classes = '';
@@ -34,7 +40,10 @@ if ( $next_post || $prev_post ) {
 
 	<nav class="pagination-single section-inner<?php echo esc_attr( $pagination_classes ); ?>" aria-label="<?php esc_attr_e( 'Post', 'twentytwenty' ); ?>">
 
+<<<<<<< HEAD
 		<hr class="styled-separator is-style-wide" aria-hidden="true" />
+=======
+>>>>>>> 32/4-search
 
 		<div class="pagination-single-inner">
 
@@ -58,6 +67,7 @@ if ( $next_post || $prev_post ) {
 						<span class="title"><span class="title-inner"><?php echo wp_kses_post( get_the_title( $next_post->ID ) ); ?></span></span>
 				</a>
 				<?php
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 31/8-comment
@@ -141,10 +151,13 @@ if ($next_post || $prev_post) {
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
+=======
+>>>>>>> 32/4-search
 			}
 			?>
 
 		</div><!-- .pagination-single-inner -->
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -163,4 +176,9 @@ if ($next_post || $prev_post) {
 
 <?php
 >>>>>>> 31/8-comment
+=======
+	</nav><!-- .pagination-single -->
+
+	<?php
+>>>>>>> 32/4-search
 }

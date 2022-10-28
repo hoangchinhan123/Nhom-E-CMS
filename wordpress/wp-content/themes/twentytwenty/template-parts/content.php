@@ -16,6 +16,7 @@
 <?php
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 $class = '';
 if (!is_single()) :
 	$class = "danh-sach";
@@ -24,6 +25,8 @@ if (!is_single()) :
 =======
 =======
 >>>>>>> 31/8-comment
+=======
+>>>>>>> 32/4-search
 if (!is_single()) { ?>
 	<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 
@@ -35,13 +38,17 @@ if (!is_single()) { ?>
 		// }
 		?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
+=======
+>>>>>>> 32/4-search
 
 		<div class="post-inner <?php echo is_page_template('templates/template-full-width.php') ? '' : 'thin'; ?> ">
 
 			<div class="entry-content">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 				<div class="container">
@@ -121,6 +128,43 @@ if (!is_single()) { ?>
 				}
 				?>
 
+=======
+				<?php
+				if(is_search()){?>
+				<?php $post = get_post(get_the_ID() );
+				$image_size = apply_filters( 'twenty_twenty_one_attachment_size', 'full' );
+				$img= wp_get_attachment_image( get_the_ID(), $image_size );
+				$day = date('d',strtotime($post->post_date));
+				$month = date('m',strtotime($post->post_date));
+				$year = date('y',strtotime($post->post_date));
+				$title = $post->post_title;
+				$content = $post->post_content;
+				var_dump(get_the_ID());
+				var_dump($img);
+				 ?>
+				 <div class="search_detail" style="display: flex;">
+				<div class="left_search_detail">
+					 <img src="<?php echo $img; ?>" alt="">
+				</div>
+				<div class="middle_search_detail">
+					<?php 
+					echo $day;
+					echo $month;
+					echo $year;
+					?>
+				</div>
+				<div class="right_search_detail">
+					<?php 
+					echo $title;
+					echo $content
+					?>
+				</div>
+				</div>
+					<?php
+				}
+				?>
+				
+>>>>>>> 32/4-search
 				<?php
 				if (is_search() || !is_singular() && 'summary' === get_theme_mod('blog_content', 'full')) {
 					// the_excerpt();		
@@ -132,13 +176,17 @@ if (!is_single()) { ?>
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
+=======
+>>>>>>> 32/4-search
 			</div><!-- .entry-content -->
 
 		</div><!-- .post-inner -->
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 		<!-- <div class="section-inner"> -->
@@ -168,6 +216,8 @@ if (!is_single()) { ?>
 =======
 =======
 >>>>>>> 31/8-comment
+=======
+>>>>>>> 32/4-search
 		<div class="section-inner">
 			<?php
 			wp_link_pages(
@@ -191,20 +241,26 @@ if (!is_single()) { ?>
 
 		</div><!-- .section-inner -->
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
+=======
+>>>>>>> 32/4-search
 
 		<?php
 
 		if (is_single()) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
+=======
+>>>>>>> 32/4-search
 			get_template_part('template-parts/navigation');
 		}
 
@@ -218,11 +274,14 @@ if (!is_single()) { ?>
 			<div class="comments-wrapper section-inner">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
+=======
+>>>>>>> 32/4-search
 				<?php comments_template(); ?>
 
 			</div><!-- .comments-wrapper -->
@@ -232,6 +291,7 @@ if (!is_single()) { ?>
 		?>
 
 	</article><!-- .post -->
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <?php endif ?>
@@ -415,6 +475,8 @@ if (!is_single()) { ?>
 =======
 =======
 >>>>>>> 31/8-comment
+=======
+>>>>>>> 32/4-search
 	<!-- Trang detail post -->
 <?php
 } else { ?>
@@ -425,6 +487,7 @@ if (!is_single()) { ?>
 
 		<div class="post-inner <?php echo is_page_template('templates/template-full-width.php') ? '' : 'thin'; ?> ">
 			<div class="entry-content">
+<<<<<<< HEAD
 				<div class="detail-content" style="display: flex; max-width:100%;">
 					<div class="left_entry-content" style="width:30%;">
 						<h1>Categories</h1>
@@ -440,6 +503,27 @@ if (!is_single()) { ?>
 					</div>
 				</div>
 
+=======
+				<div class="detail-content" 
+				style="display: flex; max-width:100%;">
+				<div class="left_entry-content"
+				style="width:30%;">
+				<h1>Categories</h1>
+				</div>
+				<div class="middle_entry-content"
+				style="width:40%;">
+				<?php echo $post->post_title; ?>
+				<?php echo date('d',strtotime($post->post_date)); ?>
+				<?php echo date('m',strtotime($post->post_date)); ?>
+				<?php echo $post->post_content; ?>
+				</div>
+				<div class="right_entry-content"
+				style="width:30%;">
+				<h1>Last Coment</h1>
+				</div>
+				</div>
+			
+>>>>>>> 32/4-search
 			</div>
 		</div>
 
@@ -490,8 +574,12 @@ if (!is_single()) { ?>
 	}
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 ?>
 >>>>>>> 31/1-header
 =======
 ?>
 >>>>>>> 31/8-comment
+=======
+?>
+>>>>>>> 32/4-search
