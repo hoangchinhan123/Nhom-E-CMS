@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 31/1-header
@@ -9,6 +10,8 @@
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 /**
  * The template for displaying the footer
  *
@@ -22,6 +25,7 @@
  */
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -57,6 +61,8 @@
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 			<footer id="site-footer" class="header-footer-group">
 
 				<div class="section-inner">
@@ -112,8 +118,11 @@
 </html>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result

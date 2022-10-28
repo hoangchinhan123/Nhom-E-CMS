@@ -1,8 +1,12 @@
 <?php
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 32/4-search
+=======
+
+>>>>>>> 32/4-search_result
 /**
  * Header file for the Twenty Twenty WordPress default theme.
  *
@@ -14,6 +18,7 @@
  */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ?>
 <!DOCTYPE html>
 <<<<<<< HEAD
@@ -22,15 +27,22 @@
 =======
 =======
 >>>>>>> 31/8-comment
+=======
+?>
+<!DOCTYPE html>
+>>>>>>> 32/4-search_result
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
+=======
+>>>>>>> 32/4-search_result
 <html class="no-js" <?php language_attributes(); ?>>
 
 <head>
@@ -41,6 +53,7 @@
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
 =======
@@ -49,11 +62,15 @@
 =======
 
 >>>>>>> 31/8-comment
+=======
+
+>>>>>>> 32/4-search_result
 	<?php wp_head(); ?>
 
 </head>
 
 <body <?php body_class(); ?>>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 	<style>
@@ -68,6 +85,8 @@
 =======
 =======
 >>>>>>> 31/8-comment
+=======
+>>>>>>> 32/4-search_result
 
 	<?php
 	wp_body_open();
@@ -77,9 +96,12 @@
 
 		<div class="header-inner section-inner">
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
+=======
+>>>>>>> 32/4-search_result
 
 			<div class="header-titles-wrapper">
 
@@ -104,12 +126,16 @@
 				<?php } ?>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 31/1-header
 =======
 
 >>>>>>> 31/8-comment
+=======
+
+>>>>>>> 32/4-search_result
 				<div class="header-titles">
 
 					<?php
@@ -118,6 +144,7 @@
 
 					// Site description.
 					twentytwenty_site_description();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 					?>
@@ -131,6 +158,8 @@
 =======
 =======
 >>>>>>> 31/8-comment
+=======
+>>>>>>> 32/4-search_result
 
 					//Add search in menu
 					get_search_form();
@@ -139,9 +168,12 @@
 				</div><!-- .header-titles -->
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
+=======
+>>>>>>> 32/4-search_result
 				<button class="toggle nav-toggle mobile-nav-toggle" data-toggle-target=".menu-modal" data-toggle-body-class="showing-menu-modal" aria-expanded="false" data-set-focus=".close-nav-toggle">
 					<span class="toggle-inner">
 						<span class="toggle-icon">
@@ -191,11 +223,14 @@
 					</nav><!-- .primary-menu-wrapper -->
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
+=======
+>>>>>>> 32/4-search_result
 				<?php
 				}
 
@@ -208,6 +243,7 @@
 						if (has_nav_menu('expanded')) {
 						?>
 
+<<<<<<< HEAD
 =======
 ?><!DOCTYPE html>
 
@@ -333,10 +369,13 @@
 							?>
 
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 							<div class="toggle-wrapper nav-toggle-wrapper has-expanded-menu">
 
 								<button class="toggle nav-toggle desktop-nav-toggle" data-toggle-target=".menu-modal" data-toggle-body-class="showing-menu-modal" aria-expanded="false" data-set-focus=".close-nav-toggle">
 									<span class="toggle-inner">
+<<<<<<< HEAD
 <<<<<<< HEAD
 										<span class="toggle-text"><?php _e('Menu', 'twentytwenty'); ?></span>
 										<span class="toggle-icon">
@@ -346,6 +385,11 @@
 										<span class="toggle-icon">
 											<?php twentytwenty_the_theme_svg( 'ellipsis' ); ?>
 >>>>>>> 32/4-search
+=======
+										<span class="toggle-text"><?php _e('Menu', 'twentytwenty'); ?></span>
+										<span class="toggle-icon">
+											<?php twentytwenty_the_theme_svg('ellipsis'); ?>
+>>>>>>> 32/4-search_result
 										</span>
 									</span>
 								</button><!-- .nav-toggle -->
@@ -354,16 +398,20 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
+=======
+>>>>>>> 32/4-search_result
 						<?php
 						}
 
 						if (true === $enable_header_search) {
 						?>
+<<<<<<< HEAD
 =======
 							<?php
 						}
@@ -371,18 +419,24 @@
 						if ( true === $enable_header_search ) {
 							?>
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 							<div class="toggle-wrapper search-toggle-wrapper">
 
 								<button class="toggle search-toggle desktop-search-toggle" data-toggle-target=".search-modal" data-toggle-body-class="showing-search-modal" data-set-focus=".search-modal .search-field" aria-expanded="false">
 									<span class="toggle-inner">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 32/4-search_result
 										<?php twentytwenty_the_theme_svg('search'); ?>
 										<span class="toggle-text"><?php _ex('Search', 'toggle text', 'twentytwenty'); ?></span>
 									</span>
 								</button><!-- .search-toggle -->
 
 							</div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -406,6 +460,10 @@
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
+=======
+							<!-- Add icon user -->
+						<p>Add icon</p>
+>>>>>>> 32/4-search_result
 
 						<?php
 						}
@@ -432,6 +490,7 @@
 	<?php
 	// Output the menu modal.
 	get_template_part('template-parts/modal-menu');
+<<<<<<< HEAD
 =======
 										<?php twentytwenty_the_theme_svg( 'search' ); ?>
 										<span class="toggle-text"><?php _ex( 'Search', 'toggle text', 'twentytwenty' ); ?></span>
@@ -468,3 +527,5 @@
 		// Output the menu modal.
 		get_template_part( 'template-parts/modal-menu' );
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result

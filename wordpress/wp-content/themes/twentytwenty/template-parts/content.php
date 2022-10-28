@@ -17,6 +17,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 $class = '';
 if (!is_single()) :
 	$class = "danh-sach";
@@ -27,6 +28,8 @@ if (!is_single()) :
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 if (!is_single()) { ?>
 	<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 
@@ -39,15 +42,19 @@ if (!is_single()) { ?>
 		?>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 		<div class="post-inner <?php echo is_page_template('templates/template-full-width.php') ? '' : 'thin'; ?> ">
 
 			<div class="entry-content">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -89,6 +96,8 @@ if (!is_single()) { ?>
 =======
 =======
 >>>>>>> 31/8-comment
+=======
+>>>>>>> 32/4-search_result
 				<?php
 				if (is_search()) { ?>
 					<?php $post = get_post(get_the_ID());
@@ -100,8 +109,12 @@ if (!is_single()) { ?>
 					?>
 					<div class="list_search_detail">
 						<div class="left_search_detail">
+<<<<<<< HEAD
 							<?php var_dump(get_the_post_thumbnail()); ?>
 							<img src="<?php echo $img; ?>" alt="">
+=======
+						<?php echo get_the_post_thumbnail() ?>
+>>>>>>> 32/4-search_result
 						</div>
 						<div class="middle_search_detail">
 							<div class="date">
@@ -128,6 +141,7 @@ if (!is_single()) { ?>
 				}
 				?>
 
+<<<<<<< HEAD
 =======
 				<?php
 				if(is_search()){?>
@@ -165,6 +179,8 @@ if (!is_single()) { ?>
 				?>
 				
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 				<?php
 				if (is_search() || !is_singular() && 'summary' === get_theme_mod('blog_content', 'full')) {
 					// the_excerpt();		
@@ -177,15 +193,19 @@ if (!is_single()) { ?>
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 			</div><!-- .entry-content -->
 
 		</div><!-- .post-inner -->
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -218,6 +238,8 @@ if (!is_single()) { ?>
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 		<div class="section-inner">
 			<?php
 			wp_link_pages(
@@ -242,11 +264,14 @@ if (!is_single()) { ?>
 		</div><!-- .section-inner -->
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 		<?php
 
@@ -254,6 +279,7 @@ if (!is_single()) { ?>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 31/1-header
@@ -261,6 +287,8 @@ if (!is_single()) { ?>
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 			get_template_part('template-parts/navigation');
 		}
 
@@ -275,6 +303,7 @@ if (!is_single()) { ?>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 31/1-header
@@ -282,6 +311,8 @@ if (!is_single()) { ?>
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 				<?php comments_template(); ?>
 
 			</div><!-- .comments-wrapper -->
@@ -291,6 +322,7 @@ if (!is_single()) { ?>
 		?>
 
 	</article><!-- .post -->
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -477,6 +509,8 @@ if (!is_single()) { ?>
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 	<!-- Trang detail post -->
 <?php
 } else { ?>
@@ -488,6 +522,9 @@ if (!is_single()) { ?>
 		<div class="post-inner <?php echo is_page_template('templates/template-full-width.php') ? '' : 'thin'; ?> ">
 			<div class="entry-content">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 32/4-search_result
 				<div class="detail-content" style="display: flex; max-width:100%;">
 					<div class="left_entry-content" style="width:30%;">
 						<h1>Categories</h1>
@@ -503,6 +540,7 @@ if (!is_single()) { ?>
 					</div>
 				</div>
 
+<<<<<<< HEAD
 =======
 				<div class="detail-content" 
 				style="display: flex; max-width:100%;">
@@ -524,6 +562,8 @@ if (!is_single()) { ?>
 				</div>
 			
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 			</div>
 		</div>
 
@@ -575,6 +615,7 @@ if (!is_single()) { ?>
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ?>
 >>>>>>> 31/1-header
 =======
@@ -583,3 +624,6 @@ if (!is_single()) { ?>
 =======
 ?>
 >>>>>>> 32/4-search
+=======
+?>
+>>>>>>> 32/4-search_result

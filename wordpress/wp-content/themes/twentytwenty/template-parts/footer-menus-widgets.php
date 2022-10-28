@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 31/1-header
@@ -9,6 +10,8 @@
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 /**
  * Displays the menus and widgets at the end of the main element.
  * Visually, this output is presented as part of the footer element.
@@ -18,6 +21,7 @@
  * @since Twenty Twenty 1.0
  */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39,6 +43,8 @@ if ($has_footer_menu || $has_social_menu || $has_sidebar_1 || $has_sidebar_2 || 
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 $has_footer_menu = has_nav_menu( 'footer' );
 $has_social_menu = has_nav_menu( 'social' );
 
@@ -52,11 +58,14 @@ if ( $has_footer_menu || $has_social_menu || $has_sidebar_1 || $has_sidebar_2 ) 
 	<div class="footer-nav-widgets-wrapper header-footer-group">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 		<div class="footer-inner section-inner">
 
@@ -65,6 +74,7 @@ if ( $has_footer_menu || $has_social_menu || $has_sidebar_1 || $has_sidebar_2 ) 
 			$footer_top_classes = '';
 
 			$footer_top_classes .= $has_footer_menu ? ' has-footer-menu' : '';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80,6 +90,8 @@ if ( $has_footer_menu || $has_social_menu || $has_sidebar_1 || $has_sidebar_2 ) 
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 			$footer_top_classes .= $has_social_menu ? ' has-social-menu' : '';
 
 			if ( $has_footer_menu || $has_social_menu ) {
@@ -140,16 +152,20 @@ if ( $has_footer_menu || $has_social_menu || $has_sidebar_1 || $has_sidebar_2 ) 
 			<?php if ( $has_sidebar_1 || $has_sidebar_2 ) { ?>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 				<aside class="footer-widgets-outer-wrapper">
 
 					<div class="footer-widgets-wrapper">
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -162,10 +178,13 @@ if ( $has_footer_menu || $has_social_menu || $has_sidebar_1 || $has_sidebar_2 ) 
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 						<?php if ( $has_sidebar_1 ) { ?>
 
 							<div class="footer-widgets column-one grid-item">
 								<?php dynamic_sidebar( 'sidebar-1' ); ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 31/1-header
@@ -173,10 +192,13 @@ if ( $has_footer_menu || $has_social_menu || $has_sidebar_1 || $has_sidebar_2 ) 
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 							</div>
 
 						<?php } ?>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -205,10 +227,13 @@ if ( $has_footer_menu || $has_social_menu || $has_sidebar_1 || $has_sidebar_2 ) 
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 						<?php if ( $has_sidebar_2 ) { ?>
 
 							<div class="footer-widgets column-two grid-item">
 								<?php dynamic_sidebar( 'sidebar-2' ); ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 31/1-header
@@ -216,6 +241,8 @@ if ( $has_footer_menu || $has_social_menu || $has_sidebar_1 || $has_sidebar_2 ) 
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 							</div>
 
 						<?php } ?>
@@ -233,6 +260,7 @@ if ( $has_footer_menu || $has_social_menu || $has_sidebar_1 || $has_sidebar_2 ) 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php } ?>
 =======
 <?php } ?>
@@ -243,3 +271,6 @@ if ( $has_footer_menu || $has_social_menu || $has_sidebar_1 || $has_sidebar_2 ) 
 =======
 <?php } ?>
 >>>>>>> 32/4-search
+=======
+<?php } ?>
+>>>>>>> 32/4-search_result

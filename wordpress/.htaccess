@@ -9,6 +9,7 @@ RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 RewriteBase /wordpress/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
@@ -19,6 +20,8 @@ RewriteRule . /wordpress/index.php [L]
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 RewriteBase /wordpress1/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
@@ -26,11 +29,14 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /wordpress1/index.php [L]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 </IfModule>
 
 # END WordPress

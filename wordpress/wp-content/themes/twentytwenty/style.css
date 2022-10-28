@@ -118,6 +118,7 @@ html {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	font-size: 62.5%;
 	/* 1rem = 10px */
 =======
@@ -129,6 +130,9 @@ html {
 =======
 	font-size: 62.5%; /* 1rem = 10px */
 >>>>>>> 32/4-search
+=======
+	font-size: 62.5%; /* 1rem = 10px */
+>>>>>>> 32/4-search_result
 	scroll-behavior: smooth;
 }
 
@@ -151,6 +155,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @supports (font-variation-settings: normal) {
 =======
 @supports ( font-variation-settings: normal ) {
@@ -161,6 +166,9 @@ body {
 =======
 @supports ( font-variation-settings: normal ) {
 >>>>>>> 32/4-search
+=======
+@supports ( font-variation-settings: normal ) {
+>>>>>>> 32/4-search_result
 
 	body {
 		font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
@@ -288,6 +296,7 @@ Inter variable font. Usage:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	font-weight: 100 900;
 	/* stylelint-disable-line font-weight-notation */
 =======
@@ -299,6 +308,9 @@ Inter variable font. Usage:
 =======
 	font-weight: 100 900; /* stylelint-disable-line font-weight-notation */
 >>>>>>> 32/4-search
+=======
+	font-weight: 100 900; /* stylelint-disable-line font-weight-notation */
+>>>>>>> 32/4-search_result
 	font-style: normal;
 	font-display: swap;
 	src: url(./assets/fonts/inter/Inter-upright-var.woff2) format("woff2");
@@ -309,6 +321,7 @@ Inter variable font. Usage:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	font-weight: 100 900;
 	/* stylelint-disable-line font-weight-notation */
 =======
@@ -320,6 +333,9 @@ Inter variable font. Usage:
 =======
 	font-weight: 100 900; /* stylelint-disable-line font-weight-notation */
 >>>>>>> 32/4-search
+=======
+	font-weight: 100 900; /* stylelint-disable-line font-weight-notation */
+>>>>>>> 32/4-search_result
 	font-style: italic;
 	font-display: swap;
 	src: url(./assets/fonts/inter/Inter-italic-var.woff2) format("woff2");
@@ -328,6 +344,7 @@ Inter variable font. Usage:
 
 /* Accessibility Settings -------------------- */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -341,6 +358,9 @@ Inter variable font. Usage:
 =======
 @media ( prefers-reduced-motion: reduce ) {
 >>>>>>> 32/4-search
+=======
+@media ( prefers-reduced-motion: reduce ) {
+>>>>>>> 32/4-search_result
 
 	* {
 		animation-duration: 0s !important;
@@ -568,6 +588,7 @@ li {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 li>ul,
 li>ol {
 =======
@@ -582,6 +603,10 @@ li > ol {
 li > ul,
 li > ol {
 >>>>>>> 32/4-search
+=======
+li > ul,
+li > ol {
+>>>>>>> 32/4-search_result
 	margin: 1rem 0 0 2rem;
 }
 
@@ -608,6 +633,7 @@ dt {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 dt+dd {
 	margin-top: 0.5rem;
 }
@@ -618,6 +644,8 @@ dd+dt {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 dt + dd {
 	margin-top: 0.5rem;
 }
@@ -625,11 +653,14 @@ dt + dd {
 dd + dt {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 	margin-top: 1.5rem;
 }
 
@@ -792,6 +823,7 @@ label.inline,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 input[type="checkbox"]+label {
 =======
 input[type="checkbox"] + label {
@@ -802,6 +834,9 @@ input[type="checkbox"] + label {
 =======
 input[type="checkbox"] + label {
 >>>>>>> 32/4-search
+=======
+input[type="checkbox"] + label {
+>>>>>>> 32/4-search_result
 	display: inline;
 	font-weight: 400;
 	margin-left: 0.5rem;
@@ -850,6 +885,7 @@ button,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @supports (font-variation-settings: normal) {
 =======
 @supports ( font-variation-settings: normal ) {
@@ -860,6 +896,9 @@ button,
 =======
 @supports ( font-variation-settings: normal ) {
 >>>>>>> 32/4-search
+=======
+@supports ( font-variation-settings: normal ) {
+>>>>>>> 32/4-search_result
 
 	input,
 	textarea,
@@ -945,6 +984,7 @@ input::-moz-placeholder {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	line-height: revert;
 	/* Reset to the value from the user-agent stylesheet. */
 =======
@@ -956,6 +996,9 @@ input::-moz-placeholder {
 =======
 	line-height: revert; /* Reset to the value from the user-agent stylesheet. */
 >>>>>>> 32/4-search
+=======
+	line-height: revert; /* Reset to the value from the user-agent stylesheet. */
+>>>>>>> 32/4-search_result
 }
 
 input[type="search"]::-webkit-search-decoration,
@@ -1053,6 +1096,7 @@ table {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .alignleft>table {
 	margin: 0;
 }
@@ -1063,6 +1107,8 @@ table {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 .alignleft > table {
 	margin: 0;
 }
@@ -1070,11 +1116,14 @@ table {
 .alignright > table {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 	margin: 0;
 }
 
@@ -1397,6 +1446,7 @@ button.toggle {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @supports (-webkit-overflow-scrolling: touch) {
 =======
 @supports ( -webkit-overflow-scrolling: touch ) {
@@ -1407,12 +1457,16 @@ button.toggle {
 =======
 @supports ( -webkit-overflow-scrolling: touch ) {
 >>>>>>> 32/4-search
+=======
+@supports ( -webkit-overflow-scrolling: touch ) {
+>>>>>>> 32/4-search_result
 
 	.bg-attachment-fixed {
 		background-attachment: scroll;
 	}
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1426,6 +1480,9 @@ button.toggle {
 =======
 @media ( prefers-reduced-motion: reduce ) {
 >>>>>>> 32/4-search
+=======
+@media ( prefers-reduced-motion: reduce ) {
+>>>>>>> 32/4-search_result
 
 	.bg-attachment-fixed {
 		background-attachment: scroll;
@@ -1443,6 +1500,7 @@ button.toggle {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	position: relative;
 >>>>>>> 31/1-header
@@ -1452,6 +1510,9 @@ button.toggle {
 =======
 	position: relative;
 >>>>>>> 32/4-search
+=======
+	position: relative;
+>>>>>>> 32/4-search_result
 	align-items: stretch;
 	display: flex;
 	flex-wrap: nowrap;
@@ -1465,6 +1526,7 @@ button.toggle {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 #search_detail{
@@ -1481,6 +1543,11 @@ button.toggle {
 	padding: 20px 40px;
 }
 >>>>>>> 32/4-search
+=======
+#search_detail{
+	padding: 20px 40px;
+}
+>>>>>>> 32/4-search_result
 .search-form label {
 	align-items: stretch;
 	display: flex;
@@ -1491,12 +1558,15 @@ button.toggle {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 .search-form svg{
 	position: absolute;
 	top: 20px;
@@ -1512,11 +1582,14 @@ button.toggle {
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 .search-form .search-field {
 	width: 100%;
 }
@@ -1525,6 +1598,7 @@ button.toggle {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	text-transform: none;
 >>>>>>> 31/1-header
@@ -1534,6 +1608,9 @@ button.toggle {
 =======
 	text-transform: none;
 >>>>>>> 32/4-search
+=======
+	text-transform: none;
+>>>>>>> 32/4-search_result
 	flex-shrink: 0;
 }
 
@@ -1597,6 +1674,7 @@ ul.social-icons li {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .cover-modal.show-modal>* {
 =======
 .cover-modal.show-modal > * {
@@ -1607,6 +1685,9 @@ ul.social-icons li {
 =======
 .cover-modal.show-modal > * {
 >>>>>>> 32/4-search
+=======
+.cover-modal.show-modal > * {
+>>>>>>> 32/4-search_result
 	cursor: default;
 }
 
@@ -1884,6 +1965,7 @@ ul.primary-menu {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .primary-menu>li {
 	margin: 0.8rem 0 0 1.6rem;
 }
@@ -1898,6 +1980,8 @@ ul.primary-menu {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 .primary-menu > li {
 	margin: 0.8rem 0 0 1.6rem;
 }
@@ -1909,11 +1993,14 @@ ul.primary-menu {
 .primary-menu > li > .icon {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 	right: -0.5rem;
 	top: calc(50% - 0.4rem);
 }
@@ -1936,6 +2023,7 @@ ul.primary-menu {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .primary-menu li.current-menu-item>a,
 .primary-menu li.current-menu-item>.link-icon-wrapper>a {
 	text-decoration: underline;
@@ -1950,6 +2038,8 @@ ul.primary-menu {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 .primary-menu li.current-menu-item > a,
 .primary-menu li.current-menu-item > .link-icon-wrapper > a {
 	text-decoration: underline;
@@ -1961,11 +2051,14 @@ ul.primary-menu {
 .primary-menu li.current-menu-item > .link-icon-wrapper > a:focus {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 	text-decoration: none;
 }
 
@@ -1990,6 +2083,7 @@ ul.primary-menu {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .primary-menu li.menu-item-has-children:hover>ul,
 .primary-menu li.menu-item-has-children:focus>ul,
 .primary-menu li.menu-item-has-children.focus>ul {
@@ -2008,6 +2102,11 @@ ul.primary-menu {
 .primary-menu li.menu-item-has-children:focus > ul,
 .primary-menu li.menu-item-has-children.focus > ul {
 >>>>>>> 32/4-search
+=======
+.primary-menu li.menu-item-has-children:hover > ul,
+.primary-menu li.menu-item-has-children:focus > ul,
+.primary-menu li.menu-item-has-children.focus > ul {
+>>>>>>> 32/4-search_result
 	right: 0;
 	opacity: 1;
 	transform: translateY(0);
@@ -2047,6 +2146,7 @@ ul.primary-menu {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .primary-menu ul li.menu-item-has-children>a {
 =======
 .primary-menu ul li.menu-item-has-children > a {
@@ -2057,6 +2157,9 @@ ul.primary-menu {
 =======
 .primary-menu ul li.menu-item-has-children > a {
 >>>>>>> 32/4-search
+=======
+.primary-menu ul li.menu-item-has-children > a {
+>>>>>>> 32/4-search_result
 	padding-right: 4.5rem;
 }
 
@@ -2072,6 +2175,7 @@ ul.primary-menu {
 	top: -1rem;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2093,6 +2197,11 @@ ul.primary-menu {
 .primary-menu ul li.menu-item-has-children:focus > ul,
 .primary-menu ul li.menu-item-has-children.focus > ul {
 >>>>>>> 32/4-search
+=======
+.primary-menu ul li.menu-item-has-children:hover > ul,
+.primary-menu ul li.menu-item-has-children:focus > ul,
+.primary-menu ul li.menu-item-has-children.focus > ul {
+>>>>>>> 32/4-search_result
 	right: calc(100% + 2rem);
 }
 
@@ -2129,6 +2238,7 @@ ul.primary-menu {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	.primary-menu>li.menu-item-has-children>a {
 =======
 	.primary-menu > li.menu-item-has-children > a {
@@ -2139,10 +2249,14 @@ ul.primary-menu {
 =======
 	.primary-menu > li.menu-item-has-children > a {
 >>>>>>> 32/4-search
+=======
+	.primary-menu > li.menu-item-has-children > a {
+>>>>>>> 32/4-search_result
 		padding-right: 0;
 		margin-right: 2rem;
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2156,6 +2270,9 @@ ul.primary-menu {
 =======
 	.primary-menu ul li.menu-item-has-children > a {
 >>>>>>> 32/4-search
+=======
+	.primary-menu ul li.menu-item-has-children > a {
+>>>>>>> 32/4-search_result
 		margin-right: 4.5rem;
 		padding-right: 0;
 		width: unset;
@@ -2164,6 +2281,7 @@ ul.primary-menu {
 }
 
 /* Repeat previous rules for IE11 (when JS enabled for polyfill). */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2177,10 +2295,14 @@ body.touch-enabled .primary-menu > li.menu-item-has-children > a {
 =======
 body.touch-enabled .primary-menu > li.menu-item-has-children > a {
 >>>>>>> 32/4-search
+=======
+body.touch-enabled .primary-menu > li.menu-item-has-children > a {
+>>>>>>> 32/4-search_result
 	padding-right: 0;
 	margin-right: 2rem;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2194,6 +2316,9 @@ body.touch-enabled .primary-menu ul li.menu-item-has-children > a {
 =======
 body.touch-enabled .primary-menu ul li.menu-item-has-children > a {
 >>>>>>> 32/4-search
+=======
+body.touch-enabled .primary-menu ul li.menu-item-has-children > a {
+>>>>>>> 32/4-search_result
 	margin-right: 4.5rem;
 	padding-right: 0;
 	width: unset;
@@ -2304,6 +2429,7 @@ button.close-nav-toggle .toggle-text {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .modal-menu>li>a,
 .modal-menu>li>.ancestor-wrapper>a {
 =======
@@ -2318,11 +2444,16 @@ button.close-nav-toggle .toggle-text {
 .modal-menu > li > a,
 .modal-menu > li > .ancestor-wrapper > a {
 >>>>>>> 32/4-search
+=======
+.modal-menu > li > a,
+.modal-menu > li > .ancestor-wrapper > a {
+>>>>>>> 32/4-search_result
 	font-size: 2rem;
 	font-weight: 700;
 	letter-spacing: -0.0375em;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2336,6 +2467,9 @@ button.close-nav-toggle .toggle-text {
 =======
 .modal-menu > li:last-child {
 >>>>>>> 32/4-search
+=======
+.modal-menu > li:last-child {
+>>>>>>> 32/4-search_result
 	border-bottom-width: 0.1rem;
 }
 
@@ -2357,6 +2491,7 @@ button.close-nav-toggle .toggle-text {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .modal-menu li.current-menu-item>.ancestor-wrapper>a,
 .modal-menu li.current_page_ancestor>.ancestor-wrapper>a {
 =======
@@ -2371,6 +2506,10 @@ button.close-nav-toggle .toggle-text {
 .modal-menu li.current-menu-item > .ancestor-wrapper > a,
 .modal-menu li.current_page_ancestor > .ancestor-wrapper > a {
 >>>>>>> 32/4-search
+=======
+.modal-menu li.current-menu-item > .ancestor-wrapper > a,
+.modal-menu li.current_page_ancestor > .ancestor-wrapper > a {
+>>>>>>> 32/4-search_result
 	text-decoration: underline;
 }
 
@@ -2466,6 +2605,7 @@ button.sub-menu-toggle.active svg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .menu-wrapper.is-toggling .modal-menu>li:last-child li {
 =======
 .menu-wrapper.is-toggling .modal-menu > li:last-child li {
@@ -2476,6 +2616,9 @@ button.sub-menu-toggle.active svg {
 =======
 .menu-wrapper.is-toggling .modal-menu > li:last-child li {
 >>>>>>> 32/4-search
+=======
+.menu-wrapper.is-toggling .modal-menu > li:last-child li {
+>>>>>>> 32/4-search_result
 	border-top-color: transparent;
 	border-bottom-width: 0.1rem;
 }
@@ -2766,6 +2909,7 @@ body.template-cover .entry-header {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 body.template-full-width .entry-content>*:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide),
 body.template-full-width [class*="__inner-container"]>*:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
 =======
@@ -2780,6 +2924,10 @@ body.template-full-width [class*="__inner-container"] > *:not(.alignwide):not(.a
 body.template-full-width .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide),
 body.template-full-width [class*="__inner-container"] > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
 >>>>>>> 32/4-search
+=======
+body.template-full-width .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide),
+body.template-full-width [class*="__inner-container"] > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+>>>>>>> 32/4-search_result
 	max-width: 120rem;
 }
 
@@ -2789,6 +2937,7 @@ body.template-full-width .entry-content .alignright {
 }
 
 body.template-full-width .entry-content .alignleft,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2810,12 +2959,18 @@ body.template-full-width [class*="wp-block"].alignwide [class*="__inner-containe
 body.template-full-width [class*="wp-block"].alignwide [class*="__inner-container"] > p .alignleft,
 body.template-full-width [class*="wp-block"].alignwide [class*="__inner-container"] > .wp-block-image .alignleft {
 >>>>>>> 32/4-search
+=======
+body.template-full-width [class*="wp-block"].alignwide [class*="__inner-container"] > .alignleft,
+body.template-full-width [class*="wp-block"].alignwide [class*="__inner-container"] > p .alignleft,
+body.template-full-width [class*="wp-block"].alignwide [class*="__inner-container"] > .wp-block-image .alignleft {
+>>>>>>> 32/4-search_result
 
 	/*rtl:ignore*/
 	margin-left: 0;
 	position: static;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2828,10 +2983,13 @@ body.template-full-width [class*="wp-block"].alignfull:not(.has-background) [cla
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 body.template-full-width .entry-content > .alignleft,
 body.template-full-width [class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"] > .alignleft,
 body.template-full-width [class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"] > p .alignleft,
 body.template-full-width [class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"] > .wp-block-image .alignleft {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 31/1-header
@@ -2839,6 +2997,8 @@ body.template-full-width [class*="wp-block"].alignfull:not(.has-background) [cla
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 	/*rtl:ignore*/
 	margin-left: 2rem;
@@ -2846,6 +3006,7 @@ body.template-full-width [class*="wp-block"].alignfull:not(.has-background) [cla
 }
 
 body.template-full-width .entry-content .alignright,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2867,12 +3028,18 @@ body.template-full-width [class*="wp-block"].alignwide [class*="__inner-containe
 body.template-full-width [class*="wp-block"].alignwide [class*="__inner-container"] > p .alignright,
 body.template-full-width [class*="wp-block"].alignwide [class*="__inner-container"] > .wp-block-image .alignright {
 >>>>>>> 32/4-search
+=======
+body.template-full-width [class*="wp-block"].alignwide [class*="__inner-container"] > .alignright,
+body.template-full-width [class*="wp-block"].alignwide [class*="__inner-container"] > p .alignright,
+body.template-full-width [class*="wp-block"].alignwide [class*="__inner-container"] > .wp-block-image .alignright {
+>>>>>>> 32/4-search_result
 
 	/*rtl:ignore*/
 	margin-right: 0;
 	position: static;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2885,10 +3052,13 @@ body.template-full-width [class*="wp-block"].alignfull:not(.has-background) [cla
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 body.template-full-width .entry-content > .alignright,
 body.template-full-width [class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"] > .alignright,
 body.template-full-width [class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"] > p .alignright,
 body.template-full-width [class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"] > .wp-block-image .alignright {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 31/1-header
@@ -2896,6 +3066,8 @@ body.template-full-width [class*="wp-block"].alignfull:not(.has-background) [cla
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 	/*rtl:ignore*/
 	margin-right: 2rem;
@@ -2937,6 +3109,7 @@ body.template-full-width [class*="wp-block"].alignfull:not(.has-background) [cla
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 body:not(.singular) main>article:first-of-type {
 =======
 body:not(.singular) main > article:first-of-type {
@@ -2947,6 +3120,9 @@ body:not(.singular) main > article:first-of-type {
 =======
 body:not(.singular) main > article:first-of-type {
 >>>>>>> 32/4-search
+=======
+body:not(.singular) main > article:first-of-type {
+>>>>>>> 32/4-search_result
 	padding: 4rem 0 0;
 }
 
@@ -2969,6 +3145,7 @@ body:not(.singular) main > article:first-of-type {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* .singular .entry-header {
 	background-color: #fff;
 	padding: 4rem 0;
@@ -2978,10 +3155,13 @@ body:not(.singular) main > article:first-of-type {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 .singular .entry-header {
 	background-color: #fff;
 	padding: 4rem 0;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 31/1-header
@@ -2989,6 +3169,8 @@ body:not(.singular) main > article:first-of-type {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 .entry-categories {
 	line-height: 1.25;
@@ -3180,6 +3362,7 @@ h2.entry-title {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	padding-top: 2rem;
 =======
 	padding-top: 5rem;
@@ -3190,6 +3373,9 @@ h2.entry-title {
 =======
 	padding-top: 5rem;
 >>>>>>> 32/4-search
+=======
+	padding-top: 5rem;
+>>>>>>> 32/4-search_result
 }
 
 .reduced-spacing.missing-post-thumbnail .post-inner {
@@ -3216,6 +3402,7 @@ h2.entry-title {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .post-nav-links>span.label {
 	padding: 1em 0;
 }
@@ -3226,6 +3413,8 @@ h2.entry-title {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 .post-nav-links > span.label {
 	padding: 1em 0;
 }
@@ -3233,11 +3422,14 @@ h2.entry-title {
 .post-nav-links > * {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 	padding: 1em 0.75em;
 }
 
@@ -3311,6 +3503,7 @@ h2.entry-title {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 32/4-search
 .pagination-single-inner {
@@ -3325,6 +3518,8 @@ h2.entry-title {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 .pagination-single hr:first-child {
 	margin: 0 0 2.8rem 0;
 }
@@ -3345,6 +3540,7 @@ h2.entry-title {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .pagination-single a+a {
 =======
 .pagination-single a + a {
@@ -3355,6 +3551,9 @@ h2.entry-title {
 =======
 .pagination-single a + a {
 >>>>>>> 32/4-search
+=======
+.pagination-single a + a {
+>>>>>>> 32/4-search_result
 	margin-top: 1rem;
 }
 
@@ -3480,6 +3679,7 @@ h2.entry-title {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @supports (font-variation-settings: normal) {
 =======
 @supports ( font-variation-settings: normal ) {
@@ -3490,6 +3690,9 @@ h2.entry-title {
 =======
 @supports ( font-variation-settings: normal ) {
 >>>>>>> 32/4-search
+=======
+@supports ( font-variation-settings: normal ) {
+>>>>>>> 32/4-search_result
 
 	.has-drop-cap:not(:focus)::first-letter,
 	.entry-content .wp-block-archives,
@@ -3534,6 +3737,7 @@ h2.entry-title {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *[class*="_inner-container"]>*:first-child {
 	margin-top: 0;
 }
@@ -3544,6 +3748,8 @@ h2.entry-title {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 *[class*="_inner-container"] > *:first-child {
 	margin-top: 0;
 }
@@ -3551,11 +3757,14 @@ h2.entry-title {
 *[class*="_inner-container"] > *:last-child {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 	margin-bottom: 0;
 }
 
@@ -3613,6 +3822,7 @@ h2.entry-title {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .entry-content .wp-block-archives>li,
 .entry-content .wp-block-categories>li,
 .entry-content .wp-block-latest-posts>li,
@@ -3629,6 +3839,8 @@ h2.entry-title {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 .entry-content .wp-block-archives > li,
 .entry-content .wp-block-categories > li,
 .entry-content .wp-block-latest-posts > li,
@@ -3642,11 +3854,14 @@ h2.entry-title {
 .entry-content .wp-block-latest-comment > li:last-child {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 	margin-bottom: 0;
 }
 
@@ -3748,6 +3963,7 @@ h2.entry-title {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .wp-block-column>*:first-child {
 	margin-top: 0;
 }
@@ -3758,6 +3974,8 @@ h2.entry-title {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 .wp-block-column > *:first-child {
 	margin-top: 0;
 }
@@ -3765,11 +3983,14 @@ h2.entry-title {
 .wp-block-column > *:last-child {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 	margin-bottom: 0;
 }
 
@@ -3889,6 +4110,7 @@ figure.wp-block-gallery.alignfull {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .alignfull:not(.has-background)>.wp-block-group__inner-container>p:not(.has-background-color) {
 =======
 .alignfull:not(.has-background) > .wp-block-group__inner-container > p:not(.has-background-color) {
@@ -3899,6 +4121,9 @@ figure.wp-block-gallery.alignfull {
 =======
 .alignfull:not(.has-background) > .wp-block-group__inner-container > p:not(.has-background-color) {
 >>>>>>> 32/4-search
+=======
+.alignfull:not(.has-background) > .wp-block-group__inner-container > p:not(.has-background-color) {
+>>>>>>> 32/4-search_result
 	padding-left: 2rem;
 	padding-right: 2rem;
 }
@@ -3918,6 +4143,7 @@ figure.wp-block-gallery.alignfull {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .wp-block-media-text__content>*:first-child {
 	margin-top: 0;
 }
@@ -3928,6 +4154,8 @@ figure.wp-block-gallery.alignfull {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 .wp-block-media-text__content > *:first-child {
 	margin-top: 0;
 }
@@ -3935,11 +4163,14 @@ figure.wp-block-gallery.alignfull {
 .wp-block-media-text__content > *:last-child {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 	margin-bottom: 0;
 }
 
@@ -4222,6 +4453,7 @@ figure.wp-block-table.is-style-stripes {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .wp-block-post-template>li {
 =======
 .wp-block-post-template > li {
@@ -4232,6 +4464,9 @@ figure.wp-block-table.is-style-stripes {
 =======
 .wp-block-post-template > li {
 >>>>>>> 32/4-search
+=======
+.wp-block-post-template > li {
+>>>>>>> 32/4-search_result
 	margin-left: 0;
 	margin-right: 0;
 }
@@ -4250,6 +4485,7 @@ figure.wp-block-table.is-style-stripes {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .entry-content>* {
 =======
 .entry-content > * {
@@ -4260,11 +4496,15 @@ figure.wp-block-table.is-style-stripes {
 =======
 .entry-content > * {
 >>>>>>> 32/4-search
+=======
+.entry-content > * {
+>>>>>>> 32/4-search_result
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 1.25em;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4278,6 +4518,8 @@ figure.wp-block-table.is-style-stripes {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 .entry-content > *:first-child {
 	margin-top: 0;
 }
@@ -4285,11 +4527,14 @@ figure.wp-block-table.is-style-stripes {
 .entry-content > *:last-child {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 	margin-bottom: 0;
 }
 
@@ -4315,6 +4560,7 @@ figure.wp-block-table.is-style-stripes {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* .entry-content h1,
 =======
 .entry-content h1,
@@ -4325,12 +4571,16 @@ figure.wp-block-table.is-style-stripes {
 =======
 .entry-content h1,
 >>>>>>> 32/4-search
+=======
+.entry-content h1,
+>>>>>>> 32/4-search_result
 .entry-content h2,
 .entry-content h3,
 .entry-content h4,
 .entry-content h5,
 .entry-content h6 {
 	margin: 3.5rem auto 2rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4352,10 +4602,16 @@ figure.wp-block-table.is-style-stripes {
 
 .entry-content ul ul,
 >>>>>>> 32/4-search
+=======
+}
+
+.entry-content ul ul,
+>>>>>>> 32/4-search_result
 .entry-content ol ol,
 .entry-content ul ol,
 .entry-content ol ul {
 	margin-bottom: 1rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4372,6 +4628,8 @@ figure.wp-block-table.is-style-stripes {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 }
 
 .entry-content hr {
@@ -4382,11 +4640,14 @@ figure.wp-block-table.is-style-stripes {
 .post-inner .entry-content > .wp-block-cover.alignfull:first-child {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 	margin-top: 0;
 }
 
@@ -4415,6 +4676,7 @@ figure.wp-block-table.is-style-stripes {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @supports (font-variation-settings: normal) {
 =======
 @supports ( font-variation-settings: normal ) {
@@ -4425,6 +4687,9 @@ figure.wp-block-table.is-style-stripes {
 =======
 @supports ( font-variation-settings: normal ) {
 >>>>>>> 32/4-search
+=======
+@supports ( font-variation-settings: normal ) {
+>>>>>>> 32/4-search_result
 
 	.entry-content h1,
 	.entry-content h2,
@@ -4448,6 +4713,7 @@ figure.wp-block-table.is-style-stripes {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .entry-content>*:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
 =======
 .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
@@ -4458,10 +4724,14 @@ figure.wp-block-table.is-style-stripes {
 =======
 .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
 >>>>>>> 32/4-search
+=======
+.entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+>>>>>>> 32/4-search_result
 	max-width: 58rem;
 	width: calc(100% - 4rem);
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4475,6 +4745,9 @@ figure.wp-block-table.is-style-stripes {
 =======
 [class*="__inner-container"] > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
 >>>>>>> 32/4-search
+=======
+[class*="__inner-container"] > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+>>>>>>> 32/4-search_result
 	max-width: 58rem;
 	width: 100%;
 }
@@ -4493,6 +4766,7 @@ figure.wp-block-table.is-style-stripes {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [class*="__inner-container"]>*:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright) {
 =======
 [class*="__inner-container"] > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright) {
@@ -4503,6 +4777,9 @@ figure.wp-block-table.is-style-stripes {
 =======
 [class*="__inner-container"] > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright) {
 >>>>>>> 32/4-search
+=======
+[class*="__inner-container"] > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright) {
+>>>>>>> 32/4-search_result
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -4522,6 +4799,7 @@ figure.wp-block-table.is-style-stripes {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [class*="__inner-container"]>.alignfull {
 =======
 [class*="__inner-container"] > .alignfull {
@@ -4532,6 +4810,9 @@ figure.wp-block-table.is-style-stripes {
 =======
 [class*="__inner-container"] > .alignfull {
 >>>>>>> 32/4-search
+=======
+[class*="__inner-container"] > .alignfull {
+>>>>>>> 32/4-search_result
 	max-width: 100%;
 }
 
@@ -4546,6 +4827,7 @@ figure.wp-block-table.is-style-stripes {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [class*="__inner-container"]>.alignwide {
 =======
 [class*="__inner-container"] > .alignwide {
@@ -4556,6 +4838,9 @@ figure.wp-block-table.is-style-stripes {
 =======
 [class*="__inner-container"] > .alignwide {
 >>>>>>> 32/4-search
+=======
+[class*="__inner-container"] > .alignwide {
+>>>>>>> 32/4-search_result
 	width: 100%;
 }
 
@@ -4591,6 +4876,7 @@ figure.wp-block-table.is-style-stripes {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"]>.alignleft,
 [class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"]>p .alignleft,
 [class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"]>.wp-block-image .alignleft {
@@ -4609,11 +4895,17 @@ figure.wp-block-table.is-style-stripes {
 [class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"] > p .alignleft,
 [class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"] > .wp-block-image .alignleft {
 >>>>>>> 32/4-search
+=======
+[class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"] > .alignleft,
+[class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"] > p .alignleft,
+[class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"] > .wp-block-image .alignleft {
+>>>>>>> 32/4-search_result
 
 	/*rtl:ignore*/
 	margin-left: 2rem;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4635,6 +4927,11 @@ figure.wp-block-table.is-style-stripes {
 [class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"] > p .alignright,
 [class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"] > .wp-block-image .alignright {
 >>>>>>> 32/4-search
+=======
+[class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"] > .alignright,
+[class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"] > p .alignright,
+[class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"] > .wp-block-image .alignright {
+>>>>>>> 32/4-search_result
 
 	/*rtl:ignore*/
 	margin-right: 2rem;
@@ -4642,6 +4939,7 @@ figure.wp-block-table.is-style-stripes {
 
 /* Entry Media ------------------------------- */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4659,6 +4957,10 @@ figure.wp-block-table.is-style-stripes {
 .alignfull > figcaption,
 .alignfull > .wp-caption-text {
 >>>>>>> 32/4-search
+=======
+.alignfull > figcaption,
+.alignfull > .wp-caption-text {
+>>>>>>> 32/4-search_result
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 58rem;
@@ -4703,6 +5005,7 @@ div.comment:first-of-type {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .comments .comments-header+div {
 =======
 .comments .comments-header + div {
@@ -4713,6 +5016,9 @@ div.comment:first-of-type {
 =======
 .comments .comments-header + div {
 >>>>>>> 32/4-search
+=======
+.comments .comments-header + div {
+>>>>>>> 32/4-search_result
 	margin-top: 0;
 	padding-top: 0;
 }
@@ -4791,6 +5097,7 @@ div.comment:first-of-type {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .comment-content.entry-content>*:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
 =======
 .comment-content.entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
@@ -4801,6 +5108,9 @@ div.comment:first-of-type {
 =======
 .comment-content.entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
 >>>>>>> 32/4-search
+=======
+.comment-content.entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+>>>>>>> 32/4-search_result
 	width: 100%;
 }
 
@@ -4834,6 +5144,7 @@ div.comment:first-of-type {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .comment-footer-meta>* {
 =======
 .comment-footer-meta > * {
@@ -4844,6 +5155,9 @@ div.comment:first-of-type {
 =======
 .comment-footer-meta > * {
 >>>>>>> 32/4-search
+=======
+.comment-footer-meta > * {
+>>>>>>> 32/4-search_result
 	margin: 0 0 1rem 1.5rem;
 }
 
@@ -4964,6 +5278,7 @@ div.comment:first-of-type {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .comment-respond>p:last-of-type {
 =======
 .comment-respond > p:last-of-type {
@@ -4974,6 +5289,9 @@ div.comment:first-of-type {
 =======
 .comment-respond > p:last-of-type {
 >>>>>>> 32/4-search
+=======
+.comment-respond > p:last-of-type {
+>>>>>>> 32/4-search_result
 	margin-bottom: 0;
 }
 
@@ -4981,6 +5299,7 @@ div.comment:first-of-type {
 	display: block;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4994,6 +5313,9 @@ div.comment:first-of-type {
 =======
 .comment-respond input[type="checkbox"] + label {
 >>>>>>> 32/4-search
+=======
+.comment-respond input[type="checkbox"] + label {
+>>>>>>> 32/4-search_result
 	font-size: 1.5rem;
 	line-height: 1.25;
 }
@@ -5071,6 +5393,7 @@ div.comment:first-of-type {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .nav-links>* {
 =======
 .nav-links > * {
@@ -5081,6 +5404,9 @@ div.comment:first-of-type {
 =======
 .nav-links > * {
 >>>>>>> 32/4-search
+=======
+.nav-links > * {
+>>>>>>> 32/4-search_result
 	margin: 1.5rem 0 0 2.5rem;
 }
 
@@ -5146,6 +5472,7 @@ div.comment:first-of-type {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .widget-content>div>*:first-child {
 	margin-top: 0;
 }
@@ -5156,6 +5483,8 @@ div.comment:first-of-type {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 .widget-content > div > *:first-child {
 	margin-top: 0;
 }
@@ -5163,11 +5492,14 @@ div.comment:first-of-type {
 .widget-content > div > *:last-child {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 	margin-bottom: 0;
 }
 
@@ -5180,6 +5512,7 @@ div.comment:first-of-type {
 }
 
 .widget li:first-child,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5197,6 +5530,10 @@ div.comment:first-of-type {
 .widget li > ul,
 .widget li > ol {
 >>>>>>> 32/4-search
+=======
+.widget li > ul,
+.widget li > ol {
+>>>>>>> 32/4-search_result
 	margin-top: 0;
 }
 
@@ -5243,6 +5580,7 @@ div.comment:first-of-type {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @supports (font-variation-settings: normal) {
 =======
 @supports ( font-variation-settings: normal ) {
@@ -5253,6 +5591,9 @@ div.comment:first-of-type {
 =======
 @supports ( font-variation-settings: normal ) {
 >>>>>>> 32/4-search
+=======
+@supports ( font-variation-settings: normal ) {
+>>>>>>> 32/4-search_result
 
 	.widget-content cite,
 	.widget-content figcaption,
@@ -5379,6 +5720,7 @@ div.comment:first-of-type {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .widget_nav_menu .widget-content>div>ul {
 =======
 .widget_nav_menu .widget-content > div > ul {
@@ -5389,6 +5731,9 @@ div.comment:first-of-type {
 =======
 .widget_nav_menu .widget-content > div > ul {
 >>>>>>> 32/4-search
+=======
+.widget_nav_menu .widget-content > div > ul {
+>>>>>>> 32/4-search_result
 	margin-left: 0;
 }
 
@@ -5572,12 +5917,15 @@ ul.footer-social li {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .footer-widgets+.footer-widgets {
 =======
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 .footer-widgets-outer-wrapper {
 	border-bottom: 0.1rem solid #dedfdf;
 }
@@ -5585,11 +5933,14 @@ ul.footer-social li {
 .footer-widgets + .footer-widgets {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 	margin-top: 3rem;
 }
 
@@ -5634,6 +5985,7 @@ a.to-the-top {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 a.to-the-top>* {
 =======
 a.to-the-top > * {
@@ -5644,6 +5996,9 @@ a.to-the-top > * {
 =======
 a.to-the-top > * {
 >>>>>>> 32/4-search
+=======
+a.to-the-top > * {
+>>>>>>> 32/4-search_result
 	pointer-events: none;
 }
 
@@ -5674,6 +6029,7 @@ a.to-the-top > * {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @media (max-width: 479px) {
 =======
 @media ( max-width: 479px ) {
@@ -5684,6 +6040,9 @@ a.to-the-top > * {
 =======
 @media ( max-width: 479px ) {
 >>>>>>> 32/4-search
+=======
+@media ( max-width: 479px ) {
+>>>>>>> 32/4-search_result
 
 	/* Blocks -------------------------------- */
 
@@ -5717,6 +6076,7 @@ a.to-the-top > * {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @media (min-width: 480px) {
 =======
 @media ( min-width: 480px ) {
@@ -5727,6 +6087,9 @@ a.to-the-top > * {
 =======
 @media ( min-width: 480px ) {
 >>>>>>> 32/4-search
+=======
+@media ( min-width: 480px ) {
+>>>>>>> 32/4-search_result
 
 	/* Blocks -------------------------------- */
 
@@ -5772,6 +6135,7 @@ a.to-the-top > * {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @media (max-width: 599px) {
 =======
 @media ( max-width: 599px ) {
@@ -5782,6 +6146,9 @@ a.to-the-top > * {
 =======
 @media ( max-width: 599px ) {
 >>>>>>> 32/4-search
+=======
+@media ( max-width: 599px ) {
+>>>>>>> 32/4-search_result
 
 	/* Blocks -------------------------------- */
 
@@ -5792,6 +6159,7 @@ a.to-the-top > * {
 		margin-bottom: 0;
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5809,6 +6177,8 @@ a.to-the-top > * {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 	.wp-block-columns + .wp-block-columns {
 		margin-top: 0.2rem;
 	}
@@ -5820,11 +6190,14 @@ a.to-the-top > * {
 	.wp-block-columns.alignfull + .wp-block-columns.alignfull {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 		margin-top: -1.8rem;
 	}
 
@@ -5834,6 +6207,7 @@ a.to-the-top > * {
 
 	.template-cover .post-inner .post-meta-wrapper,
 	.template-cover .post-inner .author-bio {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5847,6 +6221,9 @@ a.to-the-top > * {
 =======
 		width: calc( 100% - 4rem );
 >>>>>>> 32/4-search
+=======
+		width: calc( 100% - 4rem );
+>>>>>>> 32/4-search_result
 	}
 
 	/* Post Footer --------------------------- */
@@ -5861,6 +6238,7 @@ a.to-the-top > * {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @media (min-width: 600px) {
 =======
 @media ( min-width: 600px ) {
@@ -5871,11 +6249,15 @@ a.to-the-top > * {
 =======
 @media ( min-width: 600px ) {
 >>>>>>> 32/4-search
+=======
+@media ( min-width: 600px ) {
+>>>>>>> 32/4-search_result
 
 	/* Blocks -------------------------------- */
 
 	/* BLOCK: COLUMNS */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5893,6 +6275,10 @@ a.to-the-top > * {
 	.wp-block-columns.alignwide + .wp-block-columns.alignwide,
 	.wp-block-columns.alignfull + .wp-block-columns.alignfull {
 >>>>>>> 32/4-search
+=======
+	.wp-block-columns.alignwide + .wp-block-columns.alignwide,
+	.wp-block-columns.alignfull + .wp-block-columns.alignfull {
+>>>>>>> 32/4-search_result
 		margin-top: -4rem;
 	}
 
@@ -5908,6 +6294,7 @@ a.to-the-top > * {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @media (min-width: 660px) {
 =======
 @media ( min-width: 660px ) {
@@ -5918,6 +6305,9 @@ a.to-the-top > * {
 =======
 @media ( min-width: 660px ) {
 >>>>>>> 32/4-search
+=======
+@media ( min-width: 660px ) {
+>>>>>>> 32/4-search_result
 
 	/* Blocks -------------------------------- */
 
@@ -5926,6 +6316,7 @@ a.to-the-top > * {
 	figure.wp-block-gallery.alignleft {
 
 		/*rtl:ignore*/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5939,11 +6330,15 @@ a.to-the-top > * {
 =======
 		margin-left: calc(( 100vw - 58rem - 8rem ) / -2);
 >>>>>>> 32/4-search
+=======
+		margin-left: calc(( 100vw - 58rem - 8rem ) / -2);
+>>>>>>> 32/4-search_result
 	}
 
 	figure.wp-block-gallery.alignright {
 
 		/*rtl:ignore*/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5957,12 +6352,16 @@ a.to-the-top > * {
 =======
 		margin-right: calc(( 100vw - 58rem - 8rem ) / -2);
 >>>>>>> 32/4-search
+=======
+		margin-right: calc(( 100vw - 58rem - 8rem ) / -2);
+>>>>>>> 32/4-search_result
 	}
 
 	/* Entry Content ------------------------- */
 
 	/* ALIGNMENT CLASSES */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5976,11 +6375,15 @@ a.to-the-top > * {
 =======
 	.entry-content > .alignleft {
 >>>>>>> 32/4-search
+=======
+	.entry-content > .alignleft {
+>>>>>>> 32/4-search_result
 
 		/*rtl:ignore*/
 		margin-left: 4rem;
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5999,6 +6402,8 @@ a.to-the-top > * {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 	.entry-content > p .alignleft,
 	.entry-content > .wp-block-image .alignleft {
 
@@ -6011,16 +6416,20 @@ a.to-the-top > * {
 	[class*="wp-block"]:not(.alignwide):not(.alignfull) [class*="__inner-container"] > .wp-block-image .alignleft {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 		/*rtl:ignore*/
 		margin-left: 0;
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6034,11 +6443,15 @@ a.to-the-top > * {
 =======
 	.entry-content > .alignright {
 >>>>>>> 32/4-search
+=======
+	.entry-content > .alignright {
+>>>>>>> 32/4-search_result
 
 		/*rtl:ignore*/
 		margin-right: 4rem;
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6057,6 +6470,8 @@ a.to-the-top > * {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 	.entry-content > p .alignright,
 	.entry-content > .wp-block-image .alignright {
 
@@ -6069,11 +6484,14 @@ a.to-the-top > * {
 	[class*="wp-block"]:not(.alignwide):not(.alignfull) [class*="__inner-container"] > .wp-block-image .alignright {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 		/*rtl:ignore*/
 		margin-right: 0;
@@ -6091,6 +6509,7 @@ a.to-the-top > * {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @media (min-width: 700px) {
 =======
 @media ( min-width: 700px ) {
@@ -6101,6 +6520,9 @@ a.to-the-top > * {
 =======
 @media ( min-width: 700px ) {
 >>>>>>> 32/4-search
+=======
+@media ( min-width: 700px ) {
+>>>>>>> 32/4-search_result
 
 	/* Element Base ------------------------- */
 
@@ -6305,6 +6727,7 @@ a.to-the-top > * {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	.modal-menu>li>a,
 	.modal-menu>li>.ancestor-wrapper>a {
 =======
@@ -6319,6 +6742,10 @@ a.to-the-top > * {
 	.modal-menu > li > a,
 	.modal-menu > li > .ancestor-wrapper > a {
 >>>>>>> 32/4-search
+=======
+	.modal-menu > li > a,
+	.modal-menu > li > .ancestor-wrapper > a {
+>>>>>>> 32/4-search_result
 		font-size: 2.4rem;
 		padding: 2.5rem 0;
 	}
@@ -6327,6 +6754,7 @@ a.to-the-top > * {
 		border-left-color: transparent;
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6340,6 +6768,8 @@ a.to-the-top > * {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 	.modal-menu > li > .ancestor-wrapper > button.sub-menu-toggle {
 		padding: 0 3rem;
 	}
@@ -6347,11 +6777,14 @@ a.to-the-top > * {
 	.modal-menu > li > .ancestor-wrapper > button.sub-menu-toggle svg {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 		height: 1.1rem;
 		width: 1.8rem;
 	}
@@ -6424,6 +6857,7 @@ a.to-the-top > * {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	body.template-full-width .entry-content>*:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
 		width: calc(100% - 8rem);
 	}
@@ -6434,6 +6868,8 @@ a.to-the-top > * {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 	body.template-full-width .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
 		width: calc(100% - 8rem);
 	}
@@ -6441,15 +6877,19 @@ a.to-the-top > * {
 	body.template-full-width .alignfull:not(.has-background) > .wp-block-group__inner-container > p:not(.has-background-color) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 		padding-left: 4rem;
 		padding-right: 4rem;
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6471,11 +6911,17 @@ a.to-the-top > * {
 	body.template-full-width [class*="wp-block"].alignfull [class*="__inner-container"] > p .alignleft,
 	body.template-full-width [class*="wp-block"].alignfull [class*="__inner-container"] > .wp-block-image .alignleft {
 >>>>>>> 32/4-search
+=======
+	body.template-full-width [class*="wp-block"].alignfull [class*="__inner-container"] > .alignleft,
+	body.template-full-width [class*="wp-block"].alignfull [class*="__inner-container"] > p .alignleft,
+	body.template-full-width [class*="wp-block"].alignfull [class*="__inner-container"] > .wp-block-image .alignleft {
+>>>>>>> 32/4-search_result
 
 		/*rtl:ignore*/
 		margin-left: 4rem;
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6497,6 +6943,11 @@ a.to-the-top > * {
 	body.template-full-width [class*="wp-block"].alignfull [class*="__inner-container"] > p .alignright,
 	body.template-full-width [class*="wp-block"].alignfull [class*="__inner-container"] > .wp-block-image .alignright {
 >>>>>>> 32/4-search
+=======
+	body.template-full-width [class*="wp-block"].alignfull [class*="__inner-container"] > .alignright,
+	body.template-full-width [class*="wp-block"].alignfull [class*="__inner-container"] > p .alignright,
+	body.template-full-width [class*="wp-block"].alignfull [class*="__inner-container"] > .wp-block-image .alignright {
+>>>>>>> 32/4-search_result
 
 		/*rtl:ignore*/
 		margin-right: 4rem;
@@ -6519,6 +6970,7 @@ a.to-the-top > * {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	body:not(.singular) main>article:first-of-type {
 =======
 	body:not(.singular) main > article:first-of-type {
@@ -6529,10 +6981,14 @@ a.to-the-top > * {
 =======
 	body:not(.singular) main > article:first-of-type {
 >>>>>>> 32/4-search
+=======
+	body:not(.singular) main > article:first-of-type {
+>>>>>>> 32/4-search_result
 		padding: 8rem 0 0;
 	}
 
 	h2.entry-title {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6547,6 +7003,9 @@ a.to-the-top > * {
 =======
 		font-size: 6.4rem;
 >>>>>>> 32/4-search
+=======
+		font-size: 6.4rem;
+>>>>>>> 32/4-search_result
 	}
 
 	/* SEARCH RESULTS */
@@ -6559,6 +7018,7 @@ a.to-the-top > * {
 
 	/* POST HEADER */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6580,6 +7040,11 @@ a.to-the-top > * {
 		padding: 8rem 0;
 	}
 >>>>>>> 32/4-search
+=======
+	.singular .entry-header {
+		padding: 8rem 0;
+	}
+>>>>>>> 32/4-search_result
 
 	.entry-categories {
 		margin-bottom: 3rem;
@@ -6624,6 +7089,7 @@ a.to-the-top > * {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	/* .post-inner {
 		padding-top: 8rem;
 	} */
@@ -6642,6 +7108,11 @@ a.to-the-top > * {
 		padding-top: 8rem;
 	}
 >>>>>>> 32/4-search
+=======
+	.post-inner {
+		padding-top: 8rem;
+	}
+>>>>>>> 32/4-search_result
 
 	/* POST FOOTER */
 
@@ -6693,6 +7164,7 @@ a.to-the-top > * {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	.pagination-single a+a {
 =======
 	.pagination-single a + a {
@@ -6703,6 +7175,9 @@ a.to-the-top > * {
 =======
 	.pagination-single a + a {
 >>>>>>> 32/4-search
+=======
+	.pagination-single a + a {
+>>>>>>> 32/4-search_result
 		margin: 0 0 0 4rem;
 	}
 
@@ -6758,6 +7233,7 @@ a.to-the-top > * {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	.wp-block-columns.alignwide+.wp-block-columns.alignwide,
 	.wp-block-columns.alignfull+.wp-block-columns.alignfull {
 =======
@@ -6772,6 +7248,10 @@ a.to-the-top > * {
 	.wp-block-columns.alignwide + .wp-block-columns.alignwide,
 	.wp-block-columns.alignfull + .wp-block-columns.alignfull {
 >>>>>>> 32/4-search
+=======
+	.wp-block-columns.alignwide + .wp-block-columns.alignwide,
+	.wp-block-columns.alignfull + .wp-block-columns.alignfull {
+>>>>>>> 32/4-search_result
 		margin-top: -6rem;
 	}
 
@@ -6821,6 +7301,7 @@ a.to-the-top > * {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	.alignfull:not(.has-background)>.wp-block-group__inner-container>p:not(.has-background-color) {
 =======
 	.alignfull:not(.has-background) > .wp-block-group__inner-container > p:not(.has-background-color) {
@@ -6831,6 +7312,9 @@ a.to-the-top > * {
 =======
 	.alignfull:not(.has-background) > .wp-block-group__inner-container > p:not(.has-background-color) {
 >>>>>>> 32/4-search
+=======
+	.alignfull:not(.has-background) > .wp-block-group__inner-container > p:not(.has-background-color) {
+>>>>>>> 32/4-search_result
 		padding-left: 0;
 		padding-right: 0;
 	}
@@ -6919,6 +7403,7 @@ a.to-the-top > * {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	/* .entry-content h1,
 	.entry-content h2,
 	.entry-content h3 {
@@ -6929,6 +7414,8 @@ a.to-the-top > * {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 	.entry-content h1,
 	.entry-content h2,
 	.entry-content h3 {
@@ -6936,11 +7423,14 @@ a.to-the-top > * {
 	}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 	.entry-content h4,
 	.entry-content h5,
@@ -6969,6 +7459,7 @@ a.to-the-top > * {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	.entry-content>.alignwide:not(.wp-block-group.has-background),
 	.entry-content>.alignfull:not(.wp-block-group.has-background) {
 =======
@@ -6983,10 +7474,15 @@ a.to-the-top > * {
 	.entry-content > .alignwide:not(.wp-block-group.has-background),
 	.entry-content > .alignfull:not(.wp-block-group.has-background) {
 >>>>>>> 32/4-search
+=======
+	.entry-content > .alignwide:not(.wp-block-group.has-background),
+	.entry-content > .alignfull:not(.wp-block-group.has-background) {
+>>>>>>> 32/4-search_result
 		margin-bottom: 6rem;
 		margin-top: 6rem;
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7000,10 +7496,14 @@ a.to-the-top > * {
 =======
 	.entry-content > .alignwide {
 >>>>>>> 32/4-search
+=======
+	.entry-content > .alignwide {
+>>>>>>> 32/4-search_result
 		max-width: calc(100vw - 8rem);
 		width: calc(100vw - 8rem);
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7025,11 +7525,17 @@ a.to-the-top > * {
 	[class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"] > p .alignleft,
 	[class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"] > .wp-block-image .alignleft {
 >>>>>>> 32/4-search
+=======
+	[class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"] > .alignleft,
+	[class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"] > p .alignleft,
+	[class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"] > .wp-block-image .alignleft {
+>>>>>>> 32/4-search_result
 
 		/*rtl:ignore*/
 		margin-left: 4rem;
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7051,11 +7557,17 @@ a.to-the-top > * {
 	[class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"] > p .alignright,
 	[class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"] > .wp-block-image .alignright {
 >>>>>>> 32/4-search
+=======
+	[class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"] > .alignright,
+	[class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"] > p .alignright,
+	[class*="wp-block"].alignfull:not(.has-background) [class*="__inner-container"] > .wp-block-image .alignright {
+>>>>>>> 32/4-search_result
 
 		/*rtl:ignore*/
 		margin-right: 4rem;
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7073,11 +7585,16 @@ a.to-the-top > * {
 	.entry-content > .alignwide:first-child,
 	.entry-content > .alignfull:first-child {
 >>>>>>> 32/4-search
+=======
+	.entry-content > .alignwide:first-child,
+	.entry-content > .alignfull:first-child {
+>>>>>>> 32/4-search_result
 		margin-bottom: 8rem;
 	}
 
 	/* ENTRY MEDIA */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7095,6 +7612,10 @@ a.to-the-top > * {
 	.alignfull > figcaption,
 	.alignfull > .wp-caption-text {
 >>>>>>> 32/4-search
+=======
+	.alignfull > figcaption,
+	.alignfull > .wp-caption-text {
+>>>>>>> 32/4-search_result
 		width: calc(100% - 8rem);
 	}
 
@@ -7214,6 +7735,7 @@ a.to-the-top > * {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	.nav-links>* {
 =======
 	.nav-links > * {
@@ -7224,6 +7746,9 @@ a.to-the-top > * {
 =======
 	.nav-links > * {
 >>>>>>> 32/4-search
+=======
+	.nav-links > * {
+>>>>>>> 32/4-search_result
 		margin: 2.5rem 0 0 4rem;
 	}
 
@@ -7289,6 +7814,7 @@ a.to-the-top > * {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	.footer-widgets+.footer-widgets {
 =======
 	.footer-widgets + .footer-widgets {
@@ -7299,6 +7825,9 @@ a.to-the-top > * {
 =======
 	.footer-widgets + .footer-widgets {
 >>>>>>> 32/4-search
+=======
+	.footer-widgets + .footer-widgets {
+>>>>>>> 32/4-search_result
 		margin-top: 0;
 	}
 
@@ -7355,6 +7884,7 @@ a.to-the-top > * {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	.wp-block-columns.alignwide+.wp-block-columns.alignwide,
 	.wp-block-columns.alignfull+.wp-block-columns.alignfull {
 =======
@@ -7369,10 +7899,15 @@ a.to-the-top > * {
 	.wp-block-columns.alignwide + .wp-block-columns.alignwide,
 	.wp-block-columns.alignfull + .wp-block-columns.alignfull {
 >>>>>>> 32/4-search
+=======
+	.wp-block-columns.alignwide + .wp-block-columns.alignwide,
+	.wp-block-columns.alignfull + .wp-block-columns.alignfull {
+>>>>>>> 32/4-search_result
 		margin-top: -2.8rem;
 	}
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7386,6 +7921,9 @@ a.to-the-top > * {
 =======
 @media ( min-width: 1000px ) {
 >>>>>>> 32/4-search
+=======
+@media ( min-width: 1000px ) {
+>>>>>>> 32/4-search_result
 
 
 	/* Document Setup ------------------------ */
@@ -7452,6 +7990,7 @@ a.to-the-top > * {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	.primary-menu-wrapper+.header-toggles {
 =======
 	.primary-menu-wrapper + .header-toggles {
@@ -7462,6 +8001,9 @@ a.to-the-top > * {
 =======
 	.primary-menu-wrapper + .header-toggles {
 >>>>>>> 32/4-search
+=======
+	.primary-menu-wrapper + .header-toggles {
+>>>>>>> 32/4-search_result
 		margin-left: 3rem;
 	}
 
@@ -7504,6 +8046,7 @@ a.to-the-top > * {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	.header-inner .primary-menu-wrapper+.header-toggles .toggle-wrapper:first-child::before {
 =======
 	.header-inner .primary-menu-wrapper + .header-toggles .toggle-wrapper:first-child::before {
@@ -7514,6 +8057,9 @@ a.to-the-top > * {
 =======
 	.header-inner .primary-menu-wrapper + .header-toggles .toggle-wrapper:first-child::before {
 >>>>>>> 32/4-search
+=======
+	.header-inner .primary-menu-wrapper + .header-toggles .toggle-wrapper:first-child::before {
+>>>>>>> 32/4-search_result
 		content: "";
 	}
 
@@ -7644,6 +8190,7 @@ a.to-the-top > * {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	.wp-block-columns.alignwide+.wp-block-columns.alignwide,
 	.wp-block-columns.alignfull+.wp-block-columns.alignfull {
 =======
@@ -7658,6 +8205,10 @@ a.to-the-top > * {
 	.wp-block-columns.alignwide + .wp-block-columns.alignwide,
 	.wp-block-columns.alignfull + .wp-block-columns.alignfull {
 >>>>>>> 32/4-search
+=======
+	.wp-block-columns.alignwide + .wp-block-columns.alignwide,
+	.wp-block-columns.alignfull + .wp-block-columns.alignfull {
+>>>>>>> 32/4-search_result
 		margin-top: -4.8rem;
 	}
 
@@ -7671,6 +8222,7 @@ a.to-the-top > * {
 
 	/* BLOCK: GROUP */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7688,6 +8240,10 @@ a.to-the-top > * {
 	.entry-content > .wp-block-group.alignwide.has-background,
 	.entry-content > .wp-block-group.alignfull.has-background {
 >>>>>>> 32/4-search
+=======
+	.entry-content > .wp-block-group.alignwide.has-background,
+	.entry-content > .wp-block-group.alignfull.has-background {
+>>>>>>> 32/4-search_result
 		padding: 8rem 4rem;
 		margin-bottom: 0;
 		margin-top: 0;
@@ -7710,6 +8266,7 @@ a.to-the-top > * {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	.wp-block-image .aligncenter figcaption {
 		text-align: center;
 	}
@@ -7728,6 +8285,11 @@ a.to-the-top > * {
         text-align: center;
     }
 >>>>>>> 32/4-search
+=======
+    .wp-block-image .aligncenter figcaption {
+        text-align: center;
+    }
+>>>>>>> 32/4-search_result
 
 	/* BLOCK: SEPARATOR */
 
@@ -7739,6 +8301,7 @@ a.to-the-top > * {
 
 	/* ALIGNMENT CLASSES */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7760,6 +8323,11 @@ a.to-the-top > * {
 	.entry-content > p .alignleft,
 	.entry-content > .wp-block-image .alignleft {
 >>>>>>> 32/4-search
+=======
+	.entry-content > .alignleft,
+	.entry-content > p .alignleft,
+	.entry-content > .wp-block-image .alignleft {
+>>>>>>> 32/4-search_result
 		position: absolute;
 
 		/*rtl:ignore*/
@@ -7767,6 +8335,7 @@ a.to-the-top > * {
 		max-width: calc((100% - 58rem) / 2 - 6rem);
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7788,6 +8357,11 @@ a.to-the-top > * {
 	[class*="wp-block"]:not(.alignwide):not(.alignfull) [class*="__inner-container"] > p .alignleft,
 	[class*="wp-block"]:not(.alignwide):not(.alignfull) [class*="__inner-container"] > .wp-block-image .alignleft {
 >>>>>>> 32/4-search
+=======
+	[class*="wp-block"]:not(.alignwide):not(.alignfull) [class*="__inner-container"] > .alignleft,
+	[class*="wp-block"]:not(.alignwide):not(.alignfull) [class*="__inner-container"] > p .alignleft,
+	[class*="wp-block"]:not(.alignwide):not(.alignfull) [class*="__inner-container"] > .wp-block-image .alignleft {
+>>>>>>> 32/4-search_result
 		position: relative;
 
 		/*rtl:ignore*/
@@ -7795,6 +8369,7 @@ a.to-the-top > * {
 		max-width: inherit;
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7809,6 +8384,8 @@ a.to-the-top > * {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 	[class*="wp-block"].alignwide [class*="__inner-container"] > .alignleft,
 	[class*="wp-block"].alignwide [class*="__inner-container"] > p .alignleft,
 	[class*="wp-block"].alignwide [class*="__inner-container"] > .wp-block-image .alignleft,
@@ -7817,11 +8394,14 @@ a.to-the-top > * {
 	[class*="wp-block"].alignfull [class*="__inner-container"] > .wp-block-image .alignleft {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 		position: absolute;
 
 		/*rtl:ignore*/
@@ -7829,6 +8409,7 @@ a.to-the-top > * {
 		max-width: calc((100% - 58rem) / 2 - 4rem);
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7850,11 +8431,17 @@ a.to-the-top > * {
 	[class*="wp-block"].alignwide.has-background [class*="__inner-container"] > p .alignleft,
 	[class*="wp-block"].alignwide.has-background [class*="__inner-container"] > .wp-block-image .alignleft {
 >>>>>>> 32/4-search
+=======
+	[class*="wp-block"].alignwide.has-background [class*="__inner-container"] > .alignleft,
+	[class*="wp-block"].alignwide.has-background [class*="__inner-container"] > p .alignleft,
+	[class*="wp-block"].alignwide.has-background [class*="__inner-container"] > .wp-block-image .alignleft {
+>>>>>>> 32/4-search_result
 
 		/*rtl:ignore*/
 		right: calc((100% - 58rem) / 2 + 58rem);
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7876,11 +8463,17 @@ a.to-the-top > * {
 	[class*="wp-block"].alignfull [class*="__inner-container"] > p .alignleft,
 	[class*="wp-block"].alignfull [class*="__inner-container"] > .wp-block-image .alignleft {
 >>>>>>> 32/4-search
+=======
+	[class*="wp-block"].alignfull [class*="__inner-container"] > .alignleft,
+	[class*="wp-block"].alignfull [class*="__inner-container"] > p .alignleft,
+	[class*="wp-block"].alignfull [class*="__inner-container"] > .wp-block-image .alignleft {
+>>>>>>> 32/4-search_result
 
 		/*rtl:ignore*/
 		margin-left: 4rem;
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7893,10 +8486,13 @@ a.to-the-top > * {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 	.entry-content > .alignright,
 	.entry-content > p .alignright,
 	.entry-content > .wp-block-image .alignright,
 	[class*="__inner-container"] > .alignright {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 31/1-header
@@ -7904,6 +8500,8 @@ a.to-the-top > * {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 		position: absolute;
 
 		/*rtl:ignore*/
@@ -7911,6 +8509,7 @@ a.to-the-top > * {
 		max-width: calc((100% - 58rem) / 2 - 6rem);
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7932,6 +8531,11 @@ a.to-the-top > * {
 	[class*="wp-block"]:not(.alignwide):not(.alignfull) [class*="__inner-container"] > p .alignright,
 	[class*="wp-block"]:not(.alignwide):not(.alignfull) [class*="__inner-container"] > .wp-block-image .alignright {
 >>>>>>> 32/4-search
+=======
+	[class*="wp-block"]:not(.alignwide):not(.alignfull) [class*="__inner-container"] > .alignright,
+	[class*="wp-block"]:not(.alignwide):not(.alignfull) [class*="__inner-container"] > p .alignright,
+	[class*="wp-block"]:not(.alignwide):not(.alignfull) [class*="__inner-container"] > .wp-block-image .alignright {
+>>>>>>> 32/4-search_result
 		position: relative;
 
 		/*rtl:ignore*/
@@ -7939,6 +8543,7 @@ a.to-the-top > * {
 		max-width: inherit;
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7953,6 +8558,8 @@ a.to-the-top > * {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 	[class*="wp-block"].alignwide [class*="__inner-container"] > .alignright,
 	[class*="wp-block"].alignwide [class*="__inner-container"] > p .alignright,
 	[class*="wp-block"].alignwide [class*="__inner-container"] > .wp-block-image .alignright,
@@ -7961,11 +8568,14 @@ a.to-the-top > * {
 	[class*="wp-block"].alignfull [class*="__inner-container"] > .wp-block-image .alignright {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 		position: absolute;
 
 		/*rtl:ignore*/
@@ -7973,6 +8583,7 @@ a.to-the-top > * {
 		max-width: calc((100% - 58rem) / 2 - 4rem);
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7994,11 +8605,17 @@ a.to-the-top > * {
 	[class*="wp-block"].alignwide.has-background [class*="__inner-container"] > p .alignright,
 	[class*="wp-block"].alignwide.has-background [class*="__inner-container"] > .wp-block-image .alignright {
 >>>>>>> 32/4-search
+=======
+	[class*="wp-block"].alignwide.has-background [class*="__inner-container"] > .alignright,
+	[class*="wp-block"].alignwide.has-background [class*="__inner-container"] > p .alignright,
+	[class*="wp-block"].alignwide.has-background [class*="__inner-container"] > .wp-block-image .alignright {
+>>>>>>> 32/4-search_result
 
 		/*rtl:ignore*/
 		left: calc((100% - 58rem) / 2 + 58rem + 4rem);
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8020,11 +8637,17 @@ a.to-the-top > * {
 	[class*="wp-block"].alignfull [class*="__inner-container"] > p .alignright,
 	[class*="wp-block"].alignfull [class*="__inner-container"] > .wp-block-image .alignright {
 >>>>>>> 32/4-search
+=======
+	[class*="wp-block"].alignfull [class*="__inner-container"] > .alignright,
+	[class*="wp-block"].alignfull [class*="__inner-container"] > p .alignright,
+	[class*="wp-block"].alignfull [class*="__inner-container"] > .wp-block-image .alignright {
+>>>>>>> 32/4-search_result
 
 		/*rtl:ignore*/
 		margin-right: 4rem;
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8042,12 +8665,17 @@ a.to-the-top > * {
 	.entry-content > .alignwide:not(.wp-block-group.has-background),
 	.entry-content > .alignfull:not(.wp-block-group.has-background) {
 >>>>>>> 32/4-search
+=======
+	.entry-content > .alignwide:not(.wp-block-group.has-background),
+	.entry-content > .alignfull:not(.wp-block-group.has-background) {
+>>>>>>> 32/4-search_result
 		margin-bottom: 8rem;
 		margin-top: 8rem;
 	}
 
 	/* ENTRY MEDIA */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8065,6 +8693,10 @@ a.to-the-top > * {
 	.alignfull > figcaption,
 	.alignfull > .wp-caption-text {
 >>>>>>> 32/4-search
+=======
+	.alignfull > figcaption,
+	.alignfull > .wp-caption-text {
+>>>>>>> 32/4-search_result
 		width: calc(100% - 10rem);
 	}
 
@@ -8089,6 +8721,7 @@ a.to-the-top > * {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	.nav-links>* {
 =======
 	.nav-links > * {
@@ -8099,6 +8732,9 @@ a.to-the-top > * {
 =======
 	.nav-links > * {
 >>>>>>> 32/4-search
+=======
+	.nav-links > * {
+>>>>>>> 32/4-search_result
 		margin: 0 2rem;
 	}
 
@@ -8146,6 +8782,7 @@ a.to-the-top > * {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @media (min-width: 1220px) {
 =======
 @media ( min-width: 1220px ) {
@@ -8156,6 +8793,9 @@ a.to-the-top > * {
 =======
 @media ( min-width: 1220px ) {
 >>>>>>> 32/4-search
+=======
+@media ( min-width: 1220px ) {
+>>>>>>> 32/4-search_result
 
 	/* Element Base -------------------------- */
 
@@ -8179,6 +8819,7 @@ a.to-the-top > * {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	.primary-menu>li {
 =======
 	.primary-menu > li {
@@ -8189,11 +8830,15 @@ a.to-the-top > * {
 =======
 	.primary-menu > li {
 >>>>>>> 32/4-search
+=======
+	.primary-menu > li {
+>>>>>>> 32/4-search_result
 		margin: 0.8rem 0 0 2.5rem;
 	}
 
 	/* HEADER TOGGLES */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8207,6 +8852,9 @@ a.to-the-top > * {
 =======
 	.primary-menu-wrapper + .header-toggles {
 >>>>>>> 32/4-search
+=======
+	.primary-menu-wrapper + .header-toggles {
+>>>>>>> 32/4-search_result
 		margin-left: 4rem;
 	}
 
@@ -8229,6 +8877,7 @@ a.to-the-top > * {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	.cover-header+.post-inner {
 =======
 	.cover-header + .post-inner {
@@ -8239,6 +8888,9 @@ a.to-the-top > * {
 =======
 	.cover-header + .post-inner {
 >>>>>>> 32/4-search
+=======
+	.cover-header + .post-inner {
+>>>>>>> 32/4-search_result
 		padding-top: 10rem;
 	}
 
@@ -8259,6 +8911,7 @@ a.to-the-top > * {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	.wp-block-columns.alignfull+.wp-block-columns.alignfull {
 =======
 	.wp-block-columns.alignfull + .wp-block-columns.alignfull {
@@ -8269,6 +8922,9 @@ a.to-the-top > * {
 =======
 	.wp-block-columns.alignfull + .wp-block-columns.alignfull {
 >>>>>>> 32/4-search
+=======
+	.wp-block-columns.alignfull + .wp-block-columns.alignfull {
+>>>>>>> 32/4-search_result
 		margin-top: -6rem;
 	}
 
@@ -8281,6 +8937,7 @@ a.to-the-top > * {
 
 	/* BLOCK: GROUP */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8298,6 +8955,10 @@ a.to-the-top > * {
 	.entry-content > .wp-block-group.alignwide.has-background,
 	.entry-content > .wp-block-group.alignfull.has-background {
 >>>>>>> 32/4-search
+=======
+	.entry-content > .wp-block-group.alignwide.has-background,
+	.entry-content > .wp-block-group.alignfull.has-background {
+>>>>>>> 32/4-search_result
 		padding: 8rem 6rem;
 		margin-bottom: 0;
 		margin-top: 0;
@@ -8322,6 +8983,7 @@ a.to-the-top > * {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	.entry-content>.alignfull {
 =======
 	.entry-content > .alignfull {
@@ -8332,10 +8994,14 @@ a.to-the-top > * {
 =======
 	.entry-content > .alignfull {
 >>>>>>> 32/4-search
+=======
+	.entry-content > .alignfull {
+>>>>>>> 32/4-search_result
 		margin-bottom: 10rem;
 		margin-top: 10rem;
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8357,11 +9023,17 @@ a.to-the-top > * {
 	[class*="wp-block"].alignwide.has-background [class*="__inner-container"] > p .alignleft,
 	[class*="wp-block"].alignwide.has-background [class*="__inner-container"] > .wp-block-image .alignleft {
 >>>>>>> 32/4-search
+=======
+	[class*="wp-block"].alignwide.has-background [class*="__inner-container"] > .alignleft,
+	[class*="wp-block"].alignwide.has-background [class*="__inner-container"] > p .alignleft,
+	[class*="wp-block"].alignwide.has-background [class*="__inner-container"] > .wp-block-image .alignleft {
+>>>>>>> 32/4-search_result
 
 		/*rtl:ignore*/
 		right: calc((100% - 58rem) / 2 + 58rem - 2rem);
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8383,6 +9055,11 @@ a.to-the-top > * {
 	[class*="wp-block"].alignwide.has-background [class*="__inner-container"] > p .alignright,
 	[class*="wp-block"].alignwide.has-background [class*="__inner-container"] > .wp-block-image .alignright {
 >>>>>>> 32/4-search
+=======
+	[class*="wp-block"].alignwide.has-background [class*="__inner-container"] > .alignright,
+	[class*="wp-block"].alignwide.has-background [class*="__inner-container"] > p .alignright,
+	[class*="wp-block"].alignwide.has-background [class*="__inner-container"] > .wp-block-image .alignright {
+>>>>>>> 32/4-search_result
 
 		/*rtl:ignore*/
 		left: calc((100% - 58rem) / 2 + 58rem + 6rem);
@@ -8462,6 +9139,7 @@ a.to-the-top > * {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @media (min-width: 1240px) {
 =======
 @media ( min-width: 1240px ) {
@@ -8472,10 +9150,14 @@ a.to-the-top > * {
 =======
 @media ( min-width: 1240px ) {
 >>>>>>> 32/4-search
+=======
+@media ( min-width: 1240px ) {
+>>>>>>> 32/4-search_result
 
 
 	/* Blocks -------------------------------- */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8494,6 +9176,8 @@ a.to-the-top > * {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 	body.template-full-width .entry-content > .alignleft {
 
 		/*rtl:ignore*/
@@ -8506,15 +9190,19 @@ a.to-the-top > * {
 		margin-right: calc(( 100vw - 120rem ) / 2);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 	}
 
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8528,6 +9216,9 @@ a.to-the-top > * {
 =======
 @media ( min-width: 1280px ) {
 >>>>>>> 32/4-search
+=======
+@media ( min-width: 1280px ) {
+>>>>>>> 32/4-search_result
 
 	/* Blocks -------------------------------- */
 
@@ -8559,6 +9250,7 @@ a.to-the-top > * {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	.entry-content>.alignleft,
 	.entry-content>p .alignleft,
 	.entry-content>.wp-block-image .alignleft {
@@ -8577,6 +9269,11 @@ a.to-the-top > * {
 	.entry-content > p .alignleft,
 	.entry-content > .wp-block-image .alignleft {
 >>>>>>> 32/4-search
+=======
+	.entry-content > .alignleft,
+	.entry-content > p .alignleft,
+	.entry-content > .wp-block-image .alignleft {
+>>>>>>> 32/4-search_result
 
 		/*rtl:ignore*/
 		right: calc((100vw - 58rem) / 2 + 58rem + 4rem);
@@ -8585,6 +9282,7 @@ a.to-the-top > * {
 		margin-left: -31rem;
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8606,6 +9304,11 @@ a.to-the-top > * {
 	.entry-content > p .alignright,
 	.entry-content > .wp-block-image .alignright {
 >>>>>>> 32/4-search
+=======
+	.entry-content > .alignright,
+	.entry-content > p .alignright,
+	.entry-content > .wp-block-image .alignright {
+>>>>>>> 32/4-search_result
 
 		/*rtl:ignore*/
 		left: calc((100vw - 58rem) / 2 + 58rem + 4rem);
@@ -8614,6 +9317,7 @@ a.to-the-top > * {
 		margin-right: -31rem;
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8627,10 +9331,14 @@ a.to-the-top > * {
 =======
 	.entry-content > .alignwide {
 >>>>>>> 32/4-search
+=======
+	.entry-content > .alignwide {
+>>>>>>> 32/4-search_result
 		max-width: 120rem;
 		width: 120rem;
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8644,12 +9352,16 @@ a.to-the-top > * {
 =======
 	[class*="__inner-container"] > .alignwide {
 >>>>>>> 32/4-search
+=======
+	[class*="__inner-container"] > .alignwide {
+>>>>>>> 32/4-search_result
 		max-width: 120rem;
 		width: 100%;
 	}
 
 	.alignleft,
 	.alignright,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8676,6 +9388,8 @@ a.to-the-top > * {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 	.entry-content > .alignleft,
 	.entry-content > p .alignleft,
 	.entry-content > .wp-block-image .alignleft,
@@ -8696,16 +9410,20 @@ a.to-the-top > * {
 	[class*="wp-block"].alignfull [class*="__inner-container"] > .wp-block-image .alignright {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 		max-width: 25rem;
 	}
 
 	/* Template: Full Width ------------------ */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8719,10 +9437,14 @@ a.to-the-top > * {
 =======
 	body.template-full-width .alignfull:not(.has-background) > .wp-block-group__inner-container > p:not(.has-background-color) {
 >>>>>>> 32/4-search
+=======
+	body.template-full-width .alignfull:not(.has-background) > .wp-block-group__inner-container > p:not(.has-background-color) {
+>>>>>>> 32/4-search_result
 		padding-left: 0;
 		padding-right: 0;
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8736,11 +9458,15 @@ a.to-the-top > * {
 =======
 	body.template-full-width [class*="wp-block"].alignfull [class*="__inner-container"] > .wp-block-image .alignleft {
 >>>>>>> 32/4-search
+=======
+	body.template-full-width [class*="wp-block"].alignfull [class*="__inner-container"] > .wp-block-image .alignleft {
+>>>>>>> 32/4-search_result
 
 		/*rtl:ignore*/
 		margin-left: 0;
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8754,6 +9480,9 @@ a.to-the-top > * {
 =======
 	body.template-full-width [class*="wp-block"].alignfull [class*="__inner-container"] > .wp-block-image .alignright {
 >>>>>>> 32/4-search
+=======
+	body.template-full-width [class*="wp-block"].alignfull [class*="__inner-container"] > .wp-block-image .alignright {
+>>>>>>> 32/4-search_result
 
 		/*rtl:ignore*/
 		margin-right: 0;
@@ -8761,6 +9490,7 @@ a.to-the-top > * {
 
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8774,6 +9504,9 @@ a.to-the-top > * {
 =======
 @media ( min-width: 1330px ) {
 >>>>>>> 32/4-search
+=======
+@media ( min-width: 1330px ) {
+>>>>>>> 32/4-search_result
 
 
 	/* Entry Content ------------------------- */
@@ -8782,6 +9515,7 @@ a.to-the-top > * {
 
 	.alignleft,
 	.alignright,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8808,6 +9542,8 @@ a.to-the-top > * {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 	.entry-content > .alignleft,
 	.entry-content > p .alignleft,
 	.entry-content > .wp-block-image .alignleft,
@@ -8828,11 +9564,14 @@ a.to-the-top > * {
 	[class*="wp-block"].alignfull [class*="__inner-container"] > .wp-block-image .alignright {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 		max-width: 29rem;
 	}
 
@@ -8845,6 +9584,7 @@ a.to-the-top > * {
 		top: 0;
 	}
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9037,6 +9777,8 @@ a {
 =======
 =======
 >>>>>>> 31/8-comment
+=======
+>>>>>>> 32/4-search_result
 /* Prev - Next Post */
 .pagination-single-inner {
 	display: flex;
@@ -9094,6 +9836,7 @@ a {
 }
 
 /* Header */
+<<<<<<< HEAD
 #search-form-1{
 	border-radius: 10px 10px 10px 10px;
     margin-left: 20px;
@@ -9157,3 +9900,5 @@ a {
 }
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result

@@ -48,6 +48,7 @@ $required_mysql_version = '5.0';
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 $wp_local_package = 'vi';
@@ -60,3 +61,7 @@ $wp_local_package = 'vi';
 
 $wp_local_package = 'vi';
 >>>>>>> 32/4-search
+=======
+
+$wp_local_package = 'vi';
+>>>>>>> 32/4-search_result

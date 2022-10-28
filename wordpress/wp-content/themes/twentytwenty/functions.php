@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 31/1-header
@@ -9,6 +10,8 @@
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 /**
  * Twenty Twenty functions and definitions
  *
@@ -46,6 +49,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function twentytwenty_theme_support()
 {
 
@@ -56,10 +60,13 @@ function twentytwenty_theme_support()
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 function twentytwenty_theme_support() {
 
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 31/1-header
@@ -67,6 +74,8 @@ function twentytwenty_theme_support() {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 	// Custom background color.
 	add_theme_support(
@@ -81,6 +90,7 @@ function twentytwenty_theme_support() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	if (!isset($content_width)) {
 =======
 	if ( ! isset( $content_width ) ) {
@@ -91,6 +101,9 @@ function twentytwenty_theme_support() {
 =======
 	if ( ! isset( $content_width ) ) {
 >>>>>>> 32/4-search
+=======
+	if ( ! isset( $content_width ) ) {
+>>>>>>> 32/4-search_result
 		$content_width = 580;
 	}
 
@@ -99,6 +112,7 @@ function twentytwenty_theme_support() {
 	 *
 	 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 	 */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -114,6 +128,8 @@ function twentytwenty_theme_support() {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 	add_theme_support( 'post-thumbnails' );
 
 	// Set post thumbnail size.
@@ -123,17 +139,21 @@ function twentytwenty_theme_support() {
 	add_image_size( 'twentytwenty-fullscreen', 1980, 9999 );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 	// Custom logo.
 	$logo_width  = 120;
 	$logo_height = 90;
 
 	// If the retina setting is active, double the recommended width and height.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -155,6 +175,11 @@ function twentytwenty_theme_support() {
 		$logo_width  = floor( $logo_width * 2 );
 		$logo_height = floor( $logo_height * 2 );
 >>>>>>> 32/4-search
+=======
+	if ( get_theme_mod( 'retina_logo', false ) ) {
+		$logo_width  = floor( $logo_width * 2 );
+		$logo_height = floor( $logo_height * 2 );
+>>>>>>> 32/4-search_result
 	}
 
 	add_theme_support(
@@ -176,6 +201,7 @@ function twentytwenty_theme_support() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	add_theme_support('title-tag');
 =======
 	add_theme_support( 'title-tag' );
@@ -186,6 +212,9 @@ function twentytwenty_theme_support() {
 =======
 	add_theme_support( 'title-tag' );
 >>>>>>> 32/4-search
+=======
+	add_theme_support( 'title-tag' );
+>>>>>>> 32/4-search_result
 
 	/*
 	 * Switch default core markup for search form, comment form, and comments
@@ -214,6 +243,7 @@ function twentytwenty_theme_support() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	load_theme_textdomain('twentytwenty');
 
 	// Add support for full and wide align images.
@@ -226,6 +256,8 @@ function twentytwenty_theme_support() {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 	load_theme_textdomain( 'twentytwenty' );
 
 	// Add support for full and wide align images.
@@ -235,17 +267,21 @@ function twentytwenty_theme_support() {
 	add_theme_support( 'responsive-embeds' );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 	/*
 	 * Adds starter content to highlight the theme on fresh sites.
 	 * This is done conditionally to avoid loading the starter content on every
 	 * page load, as it is a one-off operation only needed once in the customizer.
 	 */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -261,6 +297,8 @@ function twentytwenty_theme_support() {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 	if ( is_customize_preview() ) {
 		require get_template_directory() . '/inc/starter-content.php';
 		add_theme_support( 'starter-content', twentytwenty_get_starter_content() );
@@ -270,17 +308,21 @@ function twentytwenty_theme_support() {
 	add_theme_support( 'customize-selective-refresh-widgets' );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 	/*
 	 * Adds `async` and `defer` support for scripts registered or enqueued
 	 * by the theme.
 	 */
 	$loader = new TwentyTwenty_Script_Loader();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -293,6 +335,8 @@ add_action('after_setup_theme', 'twentytwenty_theme_support');
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 	add_filter( 'script_loader_tag', array( $loader, 'filter_script_loader_tag' ), 10, 2 );
 
 }
@@ -300,11 +344,14 @@ add_action('after_setup_theme', 'twentytwenty_theme_support');
 add_action( 'after_setup_theme', 'twentytwenty_theme_support' );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 /**
  * REQUIRED FILES
@@ -348,6 +395,7 @@ require get_template_directory() . '/inc/block-patterns.php';
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function twentytwenty_register_styles()
 {
 
@@ -369,6 +417,8 @@ add_action('wp_enqueue_scripts', 'twentytwenty_register_styles');
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 function twentytwenty_register_styles() {
 
 	$theme_version = wp_get_theme()->get( 'Version' );
@@ -387,17 +437,21 @@ function twentytwenty_register_styles() {
 add_action( 'wp_enqueue_scripts', 'twentytwenty_register_styles' );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 /**
  * Register and Enqueue Scripts.
  *
  * @since Twenty Twenty 1.0
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -420,6 +474,8 @@ add_action('wp_enqueue_scripts', 'twentytwenty_register_scripts');
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 function twentytwenty_register_scripts() {
 
 	$theme_version = wp_get_theme()->get( 'Version' );
@@ -436,11 +492,14 @@ function twentytwenty_register_scripts() {
 add_action( 'wp_enqueue_scripts', 'twentytwenty_register_scripts' );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 /**
  * Fix skip link focus in IE11.
@@ -452,6 +511,7 @@ add_action( 'wp_enqueue_scripts', 'twentytwenty_register_scripts' );
  *
  * @link https://git.io/vWdr2
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -473,6 +533,8 @@ add_action('wp_print_footer_scripts', 'twentytwenty_skip_link_focus_fix');
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 function twentytwenty_skip_link_focus_fix() {
 	// The following is minified via `terser --compress --mangle -- assets/js/skip-link-focus-fix.js`.
 	?>
@@ -484,11 +546,14 @@ function twentytwenty_skip_link_focus_fix() {
 add_action( 'wp_print_footer_scripts', 'twentytwenty_skip_link_focus_fix' );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 /**
  * Enqueue non-latin language styles.
@@ -497,6 +562,7 @@ add_action( 'wp_print_footer_scripts', 'twentytwenty_skip_link_focus_fix' );
  *
  * @return void
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -515,6 +581,8 @@ add_action('wp_enqueue_scripts', 'twentytwenty_non_latin_languages');
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 function twentytwenty_non_latin_languages() {
 	$custom_css = TwentyTwenty_Non_Latin_Languages::get_non_latin_css( 'front-end' );
 
@@ -526,17 +594,21 @@ function twentytwenty_non_latin_languages() {
 add_action( 'wp_enqueue_scripts', 'twentytwenty_non_latin_languages' );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 /**
  * Register navigation menus uses wp_nav_menu in five places.
  *
  * @since Twenty Twenty 1.0
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -560,6 +632,8 @@ add_action('init', 'twentytwenty_menus');
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 function twentytwenty_menus() {
 
 	$locations = array(
@@ -576,11 +650,14 @@ function twentytwenty_menus() {
 add_action( 'init', 'twentytwenty_menus' );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 /**
  * Get the information about the logo.
@@ -590,6 +667,7 @@ add_action( 'init', 'twentytwenty_menus' );
  * @param string $html The HTML output from get_custom_logo (core function).
  * @return string
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -618,6 +696,8 @@ function twentytwenty_get_custom_logo($html)
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 function twentytwenty_get_custom_logo( $html ) {
 
 	$logo_id = get_theme_mod( 'custom_logo' );
@@ -639,11 +719,14 @@ function twentytwenty_get_custom_logo( $html ) {
 			$logo_height = floor( $logo_height / 2 );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 			$search = array(
 				'/width=\"\d+\"/iU',
@@ -659,6 +742,7 @@ function twentytwenty_get_custom_logo( $html ) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			if (strpos($html, ' style=') === false) {
 =======
 			if ( strpos( $html, ' style=' ) === false ) {
@@ -669,6 +753,9 @@ function twentytwenty_get_custom_logo( $html ) {
 =======
 			if ( strpos( $html, ' style=' ) === false ) {
 >>>>>>> 32/4-search
+=======
+			if ( strpos( $html, ' style=' ) === false ) {
+>>>>>>> 32/4-search_result
 				$search[]  = '/(src=)/';
 				$replace[] = "style=\"height: {$logo_height}px;\" src=";
 			} else {
@@ -676,6 +763,7 @@ function twentytwenty_get_custom_logo( $html ) {
 				$replace[] = "$1 height: {$logo_height}px;";
 			}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -692,10 +780,15 @@ function twentytwenty_get_custom_logo( $html ) {
 			$html = preg_replace( $search, $replace, $html );
 
 >>>>>>> 32/4-search
+=======
+			$html = preg_replace( $search, $replace, $html );
+
+>>>>>>> 32/4-search_result
 		}
 	}
 
 	return $html;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -709,6 +802,8 @@ if (!function_exists('wp_body_open')) {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 }
 
@@ -717,17 +812,21 @@ add_filter( 'get_custom_logo', 'twentytwenty_get_custom_logo' );
 if ( ! function_exists( 'wp_body_open' ) ) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 	/**
 	 * Shim for wp_body_open, ensuring backward compatibility with versions of WordPress older than 5.2.
 	 *
 	 * @since Twenty Twenty 1.0
 	 */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -750,6 +849,11 @@ if ( ! function_exists( 'wp_body_open' ) ) {
 		/** This action is documented in wp-includes/general-template.php */
 		do_action( 'wp_body_open' );
 >>>>>>> 32/4-search
+=======
+	function wp_body_open() {
+		/** This action is documented in wp-includes/general-template.php */
+		do_action( 'wp_body_open' );
+>>>>>>> 32/4-search_result
 	}
 }
 
@@ -758,6 +862,7 @@ if ( ! function_exists( 'wp_body_open' ) ) {
  *
  * @since Twenty Twenty 1.0
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -772,6 +877,8 @@ add_action('wp_body_open', 'twentytwenty_skip_link', 5);
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 function twentytwenty_skip_link() {
 	echo '<a class="skip-link screen-reader-text" href="#site-content">' . __( 'Skip to the content', 'twentytwenty' ) . '</a>';
 }
@@ -779,11 +886,14 @@ function twentytwenty_skip_link() {
 add_action( 'wp_body_open', 'twentytwenty_skip_link', 5 );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 /**
  * Register widget areas.
@@ -792,6 +902,7 @@ add_action( 'wp_body_open', 'twentytwenty_skip_link', 5 );
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -806,6 +917,9 @@ function twentytwenty_sidebar_registration() {
 =======
 function twentytwenty_sidebar_registration() {
 >>>>>>> 32/4-search
+=======
+function twentytwenty_sidebar_registration() {
+>>>>>>> 32/4-search_result
 
 	// Arguments used in all register_sidebar() calls.
 	$shared_args = array(
@@ -820,6 +934,7 @@ function twentytwenty_sidebar_registration() {
 		array_merge(
 			$shared_args,
 			array(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -841,6 +956,11 @@ function twentytwenty_sidebar_registration() {
 				'id'          => 'sidebar-1',
 				'description' => __( 'Widgets in this area will be displayed in the first column in the footer.', 'twentytwenty' ),
 >>>>>>> 32/4-search
+=======
+				'name'        => __( 'Footer #1', 'twentytwenty' ),
+				'id'          => 'sidebar-1',
+				'description' => __( 'Widgets in this area will be displayed in the first column in the footer.', 'twentytwenty' ),
+>>>>>>> 32/4-search_result
 			)
 		)
 	);
@@ -850,6 +970,7 @@ function twentytwenty_sidebar_registration() {
 		array_merge(
 			$shared_args,
 			array(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -871,10 +992,16 @@ function twentytwenty_sidebar_registration() {
 				'id'          => 'sidebar-2',
 				'description' => __( 'Widgets in this area will be displayed in the second column in the footer.', 'twentytwenty' ),
 >>>>>>> 32/4-search
+=======
+				'name'        => __( 'Footer #2', 'twentytwenty' ),
+				'id'          => 'sidebar-2',
+				'description' => __( 'Widgets in this area will be displayed in the second column in the footer.', 'twentytwenty' ),
+>>>>>>> 32/4-search_result
 			)
 		)
 	);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -919,12 +1046,18 @@ add_action( 'widgets_init', 'twentytwenty_sidebar_registration' );
 
 add_action( 'widgets_init', 'twentytwenty_sidebar_registration' );
 >>>>>>> 32/4-search
+=======
+}
+
+add_action( 'widgets_init', 'twentytwenty_sidebar_registration' );
+>>>>>>> 32/4-search_result
 
 /**
  * Enqueue supplemental block editor styles.
  *
  * @since Twenty Twenty 1.0
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -951,6 +1084,8 @@ add_action('enqueue_block_editor_assets', 'twentytwenty_block_editor_styles', 1,
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 function twentytwenty_block_editor_styles() {
 
 	// Enqueue the editor styles.
@@ -970,17 +1105,21 @@ function twentytwenty_block_editor_styles() {
 add_action( 'enqueue_block_editor_assets', 'twentytwenty_block_editor_styles', 1, 1 );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 /**
  * Enqueue classic editor styles.
  *
  * @since Twenty Twenty 1.0
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -995,11 +1134,15 @@ function twentytwenty_classic_editor_styles() {
 =======
 function twentytwenty_classic_editor_styles() {
 >>>>>>> 32/4-search
+=======
+function twentytwenty_classic_editor_styles() {
+>>>>>>> 32/4-search_result
 
 	$classic_editor_styles = array(
 		'/assets/css/editor-style-classic.css',
 	);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1012,6 +1155,8 @@ add_action('init', 'twentytwenty_classic_editor_styles');
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 	add_editor_style( $classic_editor_styles );
 
 }
@@ -1019,11 +1164,14 @@ add_action('init', 'twentytwenty_classic_editor_styles');
 add_action( 'init', 'twentytwenty_classic_editor_styles' );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 /**
  * Output Customizer settings in the classic editor.
@@ -1034,6 +1182,7 @@ add_action( 'init', 'twentytwenty_classic_editor_styles' );
  * @param array $mce_init TinyMCE styles.
  * @return array TinyMCE styles.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1048,6 +1197,8 @@ function twentytwenty_add_classic_editor_customizer_styles($mce_init)
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 function twentytwenty_add_classic_editor_customizer_styles( $mce_init ) {
 
 	$styles = twentytwenty_get_customizer_css( 'classic-editor' );
@@ -1055,17 +1206,21 @@ function twentytwenty_add_classic_editor_customizer_styles( $mce_init ) {
 	if ( ! isset( $mce_init['content_style'] ) ) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 		$mce_init['content_style'] = $styles . ' ';
 	} else {
 		$mce_init['content_style'] .= ' ' . $styles . ' ';
 	}
 
 	return $mce_init;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1077,10 +1232,13 @@ add_filter('tiny_mce_before_init', 'twentytwenty_add_classic_editor_customizer_s
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 }
 
 add_filter( 'tiny_mce_before_init', 'twentytwenty_add_classic_editor_customizer_styles' );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 31/1-header
@@ -1088,6 +1246,8 @@ add_filter( 'tiny_mce_before_init', 'twentytwenty_add_classic_editor_customizer_
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 /**
  * Output non-latin font styles in the classic editor.
@@ -1096,6 +1256,7 @@ add_filter( 'tiny_mce_before_init', 'twentytwenty_add_classic_editor_customizer_
  * @param array $mce_init TinyMCE styles.
  * @return array TinyMCE styles.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1115,6 +1276,8 @@ function twentytwenty_add_classic_editor_non_latin_styles($mce_init)
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 function twentytwenty_add_classic_editor_non_latin_styles( $mce_init ) {
 
 	$styles = TwentyTwenty_Non_Latin_Languages::get_non_latin_css( 'classic-editor' );
@@ -1127,17 +1290,21 @@ function twentytwenty_add_classic_editor_non_latin_styles( $mce_init ) {
 	if ( ! isset( $mce_init['content_style'] ) ) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 		$mce_init['content_style'] = $styles . ' ';
 	} else {
 		$mce_init['content_style'] .= ' ' . $styles . ' ';
 	}
 
 	return $mce_init;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1149,10 +1316,13 @@ add_filter('tiny_mce_before_init', 'twentytwenty_add_classic_editor_non_latin_st
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 }
 
 add_filter( 'tiny_mce_before_init', 'twentytwenty_add_classic_editor_non_latin_styles' );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 31/1-header
@@ -1160,6 +1330,8 @@ add_filter( 'tiny_mce_before_init', 'twentytwenty_add_classic_editor_non_latin_s
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 /**
  * Block Editor Settings.
@@ -1167,6 +1339,7 @@ add_filter( 'tiny_mce_before_init', 'twentytwenty_add_classic_editor_non_latin_s
  *
  * @since Twenty Twenty 1.0
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1181,10 +1354,14 @@ function twentytwenty_block_editor_settings() {
 =======
 function twentytwenty_block_editor_settings() {
 >>>>>>> 32/4-search
+=======
+function twentytwenty_block_editor_settings() {
+>>>>>>> 32/4-search_result
 
 	// Block Editor Palette.
 	$editor_color_palette = array(
 		array(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1211,6 +1388,8 @@ function twentytwenty_block_editor_settings() {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 			'name'  => __( 'Accent Color', 'twentytwenty' ),
 			'slug'  => 'accent',
 			'color' => twentytwenty_get_color_for_area( 'content', 'accent' ),
@@ -1231,15 +1410,19 @@ function twentytwenty_block_editor_settings() {
 			'color' => twentytwenty_get_color_for_area( 'content', 'borders' ),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 		),
 	);
 
 	// Add the background option.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1255,6 +1438,8 @@ function twentytwenty_block_editor_settings() {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 	$background_color = get_theme_mod( 'background_color' );
 	if ( ! $background_color ) {
 		$background_color_arr = get_theme_support( 'custom-background' );
@@ -1264,16 +1449,20 @@ function twentytwenty_block_editor_settings() {
 		'name'  => __( 'Background Color', 'twentytwenty' ),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 		'slug'  => 'background',
 		'color' => '#' . $background_color,
 	);
 
 	// If we have accent colors, add them to the block editor palette.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1291,6 +1480,10 @@ function twentytwenty_block_editor_settings() {
 	if ( $editor_color_palette ) {
 		add_theme_support( 'editor-color-palette', $editor_color_palette );
 >>>>>>> 32/4-search
+=======
+	if ( $editor_color_palette ) {
+		add_theme_support( 'editor-color-palette', $editor_color_palette );
+>>>>>>> 32/4-search_result
 	}
 
 	// Block Editor Font Sizes.
@@ -1298,6 +1491,7 @@ function twentytwenty_block_editor_settings() {
 		'editor-font-sizes',
 		array(
 			array(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1315,10 +1509,15 @@ function twentytwenty_block_editor_settings() {
 				'name'      => _x( 'Small', 'Name of the small font size in the block editor', 'twentytwenty' ),
 				'shortName' => _x( 'S', 'Short name of the small font size in the block editor.', 'twentytwenty' ),
 >>>>>>> 32/4-search
+=======
+				'name'      => _x( 'Small', 'Name of the small font size in the block editor', 'twentytwenty' ),
+				'shortName' => _x( 'S', 'Short name of the small font size in the block editor.', 'twentytwenty' ),
+>>>>>>> 32/4-search_result
 				'size'      => 18,
 				'slug'      => 'small',
 			),
 			array(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1336,10 +1535,15 @@ function twentytwenty_block_editor_settings() {
 				'name'      => _x( 'Regular', 'Name of the regular font size in the block editor', 'twentytwenty' ),
 				'shortName' => _x( 'M', 'Short name of the regular font size in the block editor.', 'twentytwenty' ),
 >>>>>>> 32/4-search
+=======
+				'name'      => _x( 'Regular', 'Name of the regular font size in the block editor', 'twentytwenty' ),
+				'shortName' => _x( 'M', 'Short name of the regular font size in the block editor.', 'twentytwenty' ),
+>>>>>>> 32/4-search_result
 				'size'      => 21,
 				'slug'      => 'normal',
 			),
 			array(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1357,10 +1561,15 @@ function twentytwenty_block_editor_settings() {
 				'name'      => _x( 'Large', 'Name of the large font size in the block editor', 'twentytwenty' ),
 				'shortName' => _x( 'L', 'Short name of the large font size in the block editor.', 'twentytwenty' ),
 >>>>>>> 32/4-search
+=======
+				'name'      => _x( 'Large', 'Name of the large font size in the block editor', 'twentytwenty' ),
+				'shortName' => _x( 'L', 'Short name of the large font size in the block editor.', 'twentytwenty' ),
+>>>>>>> 32/4-search_result
 				'size'      => 26.25,
 				'slug'      => 'large',
 			),
 			array(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1378,12 +1587,17 @@ function twentytwenty_block_editor_settings() {
 				'name'      => _x( 'Larger', 'Name of the larger font size in the block editor', 'twentytwenty' ),
 				'shortName' => _x( 'XL', 'Short name of the larger font size in the block editor.', 'twentytwenty' ),
 >>>>>>> 32/4-search
+=======
+				'name'      => _x( 'Larger', 'Name of the larger font size in the block editor', 'twentytwenty' ),
+				'shortName' => _x( 'XL', 'Short name of the larger font size in the block editor.', 'twentytwenty' ),
+>>>>>>> 32/4-search_result
 				'size'      => 32,
 				'slug'      => 'larger',
 			),
 		)
 	);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1402,6 +1616,8 @@ add_action('after_setup_theme', 'twentytwenty_block_editor_settings');
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 	add_theme_support( 'editor-styles' );
 
 	// If we have a dark background color then add support for dark editor style.
@@ -1415,11 +1631,14 @@ add_action('after_setup_theme', 'twentytwenty_block_editor_settings');
 add_action( 'after_setup_theme', 'twentytwenty_block_editor_settings' );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 /**
  * Overwrite default more tag with styling and screen reader markup.
@@ -1427,6 +1646,7 @@ add_action( 'after_setup_theme', 'twentytwenty_block_editor_settings' );
  * @param string $html The default output HTML for the more tag.
  * @return string
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1441,6 +1661,8 @@ add_filter('the_content_more_link', 'twentytwenty_read_more_tag');
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 function twentytwenty_read_more_tag( $html ) {
 	return preg_replace( '/<a(.*)>(.*)<\/a>/iU', sprintf( '<div class="read-more-button-wrap"><a$1><span class="faux-button">$2</span> <span class="screen-reader-text">"%1$s"</span></a></div>', get_the_title( get_the_ID() ) ), $html );
 }
@@ -1448,11 +1670,14 @@ function twentytwenty_read_more_tag( $html ) {
 add_filter( 'the_content_more_link', 'twentytwenty_read_more_tag' );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 /**
  * Enqueues scripts for customizer controls & settings.
@@ -1461,6 +1686,7 @@ add_filter( 'the_content_more_link', 'twentytwenty_read_more_tag' );
  *
  * @return void
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1485,6 +1711,8 @@ add_action('customize_controls_enqueue_scripts', 'twentytwenty_customize_control
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 function twentytwenty_customize_controls_enqueue_scripts() {
 	$theme_version = wp_get_theme()->get( 'Version' );
 
@@ -1502,11 +1730,14 @@ function twentytwenty_customize_controls_enqueue_scripts() {
 add_action( 'customize_controls_enqueue_scripts', 'twentytwenty_customize_controls_enqueue_scripts' );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 /**
  * Enqueue scripts for the customizer preview.
@@ -1515,6 +1746,7 @@ add_action( 'customize_controls_enqueue_scripts', 'twentytwenty_customize_contro
  *
  * @return void
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1530,6 +1762,8 @@ function twentytwenty_customize_preview_init()
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 function twentytwenty_customize_preview_init() {
 	$theme_version = wp_get_theme()->get( 'Version' );
 
@@ -1538,16 +1772,20 @@ function twentytwenty_customize_preview_init() {
 	wp_localize_script( 'twentytwenty-customize-preview', 'twentyTwentyPreviewEls', twentytwenty_get_elements_array() );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 
 	wp_add_inline_script(
 		'twentytwenty-customize-preview',
 		sprintf(
 			'wp.customize.selectiveRefresh.partialConstructor[ %1$s ].prototype.attrs = %2$s;',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1565,10 +1803,15 @@ function twentytwenty_customize_preview_init() {
 			wp_json_encode( 'cover_opacity' ),
 			wp_json_encode( twentytwenty_customize_opacity_range() )
 >>>>>>> 32/4-search
+=======
+			wp_json_encode( 'cover_opacity' ),
+			wp_json_encode( twentytwenty_customize_opacity_range() )
+>>>>>>> 32/4-search_result
 		)
 	);
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1582,6 +1825,9 @@ add_action( 'customize_preview_init', 'twentytwenty_customize_preview_init' );
 =======
 add_action( 'customize_preview_init', 'twentytwenty_customize_preview_init' );
 >>>>>>> 32/4-search
+=======
+add_action( 'customize_preview_init', 'twentytwenty_customize_preview_init' );
+>>>>>>> 32/4-search_result
 
 /**
  * Get accessible color for an area.
@@ -1592,6 +1838,7 @@ add_action( 'customize_preview_init', 'twentytwenty_customize_preview_init' );
  * @param string $context Can be 'text' or 'accent'.
  * @return string Returns a HEX color.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1606,6 +1853,9 @@ function twentytwenty_get_color_for_area( $area = 'content', $context = 'text' )
 =======
 function twentytwenty_get_color_for_area( $area = 'content', $context = 'text' ) {
 >>>>>>> 32/4-search
+=======
+function twentytwenty_get_color_for_area( $area = 'content', $context = 'text' ) {
+>>>>>>> 32/4-search_result
 
 	// Get the value from the theme-mod.
 	$settings = get_theme_mod(
@@ -1630,6 +1880,7 @@ function twentytwenty_get_color_for_area( $area = 'content', $context = 'text' )
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	if (isset($settings[$area]) && isset($settings[$area][$context])) {
 		return $settings[$area][$context];
 =======
@@ -1644,6 +1895,10 @@ function twentytwenty_get_color_for_area( $area = 'content', $context = 'text' )
 	if ( isset( $settings[ $area ] ) && isset( $settings[ $area ][ $context ] ) ) {
 		return $settings[ $area ][ $context ];
 >>>>>>> 32/4-search
+=======
+	if ( isset( $settings[ $area ] ) && isset( $settings[ $area ][ $context ] ) ) {
+		return $settings[ $area ][ $context ];
+>>>>>>> 32/4-search_result
 	}
 
 	// Return false if the option doesn't exist.
@@ -1660,6 +1915,7 @@ function twentytwenty_get_color_for_area( $area = 'content', $context = 'text' )
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function twentytwenty_get_customizer_color_vars()
 {
 =======
@@ -1671,6 +1927,9 @@ function twentytwenty_get_customizer_color_vars() {
 =======
 function twentytwenty_get_customizer_color_vars() {
 >>>>>>> 32/4-search
+=======
+function twentytwenty_get_customizer_color_vars() {
+>>>>>>> 32/4-search_result
 	$colors = array(
 		'content'       => array(
 			'setting' => 'background_color',
@@ -1692,6 +1951,7 @@ function twentytwenty_get_customizer_color_vars() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function twentytwenty_get_elements_array()
 {
 =======
@@ -1703,12 +1963,16 @@ function twentytwenty_get_elements_array() {
 =======
 function twentytwenty_get_elements_array() {
 >>>>>>> 32/4-search
+=======
+function twentytwenty_get_elements_array() {
+>>>>>>> 32/4-search_result
 
 	// The array is formatted like this:
 	// [key-in-saved-setting][sub-key-in-setting][css-property] = [elements].
 	$elements = array(
 		'content'       => array(
 			'accent'     => array(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1740,6 +2004,8 @@ function twentytwenty_get_elements_array() {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 				'color'            => array( '.color-accent', '.color-accent-hover:hover', '.color-accent-hover:focus', ':root .has-accent-color', '.has-drop-cap:not(:focus):first-letter', '.wp-block-button.is-style-outline', 'a' ),
 				'border-color'     => array( 'blockquote', '.border-color-accent', '.border-color-accent-hover:hover', '.border-color-accent-hover:focus' ),
 				'background-color' => array( 'button', '.button', '.faux-button', '.wp-block-button__link', '.wp-block-file .wp-block-file__button', 'input[type="button"]', 'input[type="reset"]', 'input[type="submit"]', '.bg-accent', '.bg-accent-hover:hover', '.bg-accent-hover:focus', ':root .has-accent-background-color', '.comment-reply-link' ),
@@ -1765,15 +2031,19 @@ function twentytwenty_get_elements_array() {
 				'color'               => array( ':root .has-subtle-background-color' ),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 			),
 		),
 		'header-footer' => array(
 			'accent'     => array(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1801,6 +2071,8 @@ function twentytwenty_get_elements_array() {
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 				'color'            => array( 'body:not(.overlay-header) .primary-menu > li > a', 'body:not(.overlay-header) .primary-menu > li > .icon', '.modal-menu a', '.footer-menu a, .footer-widgets a', '#site-footer .wp-block-button.is-style-outline', '.wp-block-pullquote:before', '.singular:not(.overlay-header) .entry-header a', '.archive-header a', '.header-footer-group .color-accent', '.header-footer-group .color-accent-hover:hover' ),
 				'background-color' => array( '.social-icons a', '#site-footer button:not(.toggle)', '#site-footer .button', '#site-footer .faux-button', '#site-footer .wp-block-button__link', '#site-footer .wp-block-file__button', '#site-footer input[type="button"]', '#site-footer input[type="reset"]', '#site-footer input[type="submit"]' ),
 			),
@@ -1822,11 +2094,14 @@ function twentytwenty_get_elements_array() {
 				'background-color' => array( '.header-footer-group table caption', 'body:not(.overlay-header) .header-inner .toggle-wrapper::before' ),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31/1-header
 =======
 >>>>>>> 31/8-comment
 =======
 >>>>>>> 32/4-search
+=======
+>>>>>>> 32/4-search_result
 			),
 		),
 	);
@@ -1841,6 +2116,7 @@ function twentytwenty_get_elements_array() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	return apply_filters('twentytwenty_get_elements_array', $elements);
 =======
 	return apply_filters( 'twentytwenty_get_elements_array', $elements );
@@ -1851,4 +2127,7 @@ function twentytwenty_get_elements_array() {
 =======
 	return apply_filters( 'twentytwenty_get_elements_array', $elements );
 >>>>>>> 32/4-search
+=======
+	return apply_filters( 'twentytwenty_get_elements_array', $elements );
+>>>>>>> 32/4-search_result
 }
