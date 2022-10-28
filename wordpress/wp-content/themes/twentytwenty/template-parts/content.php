@@ -14,57 +14,15 @@
 
 ?>
 <?php
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 $class = '';
 if (!is_single()) :
 	$class = "danh-sach";
 ?>
 	<article <?php post_class($class); ?> id="post-<?php the_ID(); ?>">
-=======
-=======
->>>>>>> 31/8-comment
-=======
->>>>>>> 32/4-search
-=======
->>>>>>> 32/4-search_result
-=======
->>>>>>> 32/7-prev_next_post
-if (!is_single()) { ?>
-	<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
-
-		<?php
-		// get_template_part('template-parts/entry-header');
-
-		// if (!is_search()) {
-		// 	get_template_part('template-parts/featured-image');
-		// }
-		?>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 31/1-header
-=======
->>>>>>> 31/8-comment
-=======
->>>>>>> 32/4-search
-=======
->>>>>>> 32/4-search_result
-=======
->>>>>>> 32/7-prev_next_post
 
 		<div class="post-inner <?php echo is_page_template('templates/template-full-width.php') ? '' : 'thin'; ?> ">
 
 			<div class="entry-content">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 				<div class="container">
 					<div class="row">
 						<!-- Post -->
@@ -100,142 +58,10 @@ if (!is_single()) { ?>
 						</div>
 					</div>
 				</div>
-=======
-=======
->>>>>>> 31/8-comment
-=======
->>>>>>> 32/4-search_result
-				<?php
-				if (is_search()) { ?>
-					<?php $post = get_post(get_the_ID());
-					$day = date('d', strtotime($post->post_date));
-					$month = date('m', strtotime($post->post_date));
-					$year = date('y', strtotime($post->post_date));
-					$title = $post->post_title;
-					$content = $post->post_content;
-					?>
-					<div class="list_search_detail">
-						<div class="left_search_detail">
-<<<<<<< HEAD
-							<?php var_dump(get_the_post_thumbnail()); ?>
-							<img src="<?php echo $img; ?>" alt="">
-=======
-						<?php echo get_the_post_thumbnail() ?>
->>>>>>> 32/4-search_result
-						</div>
-						<div class="middle_search_detail">
-							<div class="date">
-							<?php
-							echo $day;
-							?>
-							</div>
-							<div class="month">
-					<?php echo "Tháng" . $month; ?>
-							</div>
-						</div>
-						<div class="right_search_detail">
-							<div class="title_search_detail">
-							<?php
-							echo $title;
-							?>
-							</div>
-							<div class="content_search_detail">
-								<?php 	echo $content ?>
-							</div>
-						</div>
-					</div>
-				<?php
-				}
-				?>
-
-<<<<<<< HEAD
-=======
-				<?php
-				if(is_search()){?>
-				<?php $post = get_post(get_the_ID() );
-				$image_size = apply_filters( 'twenty_twenty_one_attachment_size', 'full' );
-				$img= wp_get_attachment_image( get_the_ID(), $image_size );
-=======
-				<?php
-				if(is_search()){?>
-				<?php $post = get_post(get_the_ID() );
-				
->>>>>>> 32/7-prev_next_post
-				$day = date('d',strtotime($post->post_date));
-				$month = date('m',strtotime($post->post_date));
-				$year = date('y',strtotime($post->post_date));
-				$title = $post->post_title;
-				$content = $post->post_content;
-<<<<<<< HEAD
-				var_dump(get_the_ID());
-				var_dump($img);
-				 ?>
-				 <div class="search_detail" style="display: flex;">
-				<div class="left_search_detail">
-=======
-				 ?>
-				 <div class="search_detail" style="display: flex;">
-				<div class="left_search_detail">
-					<?php var_dump(get_the_post_thumbnail()); ?>
->>>>>>> 32/7-prev_next_post
-					 <img src="<?php echo $img; ?>" alt="">
-				</div>
-				<div class="middle_search_detail">
-					<?php 
-					echo $day;
-					echo $month;
-					echo $year;
-					?>
-				</div>
-				<div class="right_search_detail">
-					<?php 
-					echo $title;
-					echo $content
-					?>
-				</div>
-				</div>
-					<?php
-				}
-				?>
-				
-<<<<<<< HEAD
->>>>>>> 32/4-search
-=======
->>>>>>> 32/4-search_result
-=======
->>>>>>> 32/7-prev_next_post
-				<?php
-				if (is_search() || !is_singular() && 'summary' === get_theme_mod('blog_content', 'full')) {
-					// the_excerpt();		
-				} else {
-					the_content(__('Continue reading', 'twentytwenty'));
-				}
-				?>
-
-
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 31/1-header
-=======
->>>>>>> 31/8-comment
-=======
->>>>>>> 32/4-search
-=======
->>>>>>> 32/4-search_result
-=======
->>>>>>> 32/7-prev_next_post
 			</div><!-- .entry-content -->
 
 		</div><!-- .post-inner -->
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 		<!-- <div class="section-inner"> -->
 		<?php
 		// wp_link_pages(
@@ -260,70 +86,11 @@ if (!is_single()) { ?>
 
 		</div>
 		<!-- .section-inner -->
-=======
-=======
->>>>>>> 31/8-comment
-=======
->>>>>>> 32/4-search
-=======
->>>>>>> 32/4-search_result
-=======
->>>>>>> 32/7-prev_next_post
-		<div class="section-inner">
-			<?php
-			wp_link_pages(
-				array(
-					'before'      => '<nav class="post-nav-links bg-light-background" aria-label="' . esc_attr__('Page', 'twentytwenty') . '"><span class="label">' . __('Pages:', 'twentytwenty') . '</span>',
-					'after'       => '</nav>',
-					'link_before' => '<span class="page-number">',
-					'link_after'  => '</span>',
-				)
-			);
-
-			edit_post_link();
-
-			// Single bottom post meta.
-			twentytwenty_the_post_meta(get_the_ID(), 'single-bottom');
-
-			if (post_type_supports(get_post_type(get_the_ID()), 'author') && is_single()) {
-				get_template_part('template-parts/entry-author-bio');
-			}
-			?>
-
-		</div><!-- .section-inner -->
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 31/1-header
-=======
->>>>>>> 31/8-comment
-=======
->>>>>>> 32/4-search
-=======
->>>>>>> 32/4-search_result
-=======
->>>>>>> 32/7-prev_next_post
 
 		<?php
 
 		if (is_single()) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> 31/1-header
-=======
->>>>>>> 31/8-comment
-=======
->>>>>>> 32/4-search
-=======
->>>>>>> 32/4-search_result
-=======
->>>>>>> 32/7-prev_next_post
 			get_template_part('template-parts/navigation');
 		}
 
@@ -335,22 +102,7 @@ if (!is_single()) { ?>
 		?>
 
 			<div class="comments-wrapper section-inner">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> 31/1-header
-=======
->>>>>>> 31/8-comment
-=======
->>>>>>> 32/4-search
-=======
->>>>>>> 32/4-search_result
-=======
->>>>>>> 32/7-prev_next_post
 				<?php comments_template(); ?>
 
 			</div><!-- .comments-wrapper -->
@@ -360,11 +112,6 @@ if (!is_single()) { ?>
 		?>
 
 	</article><!-- .post -->
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 <?php endif ?>
 <!-- Detail page -->
 <?php if (is_single()) : ?>
@@ -375,9 +122,32 @@ if (!is_single()) { ?>
 			<div class="container detail-page">
 				<div class="row title">
 					<!-- Categories -->
-<<<<<<< HEAD
-<<<<<<< HEAD
-					<div class="col-md-3"></div>
+					<div class="col-md-3">
+						<div class="panel-heading">
+							<h2>Categories</h2>
+						</div>
+						<div class="crossedbg"></div>
+						<div class="panel-body">
+							<ul class="list-group">
+								<?php
+								$args = array(
+									'type'      => 'post',
+									'number'    => 5,
+									'parent'    => 0
+								);
+								$categories = get_categories($args);
+								foreach ($categories as $category) { ?>
+									<li class="list-group-item">
+										<span class="meta-text">
+											<a href="<?php echo get_term_link($category->slug, 'category'); ?>">
+												<?php echo $category->name; ?>
+											</a>
+										</span>
+									</li>
+								<?php } ?>
+							</ul>
+						</div>
+					</div>
 					<!-- Detail -->
 					<div class="col-md-6">
 						<div class="row title">
@@ -424,49 +194,17 @@ if (!is_single()) { ?>
 									?>
 								</p>
 							</div>
-=======
-					<div class="col-md-3">
-						<div class="panel-heading">
-							<h2>Categories</h2>
-=======
-					<div class="col-md-3">
-					</div>
-					<!-- Detail -->
-					<div class="col-md-6">
+						</div>
 					</div>
 					<!-- Recent-posts -->
 					<div class="col-md-3">
 						<div class="panel-heading">
 							<h2>Recent posts</h2>
->>>>>>> 10/10_recent-posts
 						</div>
 						<div class="crossedbg"></div>
 						<div class="panel-body">
 							<ul class="list-group">
 								<?php
-<<<<<<< HEAD
-								$args = array(
-									'type'      => 'post',
-									'number'    => 5,
-									'parent'    => 0
-								);
-								$categories = get_categories($args);
-								foreach ($categories as $category) { ?>
-									<li class="list-group-item">
-										<span class="meta-text">
-											<a href="<?php echo get_term_link($category->slug, 'category'); ?>">
-												<?php echo $category->name; ?>
-											</a>
-										</span>
-									</li>
-								<?php } ?>
-							</ul>
->>>>>>> 10/9_categories
-						</div>
-					</div>
-					<!-- Recent-posts -->
-					<div class="col-md-3"></div>
-=======
 								// Define our WP Query Parameters
 								$the_query = new WP_Query('posts_per_page=5'); ?>
 								<?php
@@ -483,7 +221,6 @@ if (!is_single()) { ?>
 							</ul>
 						</div>
 					</div>
->>>>>>> 10/10_recent-posts
 				</div>
 			</div>
 
@@ -538,143 +275,4 @@ if (!is_single()) { ?>
 		}
 		?>
 	</article><!-- .post -->
-<<<<<<< HEAD
 <?php endif ?>
-=======
-<?php endif ?>
->>>>>>> 10/9_categories
-=======
-=======
->>>>>>> 31/8-comment
-=======
->>>>>>> 32/4-search
-=======
->>>>>>> 32/4-search_result
-=======
->>>>>>> 32/7-prev_next_post
-	<!-- Trang detail post -->
-<?php
-} else { ?>
-	<?php
-	$post = get_post(get_the_ID());
-	?>
-	<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
-
-		<div class="post-inner <?php echo is_page_template('templates/template-full-width.php') ? '' : 'thin'; ?> ">
-			<div class="entry-content">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 32/4-search_result
-				<div class="detail-content" style="display: flex; max-width:100%;">
-					<div class="left_entry-content" style="width:30%;">
-						<h1>Categories</h1>
-					</div>
-					<div class="middle_entry-content" style="width:40%;">
-						<?php echo $post->post_title; ?>
-						<?php echo date('d', strtotime($post->post_date)); ?>
-						<?php echo date('m', strtotime($post->post_date)); ?>
-						<?php echo $post->post_content; ?>
-					</div>
-					<div class="right_entry-content" style="width:30%;">
-						<h1>Last Coment</h1>
-					</div>
-				</div>
-
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 32/7-prev_next_post
-				<div class="detail-content" 
-				style="display: flex; max-width:100%;">
-				<div class="left_entry-content"
-				style="width:30%;">
-				<h1>Categories</h1>
-				</div>
-				<div class="middle_entry-content"
-				style="width:40%;">
-				<?php echo $post->post_title; ?>
-				<?php echo date('d',strtotime($post->post_date)); ?>
-				<?php echo date('m',strtotime($post->post_date)); ?>
-				<?php echo $post->post_content; ?>
-				</div>
-				<div class="right_entry-content"
-				style="width:30%;">
-				<h1>Last Coment</h1>
-				</div>
-				</div>
-			
-<<<<<<< HEAD
->>>>>>> 32/4-search
-=======
->>>>>>> 32/4-search_result
-=======
->>>>>>> 32/7-prev_next_post
-			</div>
-		</div>
-
-	</article><!-- .post -->
-	<div class="section-inner">
-		<?php
-		wp_link_pages(
-			array(
-				'before'      => '<nav class="post-nav-links bg-light-background" aria-label="' . esc_attr__('Page', 'twentytwenty') . '"><span class="label">' . __('Pages:', 'twentytwenty') . '</span>',
-				'after'       => '</nav>',
-				'link_before' => '<span class="page-number">',
-				'link_after'  => '</span>',
-			)
-		);
-
-		edit_post_link();
-
-		// Single bottom post meta.
-		twentytwenty_the_post_meta(get_the_ID(), 'single-bottom');
-
-		if (post_type_supports(get_post_type(get_the_ID()), 'author') && is_single()) {
-			// ĐOạn trong này
-			get_template_part('template-parts/entry-author-bio');
-		}
-		?>
-
-	</div><!-- .section-inner -->
-
-	<?php
-
-	if (is_single()) {
-		get_template_part('template-parts/navigation');
-	}
-
-	/*
-	 * Output comments wrapper if it's a post, or if comments are open,
-	 * or if there's a comment number – and check for password.
-	 */
-	if ((is_single() || is_page()) && (comments_open() || get_comments_number()) && !post_password_required()) {
-	?>
-
-		<div class="comments-wrapper section-inner">
-			<?php comments_template(); ?>
-
-		</div><!-- .comments-wrapper -->
-
-<?php
-	}
-}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-?>
->>>>>>> 31/1-header
-=======
-?>
->>>>>>> 31/8-comment
-=======
-?>
->>>>>>> 32/4-search
-=======
-?>
->>>>>>> 32/4-search_result
-=======
-?>
->>>>>>> 32/7-prev_next_post

@@ -1,20 +1,5 @@
 <?php
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> 31/1-header
-=======
->>>>>>> 31/8-comment
-=======
->>>>>>> 32/4-search
-=======
->>>>>>> 32/4-search_result
-=======
->>>>>>> 32/7-prev_next_post
 /**
  * Displays the menus and widgets at the end of the main element.
  * Visually, this output is presented as part of the footer element.
@@ -24,11 +9,6 @@
  * @since Twenty Twenty 1.0
  */
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 $has_footer_menu = has_nav_menu('footer');
 $has_social_menu = has_nav_menu('social');
 
@@ -42,39 +22,6 @@ if ($has_footer_menu || $has_social_menu || $has_sidebar_1 || $has_sidebar_2 || 
 ?>
 
 	<div class="footer-nav-widgets-wrapper header-footer-group bg-green-ft">
-=======
-=======
->>>>>>> 31/8-comment
-=======
->>>>>>> 32/4-search
-=======
->>>>>>> 32/4-search_result
-=======
->>>>>>> 32/7-prev_next_post
-$has_footer_menu = has_nav_menu( 'footer' );
-$has_social_menu = has_nav_menu( 'social' );
-
-$has_sidebar_1 = is_active_sidebar( 'sidebar-1' );
-$has_sidebar_2 = is_active_sidebar( 'sidebar-2' );
-
-// Only output the container if there are elements to display.
-if ( $has_footer_menu || $has_social_menu || $has_sidebar_1 || $has_sidebar_2 ) {
-	?>
-
-	<div class="footer-nav-widgets-wrapper header-footer-group">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 31/1-header
-=======
->>>>>>> 31/8-comment
-=======
->>>>>>> 32/4-search
-=======
->>>>>>> 32/4-search_result
-=======
->>>>>>> 32/7-prev_next_post
 
 		<div class="footer-inner section-inner">
 
@@ -83,11 +30,6 @@ if ( $has_footer_menu || $has_social_menu || $has_sidebar_1 || $has_sidebar_2 ) 
 			$footer_top_classes = '';
 
 			$footer_top_classes .= $has_footer_menu ? ' has-footer-menu' : '';
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 			// $footer_top_classes .= $has_social_menu ? ' has-social-menu' : '';
 
 			if ($has_footer_menu || $has_social_menu) {
@@ -95,135 +37,19 @@ if ( $has_footer_menu || $has_social_menu || $has_sidebar_1 || $has_sidebar_2 ) 
 			<?php } ?>
 
 			<?php if ($has_sidebar_1 || $has_sidebar_2 || $has_sidebar_3 || $has_sidebar_4) { ?>
-=======
-=======
->>>>>>> 31/8-comment
-=======
->>>>>>> 32/4-search
-=======
->>>>>>> 32/4-search_result
-=======
->>>>>>> 32/7-prev_next_post
-			$footer_top_classes .= $has_social_menu ? ' has-social-menu' : '';
-
-			if ( $has_footer_menu || $has_social_menu ) {
-				?>
-				<div class="footer-top<?php echo $footer_top_classes; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- static output ?>">
-					<?php if ( $has_footer_menu ) { ?>
-
-						<nav aria-label="<?php esc_attr_e( 'Footer', 'twentytwenty' ); ?>" class="footer-menu-wrapper">
-
-							<ul class="footer-menu reset-list-style">
-								<?php
-								wp_nav_menu(
-									array(
-										'container'      => '',
-										'depth'          => 1,
-										'items_wrap'     => '%3$s',
-										'theme_location' => 'footer',
-									)
-								);
-								?>
-							</ul>
-
-						</nav><!-- .site-nav -->
-
-					<?php } ?>
-					<?php if ( $has_social_menu ) { ?>
-
-						<nav aria-label="<?php esc_attr_e( 'Social links', 'twentytwenty' ); ?>" class="footer-social-wrapper">
-
-							<ul class="social-menu footer-social reset-list-style social-icons fill-children-current-color">
-
-								<?php
-								wp_nav_menu(
-									array(
-										'theme_location'  => 'social',
-										'container'       => '',
-										'container_class' => '',
-										'items_wrap'      => '%3$s',
-										'menu_id'         => '',
-										'menu_class'      => '',
-										'depth'           => 1,
-										'link_before'     => '<span class="screen-reader-text">',
-										'link_after'      => '</span>',
-										'fallback_cb'     => '',
-									)
-								);
-								?>
-
-							</ul><!-- .footer-social -->
-
-						</nav><!-- .footer-social-wrapper -->
-
-					<?php } ?>
-				</div><!-- .footer-top -->
-
-			<?php } ?>
-
-			<?php if ( $has_sidebar_1 || $has_sidebar_2 ) { ?>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 31/1-header
-=======
->>>>>>> 31/8-comment
-=======
->>>>>>> 32/4-search
-=======
->>>>>>> 32/4-search_result
-=======
->>>>>>> 32/7-prev_next_post
 
 				<aside class="footer-widgets-outer-wrapper">
 
 					<div class="footer-widgets-wrapper">
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 						<?php if ($has_sidebar_1) { ?>
 
 							<div class="footer-widgets column-one grid-item">
 								<?php dynamic_sidebar('sidebar-1'); ?>
-=======
-=======
->>>>>>> 31/8-comment
-=======
->>>>>>> 32/4-search
-=======
->>>>>>> 32/4-search_result
-=======
->>>>>>> 32/7-prev_next_post
-						<?php if ( $has_sidebar_1 ) { ?>
-
-							<div class="footer-widgets column-one grid-item">
-								<?php dynamic_sidebar( 'sidebar-1' ); ?>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 31/1-header
-=======
->>>>>>> 31/8-comment
-=======
->>>>>>> 32/4-search
-=======
->>>>>>> 32/4-search_result
-=======
->>>>>>> 32/7-prev_next_post
 							</div>
 
 						<?php } ?>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 						<?php if ($has_sidebar_2) { ?>
 
 							<div class="footer-widgets column-two grid-item">
@@ -244,32 +70,6 @@ if ( $has_footer_menu || $has_social_menu || $has_sidebar_1 || $has_sidebar_2 ) 
 
 							<div class="footer-widgets column-four grid-item">
 								<?php dynamic_sidebar('sidebar-4'); ?>
-=======
-=======
->>>>>>> 31/8-comment
-=======
->>>>>>> 32/4-search
-=======
->>>>>>> 32/4-search_result
-=======
->>>>>>> 32/7-prev_next_post
-						<?php if ( $has_sidebar_2 ) { ?>
-
-							<div class="footer-widgets column-two grid-item">
-								<?php dynamic_sidebar( 'sidebar-2' ); ?>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 31/1-header
-=======
->>>>>>> 31/8-comment
-=======
->>>>>>> 32/4-search
-=======
->>>>>>> 32/4-search_result
-=======
->>>>>>> 32/7-prev_next_post
 							</div>
 
 						<?php } ?>
@@ -284,24 +84,4 @@ if ( $has_footer_menu || $has_social_menu || $has_sidebar_1 || $has_sidebar_2 ) 
 
 	</div><!-- .footer-nav-widgets-wrapper -->
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 <?php } ?>
-=======
-<?php } ?>
->>>>>>> 31/1-header
-=======
-<?php } ?>
->>>>>>> 31/8-comment
-=======
-<?php } ?>
->>>>>>> 32/4-search
-=======
-<?php } ?>
->>>>>>> 32/4-search_result
-=======
-<?php } ?>
->>>>>>> 32/7-prev_next_post
