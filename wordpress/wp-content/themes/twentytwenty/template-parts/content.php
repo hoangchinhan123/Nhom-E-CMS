@@ -123,6 +123,7 @@ if (!is_single()) :
 				<div class="row title">
 					<!-- Categories -->
 <<<<<<< HEAD
+<<<<<<< HEAD
 					<div class="col-md-3"></div>
 					<!-- Detail -->
 					<div class="col-md-6">
@@ -174,11 +175,23 @@ if (!is_single()) :
 					<div class="col-md-3">
 						<div class="panel-heading">
 							<h2>Categories</h2>
+=======
+					<div class="col-md-3">
+					</div>
+					<!-- Detail -->
+					<div class="col-md-6">
+					</div>
+					<!-- Recent-posts -->
+					<div class="col-md-3">
+						<div class="panel-heading">
+							<h2>Recent posts</h2>
+>>>>>>> 10/10_recent-posts
 						</div>
 						<div class="crossedbg"></div>
 						<div class="panel-body">
 							<ul class="list-group">
 								<?php
+<<<<<<< HEAD
 								$args = array(
 									'type'      => 'post',
 									'number'    => 5,
@@ -200,6 +213,24 @@ if (!is_single()) :
 					</div>
 					<!-- Recent-posts -->
 					<div class="col-md-3"></div>
+=======
+								// Define our WP Query Parameters
+								$the_query = new WP_Query('posts_per_page=5'); ?>
+								<?php
+								// Start our WP Query
+								while ($the_query->have_posts()) : $the_query->the_post();
+									// Display the Post Title with Hyperlink
+								?>
+									<li class="list-group-item"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></li>
+								<?php
+								// Repeat the process and reset once it hits the limit
+								endwhile;
+								wp_reset_postdata();
+								?>
+							</ul>
+						</div>
+					</div>
+>>>>>>> 10/10_recent-posts
 				</div>
 			</div>
 
