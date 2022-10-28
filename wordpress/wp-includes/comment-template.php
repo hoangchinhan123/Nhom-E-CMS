@@ -2361,10 +2361,14 @@ function comment_form( $args = array(), $post_id = null ) {
 
 	// Identify required fields visually.
 <<<<<<< HEAD
+<<<<<<< HEAD
 	$required_indicator = ' <span class="required" aria-hidden="true">*</span>';
 =======
 	$required_indicator = ' <span class="required" aria-hidden="true"></span>';
 >>>>>>> 31/1-header
+=======
+	$required_indicator = ' <span class="required" aria-hidden="true"></span>';
+>>>>>>> 31/8-comment
 
 	$fields = array(
 		'author' => sprintf(
@@ -2451,17 +2455,23 @@ function comment_form( $args = array(), $post_id = null ) {
 			sprintf(
 				'<label for="comment">%s%s</label>',
 <<<<<<< HEAD
+<<<<<<< HEAD
 				_x( 'Comment', 'noun' ),
 				$required_indicator
 			),
 			'<textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525"' . $required_attribute . '></textarea>'
 =======
+=======
+>>>>>>> 31/8-comment
 				_x( 'Make a post', 'noun' ),
 				$required_indicator
 			),
 			'<textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525"' . $required_attribute . '
 			placeholder="What are you thingking..."></textarea>'
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 		),
 		'must_log_in'          => sprintf(
 			'<p class="must-log-in">%s</p>',
@@ -2511,10 +2521,14 @@ function comment_form( $args = array(), $post_id = null ) {
 		'cancel_reply_after'   => '</small>',
 		'cancel_reply_link'    => __( 'Cancel reply' ),
 <<<<<<< HEAD
+<<<<<<< HEAD
 		'label_submit'         => __( 'Post Comment' ),
 =======
 		'label_submit'         => __( 'Share' ),
 >>>>>>> 31/1-header
+=======
+		'label_submit'         => __( 'Share' ),
+>>>>>>> 31/8-comment
 		'submit_button'        => '<input name="%1$s" type="submit" id="%2$s" class="%3$s" value="%4$s" />',
 		'submit_field'         => '<p class="form-submit">%1$s %2$s</p>',
 		'format'               => 'xhtml',

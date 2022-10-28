@@ -21,10 +21,14 @@
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 <<<<<<< HEAD
+<<<<<<< HEAD
 define( 'DB_NAME', 'wordpress' );
 =======
 define( 'DB_NAME', 'wordpress1' );
 >>>>>>> 31/1-header
+=======
+define( 'DB_NAME', 'wordpress1' );
+>>>>>>> 31/8-comment
 
 /** Database username */
 define( 'DB_USER', 'root' );
@@ -53,6 +57,7 @@ define( 'DB_COLLATE', '' );
  * @since 2.6.0
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 define( 'AUTH_KEY',         '@KQ`!]v|+9d#H2wD| a<kaU$ 4?p1;ePWxGwpM^3oPA=.2HN`awV}oDer|E7P~K~' );
 define( 'SECURE_AUTH_KEY',  '=1$tDp| 3R/T|mcu`Ugy1:94&/k<u).</F/R8neczc1%ZRCF [N+]$bD{Y=qSu-h' );
 define( 'LOGGED_IN_KEY',    '}#oDRr!tt-K*bLHg,A-Q4M]kPbvM|mg;+{]=3mH6Fj*n5$Up&9T,=h/G0x{92<qc' );
@@ -62,6 +67,8 @@ define( 'SECURE_AUTH_SALT', 'u 8Qs6SNEGSb_e}UHYUh+O(QS9Y>&u1o( #YryI+ZSg/7)}Qo<V
 define( 'LOGGED_IN_SALT',   'P]ora0ECSf}Ay[q7:VHfEY!_33yx~pY9&@||0K<H)q38w~=Bd9L=aG316qoOu~?2' );
 define( 'NONCE_SALT',       '8/SCtj,,y4IR#/))@/#gu+(~}v=-MACt6+)}t8@2(fBAjAh$T|ZQuSnof8`oV/EL' );
 =======
+=======
+>>>>>>> 31/8-comment
 define( 'AUTH_KEY',         '}DTS{|q/3b}^<;Y[MNtYc).8eVm:P+YYe[r3T5:(g6eQ}DrB_}X#lF6cz{F+:_F{' );
 define( 'SECURE_AUTH_KEY',  'E]C*}%TQ6j)>Bl_*(J:xXUdC>:h^wAVJ|F|WX8FtRL(Ou6<}qV0][KAWVxebPs@-' );
 define( 'LOGGED_IN_KEY',    'L&fT)CC%PY+%[2{x%,;]O%1BtI6Z$w?GstP+khG4N}}CuGnMH>!#evT.XwexW{B!' );
@@ -70,7 +77,10 @@ define( 'AUTH_SALT',        'o*<7L0b^DGV(|`ldOpG~>}|`9:W{SlR~>nU`Nc~:mh*?kCwoKO=
 define( 'SECURE_AUTH_SALT', 'f/nwEf+FqIdZPo3#iwF{f1ruD.),]MZ#6O3&ELw$HT0K6;!qL1Skgej5gAI]%Y.+' );
 define( 'LOGGED_IN_SALT',   '8{G)V_rKIVxWNI5!W6S:5x0cpV2|%d5dOd3i*CQGHHB`[{T]eH;H;!E9rjwiXbv2' );
 define( 'NONCE_SALT',       'u,0W<1nsuY!?@Gy)C~E?lkJ=Wo;0$L*3pJ?32<$qein/rDj 7w2gA-b5sS?M)V<u' );
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 
 /**#@-*/
 
@@ -81,10 +91,14 @@ define( 'NONCE_SALT',       'u,0W<1nsuY!?@Gy)C~E?lkJ=Wo;0$L*3pJ?32<$qein/rDj 7w2
  * a unique prefix. Only numbers, letters, and underscores please!
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 $table_prefix = 'wp_wordpress';
 =======
 $table_prefix = 'wp_';
 >>>>>>> 31/1-header
+=======
+$table_prefix = 'wp_';
+>>>>>>> 31/8-comment
 
 /**
  * For developers: WordPress debugging mode.

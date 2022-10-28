@@ -15,12 +15,15 @@
 ?>
 <?php
 <<<<<<< HEAD
+<<<<<<< HEAD
 $class = '';
 if (!is_single()) :
 	$class = "danh-sach";
 ?>
 	<article <?php post_class($class); ?> id="post-<?php the_ID(); ?>">
 =======
+=======
+>>>>>>> 31/8-comment
 if (!is_single()) { ?>
 	<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 
@@ -31,11 +34,15 @@ if (!is_single()) { ?>
 		// 	get_template_part('template-parts/featured-image');
 		// }
 		?>
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 
 		<div class="post-inner <?php echo is_page_template('templates/template-full-width.php') ? '' : 'thin'; ?> ">
 
 			<div class="entry-content">
+<<<<<<< HEAD
 <<<<<<< HEAD
 				<div class="container">
 					<div class="row">
@@ -73,6 +80,8 @@ if (!is_single()) { ?>
 					</div>
 				</div>
 =======
+=======
+>>>>>>> 31/8-comment
 				<?php
 				if (is_search()) { ?>
 					<?php $post = get_post(get_the_ID());
@@ -122,11 +131,15 @@ if (!is_single()) { ?>
 
 
 
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 			</div><!-- .entry-content -->
 
 		</div><!-- .post-inner -->
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 		<!-- <div class="section-inner"> -->
 		<?php
@@ -153,6 +166,8 @@ if (!is_single()) { ?>
 		</div>
 		<!-- .section-inner -->
 =======
+=======
+>>>>>>> 31/8-comment
 		<div class="section-inner">
 			<?php
 			wp_link_pages(
@@ -175,15 +190,21 @@ if (!is_single()) { ?>
 			?>
 
 		</div><!-- .section-inner -->
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 
 		<?php
 
 		if (is_single()) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 			get_template_part('template-parts/navigation');
 		}
 
@@ -196,9 +217,12 @@ if (!is_single()) { ?>
 
 			<div class="comments-wrapper section-inner">
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 				<?php comments_template(); ?>
 
 			</div><!-- .comments-wrapper -->
@@ -208,6 +232,7 @@ if (!is_single()) { ?>
 		?>
 
 	</article><!-- .post -->
+<<<<<<< HEAD
 <<<<<<< HEAD
 <?php endif ?>
 <!-- Detail page -->
@@ -388,6 +413,8 @@ if (!is_single()) { ?>
 <?php endif ?>
 >>>>>>> 10/9_categories
 =======
+=======
+>>>>>>> 31/8-comment
 	<!-- Trang detail post -->
 <?php
 } else { ?>
@@ -462,5 +489,9 @@ if (!is_single()) { ?>
 <?php
 	}
 }
+<<<<<<< HEAD
 ?>
 >>>>>>> 31/1-header
+=======
+?>
+>>>>>>> 31/8-comment

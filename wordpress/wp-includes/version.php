@@ -46,7 +46,12 @@ $required_php_version = '5.6.20';
  */
 $required_mysql_version = '5.0';
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 $wp_local_package = 'vi';
 >>>>>>> 31/1-header
+=======
+
+$wp_local_package = 'vi';
+>>>>>>> 31/8-comment

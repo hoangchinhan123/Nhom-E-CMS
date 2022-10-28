@@ -8,10 +8,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "X-Generator: GlotPress/4.0.0-alpha.1\n"
 =======
 "X-Generator: GlotPress/4.0.0-alpha.3\n"
 >>>>>>> 31/1-header
+=======
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+>>>>>>> 31/8-comment
 "Language: vi_VN\n"
 "Project-Id-Version: Plugins - Akismet Spam Protection - Stable (latest release)\n"
 
@@ -28,10 +32,14 @@ msgid "Set up your Akismet account to enable spam filtering on this site."
 msgstr "Cài đặt tài khoản Akismet để bật bộ chống Spam trên web."
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: class.akismet-admin.php:1143
 =======
 #: class.akismet-admin.php:1146
 >>>>>>> 31/1-header
+=======
+#: class.akismet-admin.php:1146
+>>>>>>> 31/8-comment
 msgid "Akismet could not recheck your comments for spam."
 msgstr "Akismet không thể kiểm tra lại bình luận spam."
 
@@ -47,6 +55,7 @@ msgstr "Hiện không thể tìm nạp số liệu thống kê. Vui lòng thử 
 msgid "API key must be set to fetch stats."
 msgstr "API ket phải được set để lấy dữ liệu thống kê."
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: views/config.php:170
 msgid "To help your site with transparency under privacy laws like the GDPR, Akismet can display a notice to your users under your comment forms. This feature is disabled by default, however, you can turn it on above."
@@ -66,6 +75,8 @@ msgstr "Thông báo bảo mật của Akismet"
 
 #: views/config.php:163
 =======
+=======
+>>>>>>> 31/8-comment
 #: views/config.php:179
 msgid "To help your site with transparency under privacy laws like the GDPR, Akismet can display a notice to your users under your comment forms. This feature is disabled by default, however, you can turn it on above."
 msgstr "Để giúp website của bạn đáp ứng các quy định như bộ luật GDPR, Akismet có thể hiển thị chú ý tới người xem bên dưới mục bình luận. Tính năng này mặc định không được kích hoạt, tuy nhiên, bạn có thể bật nó ở ngay trên đây."
@@ -83,7 +94,10 @@ msgid "Akismet privacy notice"
 msgstr "Thông báo bảo mật của Akismet"
 
 #: views/config.php:172
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 msgid "Privacy"
 msgstr "Riêng tư"
 
@@ -92,10 +106,14 @@ msgid "This site uses Akismet to reduce spam. <a href=\"%s\" target=\"_blank\" r
 msgstr "Website này sử dụng Akismet để hạn chế spam. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Tìm hiểu bình luận của bạn được duyệt như thế nào</a>."
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: class.akismet-admin.php:87
 =======
 #: class.akismet-admin.php:88
 >>>>>>> 31/1-header
+=======
+#: class.akismet-admin.php:88
+>>>>>>> 31/8-comment
 msgid "We collect information about visitors who comment on Sites that use our Akismet anti-spam service. The information we collect depends on how the User sets up Akismet for the Site, but typically includes the commenter's IP address, user agent, referrer, and Site URL (along with other information directly provided by the commenter such as their name, username, email address, and the comment itself)."
 msgstr "Chúng tôi thu thập thông tin về người dùng đã bình luận trên website sử dụng dịch vụ của Akismet. Các thông tin thu thập phụ thuộc vào cách người sử dụng cài đặt Akismet trên website, nhưng thông thường bao gồm địa chỉ IP, trình duyệt, nguồn đến và địa chỉ Website (bên cạnh các thông tin khác người dùng trực tiếp nhập như họ tên, tài khoản, địa chỉ email và nội dung bình luận)."
 
@@ -146,10 +164,14 @@ msgid "Manual Configuration"
 msgstr "Cấu hình bằng tay"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: class.akismet-admin.php:234
 =======
 #: class.akismet-admin.php:236
 >>>>>>> 31/1-header
+=======
+#: class.akismet-admin.php:236
+>>>>>>> 31/8-comment
 msgid "On this page, you are able to update your Akismet settings and view spam stats."
 msgstr "Trong trang này, bạn có thể cập nhật thiết lập Akismet và xem thống kê spam."
 
@@ -159,10 +181,14 @@ msgstr "Được sử dụng bởi hàng triệu người, Akismet có thể là
 
 #. Plugin Name of the plugin
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: class.akismet-admin.php:112 class.akismet-admin.php:115
 =======
 #: class.akismet-admin.php:114 class.akismet-admin.php:117
 >>>>>>> 31/1-header
+=======
+#: class.akismet-admin.php:114 class.akismet-admin.php:117
+>>>>>>> 31/8-comment
 msgid "Akismet Anti-Spam"
 msgstr "Akismet Anti-Spam"
 
@@ -201,10 +227,14 @@ msgid "Set up your Akismet account"
 msgstr "Cài đặt tài khoản Akismet của bạn"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: views/config.php:32
 =======
 #: views/config.php:34
 >>>>>>> 31/1-header
+=======
+#: views/config.php:34
+>>>>>>> 31/8-comment
 msgid "Detailed Stats"
 msgstr "Thống kê chi tiết"
 
@@ -212,6 +242,7 @@ msgstr "Thống kê chi tiết"
 msgid "Statistics"
 msgstr "Thống kê"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: class.akismet-admin.php:1247
 msgid "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. It keeps your site protected even while you sleep. To get started, just go to <a href=\"admin.php?page=akismet-key-config\">your Akismet Settings page</a> to set up your API key."
@@ -223,6 +254,8 @@ msgstr "Được sử dụng bởi hàng triệu người, Akismet là có thê
 
 #: class.akismet-admin.php:1136
 =======
+=======
+>>>>>>> 31/8-comment
 #: class.akismet-admin.php:1250
 msgid "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. It keeps your site protected even while you sleep. To get started, just go to <a href=\"admin.php?page=akismet-key-config\">your Akismet Settings page</a> to set up your API key."
 msgstr "Được sử dụng bởi hàng triệu website, Akismet  là plugin hữu ích giúp bạn <strong>bảo vệ website khỏi spam</strong>. Nó giúp bảo vệ website khi bạn đang ngủ. Để bắt đầu, hãy <a href=\"admin.php?page=akismet-key-config\">thiết lập cấu hình</a> để nhập API key."
@@ -232,11 +265,15 @@ msgid "Used by millions, Akismet is quite possibly the best way in the world to 
 msgstr "Được sử dụng bởi hàng triệu người, Akismet là có thể là cách thức tốt nhất trên thế giới để <strong>bảo về blog của bạn khỏi spam</strong>. Trang của bạn được cấu hình hoàn toàn và được bảo về, thậm chí trong khi bạn đang ngủ."
 
 #: class.akismet-admin.php:1139
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 msgid "%s comment was caught as spam."
 msgid_plural "%s comments were caught as spam."
 msgstr[0] "%s bình luận bị phát hiện là spam."
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: class.akismet-admin.php:1133
 msgid "No comments were caught as spam."
@@ -244,12 +281,17 @@ msgstr "Không có bình luận nào bị phát hiện là spam."
 
 #: class.akismet-admin.php:1129
 =======
+=======
+>>>>>>> 31/8-comment
 #: class.akismet-admin.php:1136
 msgid "No comments were caught as spam."
 msgstr "Không có bình luận nào bị phát hiện là spam."
 
 #: class.akismet-admin.php:1132
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 msgid "Akismet checked %s comment."
 msgid_plural "Akismet checked %s comments."
 msgstr[0] "Akismet đã kiểm tra %s bình luận."
@@ -290,19 +332,27 @@ msgid "Comment #%d is spam."
 msgstr "Bình luận #%d là spam."
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: views/config.php:55
 =======
 #: views/config.php:57
 >>>>>>> 31/1-header
+=======
+#: views/config.php:57
+>>>>>>> 31/8-comment
 msgid "%s false positive"
 msgid_plural "%s false positives"
 msgstr[0] "%s thông báo sai"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: views/config.php:53
 =======
 #: views/config.php:55
 >>>>>>> 31/1-header
+=======
+#: views/config.php:55
+>>>>>>> 31/8-comment
 msgid "%s missed spam"
 msgid_plural "%s missed spam"
 msgstr[0] "%s bỏ qua spam"
@@ -332,32 +382,45 @@ msgid "<strong>Almost done</strong> - configure Akismet and say goodbye to spam"
 msgstr "<strong>Sắp hoàn tất</strong> - hãy cấu hình Akismet và tạm biệt Spam"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: class.akismet-admin.php:1048
 =======
 #: class.akismet-admin.php:1051
 >>>>>>> 31/1-header
+=======
+#: class.akismet-admin.php:1051
+>>>>>>> 31/8-comment
 msgid "Akismet has saved you %d minute!"
 msgid_plural "Akismet has saved you %d minutes!"
 msgstr[0] "Akismet đã tiết kiệm cho bạn %d phút!"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: class.akismet-admin.php:1046
 =======
 #: class.akismet-admin.php:1049
 >>>>>>> 31/1-header
+=======
+#: class.akismet-admin.php:1049
+>>>>>>> 31/8-comment
 msgid "Akismet has saved you %d hour!"
 msgid_plural "Akismet has saved you %d hours!"
 msgstr[0] "Akismet đã tiết kiệm cho bạn %d giờ! "
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: class.akismet-admin.php:1044
 =======
 #: class.akismet-admin.php:1047
 >>>>>>> 31/1-header
+=======
+#: class.akismet-admin.php:1047
+>>>>>>> 31/8-comment
 msgid "Akismet has saved you %s day!"
 msgid_plural "Akismet has saved you %s days!"
 msgstr[0] "Akismet đã tiết kiệm cho bạn %s ngày!"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: class.akismet-admin.php:182 class.akismet-admin.php:220
 #: class.akismet-admin.php:233
@@ -365,6 +428,10 @@ msgstr[0] "Akismet đã tiết kiệm cho bạn %s ngày!"
 #: class.akismet-admin.php:184 class.akismet-admin.php:222
 #: class.akismet-admin.php:235
 >>>>>>> 31/1-header
+=======
+#: class.akismet-admin.php:184 class.akismet-admin.php:222
+#: class.akismet-admin.php:235
+>>>>>>> 31/8-comment
 msgid "Akismet filters out spam, so you can focus on more important things."
 msgstr "Akismet giúp bạn lọc spam, nên bạn có thể tập trung làm những chuyện quan trọng hơn."
 
@@ -389,6 +456,7 @@ msgstr "Hãy <a href=\"%s\" target=\"_blank\"> liên hệ với nhóm hỗ trợ
 msgid "In 2012, Akismet began using subscription plans for all accounts (even free ones). A plan has not been assigned to your account, and we&#8217;d appreciate it if you&#8217;d <a href=\"%s\" target=\"_blank\">sign into your account</a> and choose one."
 msgstr "Vào năm 2012, Akismet bắt đầu áp dụng gói đăng ký cho tất cả tài khoản (bao gồm cả miễn phí). Hiện tài khoản của bạn chưa có gói đăng ký nào, và chúng tôi đề nghị bạn <a href=\"%s\" target=\"_blank\">đăng nhập vào tài khoản</a> và chọn một gói."
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: views/config.php:103
 msgid "All systems functional."
@@ -424,6 +492,8 @@ msgstr "Bình luận này được đánh dấu không phải bình luận rác.
 
 #: class.akismet-admin.php:624
 =======
+=======
+>>>>>>> 31/8-comment
 #: views/config.php:112
 msgid "All systems functional."
 msgstr "Hệ thống hoạt động bình thường."
@@ -457,7 +527,10 @@ msgid "This comment was reported as not spam."
 msgstr "Bình luận này được đánh dấu không phải bình luận rác."
 
 #: class.akismet-admin.php:626
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 msgid "This comment was reported as spam."
 msgstr "Bình luận này bị báo cáo là bình luận rác."
 
@@ -546,6 +619,7 @@ msgid "Akismet has detected a problem."
 msgstr "Akismet gặp trục trặc."
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: views/config.php:241
 msgid "Change"
 msgstr "Đổi"
@@ -588,6 +662,8 @@ msgstr "Ngắt kết nối tài khoản này"
 
 #: views/config.php:149
 =======
+=======
+>>>>>>> 31/8-comment
 #: views/config.php:250
 msgid "Change"
 msgstr "Đổi"
@@ -629,11 +705,15 @@ msgid "Disconnect this account"
 msgstr "Ngắt kết nối tài khoản này"
 
 #: views/config.php:158
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 msgid "Spam in the <a href=\"%1$s\">spam folder</a> older than 1 day is deleted automatically."
 msgid_plural "Spam in the <a href=\"%1$s\">spam folder</a> older than %2$d days is deleted automatically."
 msgstr[0] "Spam nằm trong <a href=\"%1$s\">thư mục Spam</a> cũ hơn %2$d ngày sẽ bị xoá tự động."
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: views/config.php:143
 msgid "Note:"
@@ -669,6 +749,8 @@ msgstr "Mọi lúc"
 
 #: views/config.php:43 views/config.php:48
 =======
+=======
+>>>>>>> 31/8-comment
 #: views/config.php:152
 msgid "Note:"
 msgstr "Ghi chú:"
@@ -702,16 +784,23 @@ msgid "All time"
 msgstr "Mọi lúc"
 
 #: views/config.php:45 views/config.php:50
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 msgid "Spam blocked"
 msgid_plural "Spam blocked"
 msgstr[0] "Spam đã bị chặn"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: views/config.php:41
 =======
 #: views/config.php:43
 >>>>>>> 31/1-header
+=======
+#: views/config.php:43
+>>>>>>> 31/8-comment
 msgid "Past six months"
 msgstr "6 tháng trước"
 
@@ -724,51 +813,70 @@ msgid "Akismet %s requires WordPress %s or higher."
 msgstr "Akismet %s yêu cầu phiên bản WordPress %s hoặc cao hơn."
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: class.akismet-admin.php:639
 msgid "Akismet cleared this comment during an automatic retry."
 msgstr "Akismet đã xác minh đây không phải là bình luận rác trong quá trình tự động kiểm tra lại."
 
 #: class.akismet-admin.php:636
 =======
+=======
+>>>>>>> 31/8-comment
 #: class.akismet-admin.php:641
 msgid "Akismet cleared this comment during an automatic retry."
 msgstr "Akismet đã xác minh đây không phải là bình luận rác trong quá trình tự động kiểm tra lại."
 
 #: class.akismet-admin.php:638
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 msgid "Akismet caught this comment as spam during an automatic retry."
 msgstr "Akismet nhận định đây là bình luận rác trong quá trình tự động kiểm tra lại."
 
 #. translators: The placeholder is a username.
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: class.akismet-admin.php:630
 =======
 #: class.akismet-admin.php:632
 >>>>>>> 31/1-header
+=======
+#: class.akismet-admin.php:632
+>>>>>>> 31/8-comment
 msgid "%s reported this comment as not spam."
 msgstr "%s thông báo bình luận này không phải spam."
 
 #. translators: The placeholder is a username.
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: class.akismet-admin.php:622
 =======
 #: class.akismet-admin.php:624
 >>>>>>> 31/1-header
+=======
+#: class.akismet-admin.php:624
+>>>>>>> 31/8-comment
 msgid "%s reported this comment as spam."
 msgstr "%s thông báo bình luận này là spam."
 
 #. translators: %1$s is a username; %2$s is a short string (like 'spam' or
 #. 'approved') denoting the new comment status.
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: class.akismet-admin.php:669
 =======
 #: class.akismet-admin.php:671
 >>>>>>> 31/1-header
+=======
+#: class.akismet-admin.php:671
+>>>>>>> 31/8-comment
 msgid "%1$s changed the comment status to %2$s."
 msgstr "%1$s đổi trạng thái bình luận sang %2$s."
 
 #. translators: The placeholder is an error response returned by the API
 #. server.
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: class.akismet-admin.php:644
 msgid "Akismet was unable to check this comment (response: %s) but will automatically retry later."
@@ -776,17 +884,23 @@ msgstr "Akismet không thể kiểm tra bình luận này (trả về: %s), như
 
 #: class.akismet-admin.php:609
 =======
+=======
+>>>>>>> 31/8-comment
 #: class.akismet-admin.php:646
 msgid "Akismet was unable to check this comment (response: %s) but will automatically retry later."
 msgstr "Akismet không thể kiểm tra bình luận này (trả về: %s), nhưng sẽ tự động thử lại sau."
 
 #: class.akismet-admin.php:611
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 msgid "Akismet cleared this comment."
 msgstr "Akismet xóa bình luận này."
 
 #. translators: The placeholder is a short string (like 'spam' or 'approved')
 #. denoting the new comment status.
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: class.akismet-admin.php:663
 msgid "Comment status was changed to %s"
@@ -794,12 +908,17 @@ msgstr "Trạng thái bình luận đã được thay đổi thành %s"
 
 #: class.akismet-admin.php:603
 =======
+=======
+>>>>>>> 31/8-comment
 #: class.akismet-admin.php:665
 msgid "Comment status was changed to %s"
 msgstr "Trạng thái bình luận đã được thay đổi thành %s"
 
 #: class.akismet-admin.php:605
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 msgid "Akismet caught this comment as spam."
 msgstr "Akismet đánh dấu bình luận này là spam."
 
@@ -827,24 +946,33 @@ msgid "Akismet Widget"
 msgstr "Bảng công cụ Akismet"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: class.akismet-admin.php:1041
 =======
 #: class.akismet-admin.php:1044
 >>>>>>> 31/1-header
+=======
+#: class.akismet-admin.php:1044
+>>>>>>> 31/8-comment
 msgid "Cleaning up spam takes time."
 msgstr "Dọn dẹp rác khá tốn thời gian."
 
 #. translators: The Akismet configuration page URL.
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: class.akismet-admin.php:933
 =======
 #: class.akismet-admin.php:936
 >>>>>>> 31/1-header
+=======
+#: class.akismet-admin.php:936
+>>>>>>> 31/8-comment
 msgid "Please check your <a href=\"%s\">Akismet configuration</a> and contact your web host if problems persist."
 msgstr "Hãy kiểm tra <a href=\"%s\">Cấu hình Akismet</a> của bạn và liên hệ với nhà cung cấp host nếu vẫn không khắc phục được sự cố."
 
 #. translators: The placeholder is an amount of time, like "7 seconds" or "3
 #. days" returned by the function human_time_diff().
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: class.akismet-admin.php:683
 msgid "%s ago"
@@ -852,16 +980,22 @@ msgstr "%s trước"
 
 #: class.akismet-admin.php:576
 =======
+=======
+>>>>>>> 31/8-comment
 #: class.akismet-admin.php:685
 msgid "%s ago"
 msgstr "%s trước"
 
 #: class.akismet-admin.php:578
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 msgid "%s approved"
 msgid_plural "%s approved"
 msgstr[0] "%s được thông qua"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: class.akismet-admin.php:553
 msgid "History"
@@ -889,6 +1023,8 @@ msgstr "Đánh dấu là spam bởi Akismet"
 
 #: class.akismet-admin.php:529
 =======
+=======
+>>>>>>> 31/8-comment
 #: class.akismet-admin.php:555
 msgid "History"
 msgstr "Lịch sử"
@@ -914,12 +1050,16 @@ msgid "Flagged as spam by Akismet"
 msgstr "Đánh dấu là spam bởi Akismet"
 
 #: class.akismet-admin.php:531
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 msgid "Awaiting spam check"
 msgstr "Đang chờ kiểm duyệt"
 
 #. translators: The placeholder is an error response returned by the API
 #. server.
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: class.akismet-admin.php:652
 msgid "Akismet was unable to recheck this comment (response: %s)."
@@ -943,6 +1083,8 @@ msgstr "Hiện tại không có gì trong <a href='%s'>hàng chờ thư rác</a>
 
 #: class.akismet-admin.php:369
 =======
+=======
+>>>>>>> 31/8-comment
 #: class.akismet-admin.php:654
 msgid "Akismet was unable to recheck this comment (response: %s)."
 msgstr "Akismet không thể check lại bình luận này (phản hồi: %s)."
@@ -964,11 +1106,15 @@ msgid "There&#8217;s nothing in your <a href='%s'>spam queue</a> at the moment."
 msgstr "Hiện tại không có gì trong <a href='%s'>hàng chờ thư rác</a> của bạn."
 
 #: class.akismet-admin.php:371
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 msgid "There&#8217;s <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
 msgid_plural "There are <a href=\"%2$s\">%1$s comments</a> in your spam queue right now."
 msgstr[0] "Có tổng cộng <a href=\"%2$s\">%1$s bình luận</a> trong mục Duyệt spam ngay lúc này."
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: class.akismet-admin.php:363
 msgid "<a href=\"%s\">Akismet</a> blocks spam from getting to your blog. "
@@ -976,34 +1122,48 @@ msgstr "<a href=\"%s\">Akismet</a> đã chặn spam từ blog của bạn."
 
 #: class.akismet-admin.php:357
 =======
+=======
+>>>>>>> 31/8-comment
 #: class.akismet-admin.php:365
 msgid "<a href=\"%s\">Akismet</a> blocks spam from getting to your blog. "
 msgstr "<a href=\"%s\">Akismet</a> đã chặn spam từ blog của bạn."
 
 #: class.akismet-admin.php:359
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already. "
 msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already. "
 msgstr[0] "<a href=\"%1$s\">Akismet</a> đã chặn %2$ spam. "
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: class.akismet-admin.php:347
 =======
 #: class.akismet-admin.php:349
 >>>>>>> 31/1-header
+=======
+#: class.akismet-admin.php:349
+>>>>>>> 31/8-comment
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comment</a>."
 msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
 msgstr[0] "<a href=\"%1$s\">Akismet</a> đã bảo vệ site của bạn từ<a href=\"%2$s\">%3$s các bình luận spam</a>."
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: class.akismet-admin.php:345
 =======
 #: class.akismet-admin.php:347
 >>>>>>> 31/1-header
+=======
+#: class.akismet-admin.php:347
+>>>>>>> 31/8-comment
 msgctxt "comments"
 msgid "Spam"
 msgstr "Spam"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: class.akismet-admin.php:275
 msgid "Cheatin&#8217; uh?"
@@ -1153,6 +1313,8 @@ msgstr "Cài đặt"
 msgid "Comment History"
 msgstr "Lịch sử bình luận"
 =======
+=======
+>>>>>>> 31/8-comment
 #: class.akismet-admin.php:277
 msgid "Cheatin&#8217; uh?"
 msgstr "Ăn gian?"
@@ -1300,4 +1462,7 @@ msgstr "Cài đặt"
 #: class.akismet-admin.php:83
 msgid "Comment History"
 msgstr "Lịch sử bình luận"
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment

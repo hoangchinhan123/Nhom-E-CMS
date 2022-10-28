@@ -32,6 +32,7 @@ if ( is_singular() ) {
 		if ( true === $show_categories && has_category() ) {
 			?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 			<div class="entry-categories" style="display: none;">
 				<span class="screen-reader-text"><?php _e( 'Categories', 'twentytwenty' ); ?></span>
@@ -40,12 +41,17 @@ if ( is_singular() ) {
 				</div>
 				<!-- .entry-categories-inner -->
 =======
+=======
+>>>>>>> 31/8-comment
 			<div class="entry-categories">
 				<span class="screen-reader-text"><?php _e( 'Categories', 'twentytwenty' ); ?></span>
 				<div class="entry-categories-inner">
 					<?php the_category( ' ' ); ?>
 				</div><!-- .entry-categories-inner -->
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 			</div><!-- .entry-categories -->
 
 			<?php
@@ -63,9 +69,13 @@ if ( is_singular() ) {
 			$intro_text_width = ' small';
 		} else {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 			
 >>>>>>> 31/1-header
+=======
+			
+>>>>>>> 31/8-comment
 			$intro_text_width = ' thin';
 		}
 
@@ -74,11 +84,16 @@ if ( is_singular() ) {
 
 			<div class="intro-text section-inner max-percentage<?php echo $intro_text_width; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- static output ?>">
 <<<<<<< HEAD
+<<<<<<< HEAD
 				<?php the_excerpt(); ?>
 =======
 			<?php the_excerpt(); ?>
 
 >>>>>>> 31/1-header
+=======
+			<?php the_excerpt(); ?>
+
+>>>>>>> 31/8-comment
 			</div>
 
 			<?php
@@ -88,9 +103,12 @@ if ( is_singular() ) {
 		twentytwenty_the_post_meta( get_the_ID(), 'single-top' );
 		?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 	</div><!-- .entry-header-inner -->
 
 </header><!-- .entry-header -->

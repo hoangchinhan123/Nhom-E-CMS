@@ -1,8 +1,11 @@
 <?php
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 /**
  * Displays the menus and widgets at the end of the main element.
  * Visually, this output is presented as part of the footer element.
@@ -12,6 +15,7 @@
  * @since Twenty Twenty 1.0
  */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 $has_footer_menu = has_nav_menu('footer');
 $has_social_menu = has_nav_menu('social');
@@ -27,6 +31,8 @@ if ($has_footer_menu || $has_social_menu || $has_sidebar_1 || $has_sidebar_2 || 
 
 	<div class="footer-nav-widgets-wrapper header-footer-group bg-green-ft">
 =======
+=======
+>>>>>>> 31/8-comment
 $has_footer_menu = has_nav_menu( 'footer' );
 $has_social_menu = has_nav_menu( 'social' );
 
@@ -38,7 +44,10 @@ if ( $has_footer_menu || $has_social_menu || $has_sidebar_1 || $has_sidebar_2 ) 
 	?>
 
 	<div class="footer-nav-widgets-wrapper header-footer-group">
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 
 		<div class="footer-inner section-inner">
 
@@ -48,6 +57,7 @@ if ( $has_footer_menu || $has_social_menu || $has_sidebar_1 || $has_sidebar_2 ) 
 
 			$footer_top_classes .= $has_footer_menu ? ' has-footer-menu' : '';
 <<<<<<< HEAD
+<<<<<<< HEAD
 			// $footer_top_classes .= $has_social_menu ? ' has-social-menu' : '';
 
 			if ($has_footer_menu || $has_social_menu) {
@@ -56,6 +66,8 @@ if ( $has_footer_menu || $has_social_menu || $has_sidebar_1 || $has_sidebar_2 ) 
 
 			<?php if ($has_sidebar_1 || $has_sidebar_2 || $has_sidebar_3 || $has_sidebar_4) { ?>
 =======
+=======
+>>>>>>> 31/8-comment
 			$footer_top_classes .= $has_social_menu ? ' has-social-menu' : '';
 
 			if ( $has_footer_menu || $has_social_menu ) {
@@ -114,27 +126,37 @@ if ( $has_footer_menu || $has_social_menu || $has_sidebar_1 || $has_sidebar_2 ) 
 			<?php } ?>
 
 			<?php if ( $has_sidebar_1 || $has_sidebar_2 ) { ?>
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 
 				<aside class="footer-widgets-outer-wrapper">
 
 					<div class="footer-widgets-wrapper">
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 						<?php if ($has_sidebar_1) { ?>
 
 							<div class="footer-widgets column-one grid-item">
 								<?php dynamic_sidebar('sidebar-1'); ?>
 =======
+=======
+>>>>>>> 31/8-comment
 						<?php if ( $has_sidebar_1 ) { ?>
 
 							<div class="footer-widgets column-one grid-item">
 								<?php dynamic_sidebar( 'sidebar-1' ); ?>
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 							</div>
 
 						<?php } ?>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 						<?php if ($has_sidebar_2) { ?>
 
@@ -157,11 +179,16 @@ if ( $has_footer_menu || $has_social_menu || $has_sidebar_1 || $has_sidebar_2 ) 
 							<div class="footer-widgets column-four grid-item">
 								<?php dynamic_sidebar('sidebar-4'); ?>
 =======
+=======
+>>>>>>> 31/8-comment
 						<?php if ( $has_sidebar_2 ) { ?>
 
 							<div class="footer-widgets column-two grid-item">
 								<?php dynamic_sidebar( 'sidebar-2' ); ?>
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 							</div>
 
 						<?php } ?>
@@ -177,7 +204,11 @@ if ( $has_footer_menu || $has_social_menu || $has_sidebar_1 || $has_sidebar_2 ) 
 	</div><!-- .footer-nav-widgets-wrapper -->
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php } ?>
 =======
 <?php } ?>
 >>>>>>> 31/1-header
+=======
+<?php } ?>
+>>>>>>> 31/8-comment

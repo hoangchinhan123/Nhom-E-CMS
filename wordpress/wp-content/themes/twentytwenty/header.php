@@ -13,14 +13,20 @@
 ?>
 <!DOCTYPE html>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> 31/8-comment
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 <html class="no-js" <?php language_attributes(); ?>>
 
 <head>
@@ -30,16 +36,21 @@
 
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
 =======
 
 >>>>>>> 31/1-header
+=======
+
+>>>>>>> 31/8-comment
 	<?php wp_head(); ?>
 
 </head>
 
 <body <?php body_class(); ?>>
+<<<<<<< HEAD
 <<<<<<< HEAD
 	<style>
 		@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
@@ -51,6 +62,8 @@
 		</div>
 		<div class="header-inner section-inner" style="height: 85px;">
 =======
+=======
+>>>>>>> 31/8-comment
 
 	<?php
 	wp_body_open();
@@ -59,7 +72,10 @@
 	<header id="site-header" class="header-footer-group">
 
 		<div class="header-inner section-inner">
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 
 			<div class="header-titles-wrapper">
 
@@ -83,9 +99,13 @@
 
 				<?php } ?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 31/1-header
+=======
+
+>>>>>>> 31/8-comment
 				<div class="header-titles">
 
 					<?php
@@ -94,6 +114,7 @@
 
 					// Site description.
 					twentytwenty_site_description();
+<<<<<<< HEAD
 <<<<<<< HEAD
 					?>
 
@@ -104,6 +125,8 @@
 					</form>
 				</div>
 =======
+=======
+>>>>>>> 31/8-comment
 
 					//Add search in menu
 					get_search_form();
@@ -111,7 +134,10 @@
 
 				</div><!-- .header-titles -->
 
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 				<button class="toggle nav-toggle mobile-nav-toggle" data-toggle-target=".menu-modal" data-toggle-body-class="showing-menu-modal" aria-expanded="false" data-set-focus=".close-nav-toggle">
 					<span class="toggle-inner">
 						<span class="toggle-icon">
@@ -160,9 +186,12 @@
 
 					</nav><!-- .primary-menu-wrapper -->
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 				<?php
 				}
 
@@ -188,9 +217,12 @@
 
 							</div><!-- .nav-toggle-wrapper -->
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 						<?php
 						}
 
@@ -208,7 +240,10 @@
 
 							</div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 31/8-comment
 							<!-- Add icon user -->
 							<div class="icon">
 								<i class="bi bi-person-circle"></i>
@@ -223,7 +258,10 @@
 									</div>
 								</div>
 							</div>
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 
 						<?php
 						}

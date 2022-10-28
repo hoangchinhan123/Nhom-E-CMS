@@ -360,6 +360,7 @@ function twentytwenty_get_post_meta( $post_id = null, $location = 'single-top' )
 
 				// Author.
 <<<<<<< HEAD
+<<<<<<< HEAD
 				// if ( post_type_supports( get_post_type( $post_id ), 'author' ) && in_array( 'author', $post_meta, true ) ) {
 
 				// 	$has_meta = true;
@@ -383,6 +384,8 @@ function twentytwenty_get_post_meta( $post_id = null, $location = 'single-top' )
 
 				// }
 =======
+=======
+>>>>>>> 31/8-comment
 				if ( post_type_supports( get_post_type( $post_id ), 'author' ) && in_array( 'author', $post_meta, true ) ) {
 
 					$has_meta = true;
@@ -405,7 +408,10 @@ function twentytwenty_get_post_meta( $post_id = null, $location = 'single-top' )
 					<?php
 
 				}
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 
 				// Post date.
 				if ( in_array( 'post-date', $post_meta, true ) ) {
@@ -413,12 +419,15 @@ function twentytwenty_get_post_meta( $post_id = null, $location = 'single-top' )
 					$has_meta = true;
 					?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 					<!-- <li class="post-date meta-wrapper">
 						<span class="meta-text">
 							<a href="<?php the_permalink(); ?>"><?php the_time( get_option( 'date_format' ) ); ?></a>
 						</span>
 					</li> -->
 =======
+=======
+>>>>>>> 31/8-comment
 					<li class="post-date meta-wrapper">
 						<span class="meta-icon">
 							<span class="screen-reader-text"><?php _e( 'Post date', 'twentytwenty' ); ?></span>
@@ -428,7 +437,10 @@ function twentytwenty_get_post_meta( $post_id = null, $location = 'single-top' )
 							<a href="<?php the_permalink(); ?>"><?php the_time( get_option( 'date_format' ) ); ?></a>
 						</span>
 					</li>
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 					<?php
 
 				}
@@ -475,10 +487,14 @@ function twentytwenty_get_post_meta( $post_id = null, $location = 'single-top' )
 					$has_meta = true;
 					?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 					<!-- <li class="post-comment-link meta-wrapper">
 =======
 					<li class="post-comment-link meta-wrapper">
 >>>>>>> 31/1-header
+=======
+					<li class="post-comment-link meta-wrapper">
+>>>>>>> 31/8-comment
 						<span class="meta-icon">
 							<?php twentytwenty_the_theme_svg( 'comment' ); ?>
 						</span>
@@ -486,10 +502,14 @@ function twentytwenty_get_post_meta( $post_id = null, $location = 'single-top' )
 							<?php comments_popup_link(); ?>
 						</span>
 <<<<<<< HEAD
+<<<<<<< HEAD
 					</li> -->
 =======
 					</li>
 >>>>>>> 31/1-header
+=======
+					</li>
+>>>>>>> 31/8-comment
 					<?php
 
 				}

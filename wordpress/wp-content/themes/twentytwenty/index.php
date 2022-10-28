@@ -1,8 +1,12 @@
 <?php
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 31/1-header
+=======
+
+>>>>>>> 31/8-comment
 /**
  * The main template file
  *
@@ -23,23 +27,32 @@ get_header();
 
 <main id="site-content">
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 31/1-header
+=======
+
+>>>>>>> 31/8-comment
 	<?php
 
 	$archive_title    = '';
 	$archive_subtitle = '';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	if ( is_search() ) {
 =======
 	if (is_search()) {
 >>>>>>> 31/1-header
+=======
+	if (is_search()) {
+>>>>>>> 31/8-comment
 		global $wp_query;
 
 		$archive_title = sprintf(
 			'%1$s %2$s',
+<<<<<<< HEAD
 <<<<<<< HEAD
 			'<span class="color-accent">' . __( 'Search:', 'twentytwenty' ) . '</span>',
 			'&ldquo;' . get_search_query() . '&rdquo;'
@@ -47,12 +60,17 @@ get_header();
 
 		if ( $wp_query->found_posts ) {
 =======
+=======
+>>>>>>> 31/8-comment
 			'<span class="color-accent">' . __('Search:', 'twentytwenty') . '</span>',
 			'&ldquo;' . get_search_query() . '&rdquo;'
 		);
 
 		if ($wp_query->found_posts) {
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 			$archive_subtitle = sprintf(
 				/* translators: %s: Number of search results. */
 				_n(
@@ -61,6 +79,7 @@ get_header();
 					$wp_query->found_posts,
 					'twentytwenty'
 				),
+<<<<<<< HEAD
 <<<<<<< HEAD
 				number_format_i18n( $wp_query->found_posts )
 			);
@@ -71,6 +90,8 @@ get_header();
 		$archive_title = __( 'Nothing Found', 'twentytwenty' );
 	} elseif ( ! is_home() ) {
 =======
+=======
+>>>>>>> 31/8-comment
 				number_format_i18n($wp_query->found_posts)
 			);
 		} else {
@@ -79,11 +100,15 @@ get_header();
 	} elseif (is_archive() && !have_posts()) {
 		$archive_title = __('Nothing Found', 'twentytwenty');
 	} elseif (!is_home()) {
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 		$archive_title    = get_the_archive_title();
 		$archive_subtitle = get_the_archive_description();
 	}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 	if ( $archive_title || $archive_subtitle ) {
 		?>
@@ -99,6 +124,8 @@ get_header();
 				<?php if ( $archive_subtitle ) { ?>
 					<div class="archive-subtitle section-inner thin max-percentage intro-text"><?php echo wp_kses_post( wpautop( $archive_subtitle ) ); ?></div>
 =======
+=======
+>>>>>>> 31/8-comment
 	if ($archive_title || $archive_subtitle) {
 	?>
 
@@ -110,13 +137,17 @@ get_header();
 
 				<?php if ($archive_subtitle) { ?>
 					<div class="archive-subtitle section-inner thin max-percentage intro-text"><?php echo wp_kses_post(wpautop($archive_subtitle)); ?></div>
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 				<?php } ?>
 
 			</div><!-- .archive-header-inner -->
 
 		</header><!-- .archive-header -->
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 		<?php
 	}
@@ -161,6 +192,8 @@ get_header();
 
 <?php get_template_part( 'template-parts/footer-menus-widgets' ); ?>
 =======
+=======
+>>>>>>> 31/8-comment
 	<?php
 	}
 
@@ -203,7 +236,10 @@ get_header();
 </main><!-- #site-content -->
 
 <?php get_template_part('template-parts/footer-menus-widgets'); ?>
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 
 <?php
 get_footer();

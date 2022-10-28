@@ -1,8 +1,12 @@
 <?php
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 31/1-header
+=======
+
+>>>>>>> 31/8-comment
 /**
  * Displays the next and previous post navigation in single posts.
  *
@@ -14,6 +18,7 @@
 $next_post = get_next_post();
 $prev_post = get_previous_post();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 if ( $next_post || $prev_post ) {
 
@@ -54,6 +59,8 @@ if ( $next_post || $prev_post ) {
 				</a>
 				<?php
 =======
+=======
+>>>>>>> 31/8-comment
 if ($next_post || $prev_post) {
 
 	$pagination_classes = '';
@@ -130,11 +137,15 @@ if ($next_post || $prev_post) {
 					</a>
 				</div>
 			<?php
+<<<<<<< HEAD
 >>>>>>> 31/1-header
+=======
+>>>>>>> 31/8-comment
 			}
 			?>
 
 		</div><!-- .pagination-single-inner -->
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 		<hr class="styled-separator is-style-wide" aria-hidden="true" />
@@ -147,4 +158,9 @@ if ($next_post || $prev_post) {
 
 <?php
 >>>>>>> 31/1-header
+=======
+	</nav><!-- .pagination-single -->
+
+<?php
+>>>>>>> 31/8-comment
 }
