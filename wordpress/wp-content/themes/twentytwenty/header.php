@@ -26,10 +26,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-
 	<?php wp_head(); ?>
 
 </head>
+<style>
+	@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+	section {
+		padding: 60px 0;
+	}
+</style>
 
 <body <?php body_class(); ?>>
 

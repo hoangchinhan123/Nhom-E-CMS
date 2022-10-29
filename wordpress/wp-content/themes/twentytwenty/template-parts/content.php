@@ -36,10 +36,6 @@ if (!is_single()) :
 							<div class="col-md-9 col-xs-9 shortdesc">
 								<?php
 								get_template_part('template-parts/entry-header');
-
-								// if (!is_search()) {
-								// 	get_template_part('template-parts/featured-image');
-								// }
 								?>
 								<?php
 								if (is_search() || !is_singular() && 'summary' === get_theme_mod('blog_content', 'full')) {
@@ -188,10 +184,6 @@ if (!is_single()) :
 							<div class="col-md-10 col-xs-9">
 								<h1><?php
 									get_template_part('template-parts/entry-header');
-
-									// if (!is_search()) {
-									// 	get_template_part('template-parts/featured-image');
-									// }
 									?></h1>
 							</div>
 							<div class="col-md-2 col-xs-3">
@@ -216,13 +208,8 @@ if (!is_single()) :
 									if (is_search() || !is_singular() && 'summary' === get_theme_mod('blog_content', 'full')) {
 										the_excerpt();
 									} else {
-										// the_content(__('Continue reading', 'twentytwenty'));
 										if (is_single()) {
 											the_content(__('Continue reading', 'twentytwenty'));
-										} else {
-											//gioi han 100 ky tu
-											$post = get_post();
-											echo substr($post->post_content, 0, 100);
 										}
 									}
 									?>
