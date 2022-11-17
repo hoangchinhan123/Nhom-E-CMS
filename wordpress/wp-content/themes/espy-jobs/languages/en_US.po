@@ -1,0 +1,411 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Espy Jobs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-28 06:57+0000\n"
+"PO-Revision-Date: 2022-06-28 06:57+0000\n"
+"Last-Translator: \n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0\n"
+"X-Domain: espy-jobs"
+
+#: functions.php:52
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:129
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:131
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:140
+msgid "espyjobs Footer Widget"
+msgstr ""
+
+#: functions.php:142
+msgid "Shows Widgets in Footer"
+msgstr ""
+
+#: functions.php:199
+msgctxt "DM Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:202
+msgctxt "Inter: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:298
+msgid "Add Footer Widget"
+msgstr ""
+
+#: 404.php:22
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:26
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:35
+msgid "Most Used Categories"
+msgstr ""
+
+#. %1$s: smiley
+#: 404.php:53
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#. 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#. %s: search query.
+#: search.php:27
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: header.php:42
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:118
+msgid "Close Menu"
+msgstr ""
+
+#: footer.php:52
+msgid "Powered By WordPress"
+msgstr ""
+
+#: footer.php:53
+msgid " | "
+msgstr ""
+
+#. Name of the theme
+#: footer.php:54
+msgid "Espy Jobs"
+msgstr ""
+
+#: single.php:36 single.php:79
+msgid "Previous:"
+msgstr ""
+
+#: single.php:37 single.php:80
+msgid "Next:"
+msgstr ""
+
+#: inc/espyjobs-menu.php:372
+msgid "Add a menu"
+msgstr ""
+
+#: inc/customizer.php:48
+msgid "Show Title & Tagline"
+msgstr ""
+
+#: inc/customizer.php:57
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer.php:68
+msgid "Header Section"
+msgstr ""
+
+#: inc/customizer.php:83
+msgid "Button Text"
+msgstr ""
+
+#: inc/customizer.php:98
+msgid "Button Link"
+msgstr ""
+
+#: inc/customizer.php:111
+msgid "Banner Section"
+msgstr ""
+
+#: inc/customizer.php:127
+msgid "Banner Title"
+msgstr ""
+
+#: inc/customizer.php:144 inc/customizer.php:288
+msgid "Section Description"
+msgstr ""
+
+#: inc/customizer.php:161
+msgid "Add Background Image"
+msgstr ""
+
+#: inc/customizer.php:173 inc/customizer.php:301
+msgid "Blog Section"
+msgstr ""
+
+#: inc/customizer.php:190 inc/customizer.php:318
+msgid "Show Blog Section"
+msgstr ""
+
+#: inc/customizer.php:207 inc/customizer.php:271 inc/customizer.php:335
+msgid "Section Title"
+msgstr ""
+
+#: inc/customizer.php:224 inc/customizer.php:352
+msgid "Blog Section Description"
+msgstr ""
+
+#: inc/customizer.php:237
+msgid "Job Section"
+msgstr ""
+
+#: inc/customizer.php:254
+msgid "Show Job Section"
+msgstr ""
+
+#: inc/customizer.php:370
+msgid "Select Blog Category"
+msgstr ""
+
+#: inc/customizer.php:384
+msgid "Archive Blog Cards"
+msgstr ""
+
+#: inc/customizer.php:400
+msgid "Show Featured Image in Blog Cards and Single Posts Page"
+msgstr ""
+
+#: inc/customizer.php:418
+msgid "Show Date Meta in Blog Cards and Single Posts Page"
+msgstr ""
+
+#: inc/customizer.php:437
+msgid "Show Author Meta in Blog Cards and Single Posts Page"
+msgstr ""
+
+#: inc/customizer.php:456
+msgid "Show Excerpts in Blog Cards"
+msgstr ""
+
+#: inc/customizer.php:467
+msgid "Single Posts"
+msgstr ""
+
+#: inc/customizer.php:483
+msgid "Show Sidebar in Single Posts Page"
+msgstr ""
+
+#: inc/customizer.php:495
+msgid "Preloader"
+msgstr ""
+
+#: inc/customizer.php:511
+msgid "Show Pre-Loader"
+msgstr ""
+
+#: inc/customizer.php:525
+msgid "Prefooter Section"
+msgstr ""
+
+#: inc/customizer.php:542
+msgid "Show Prefooter Section"
+msgstr ""
+
+#: inc/customizer.php:543
+msgid "Copyright text can be changed in Premium Version only"
+msgstr ""
+
+#: inc/customizer-control.php:29
+msgid "Only 3 Latest Blog Posts will be shown from the choosen Category)"
+msgstr ""
+
+#: inc/customizer-control.php:31
+msgid "None"
+msgstr ""
+
+#: inc/customizer-control.php:54
+msgid "Select Category"
+msgstr ""
+
+#. %s: post date.
+#: inc/template-tags.php:30
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. %s: post author.
+#: inc/template-tags.php:46
+#, php-format
+msgctxt "post author"
+msgid "By %s"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:63
+msgid ", "
+msgstr ""
+
+#. 1: list of categories.
+#: inc/template-tags.php:66
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:70
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. 1: list of tags.
+#: inc/template-tags.php:73
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. %s: post title
+#: inc/template-tags.php:83
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:100 template-parts/content-page.php:39
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: job_manager/job-submit.php:24
+#, php-format
+msgid "You are editing an existing job. %s"
+msgstr ""
+
+#: job_manager/job-submit.php:24
+msgid "Create A New Job"
+msgstr ""
+
+#: job_manager/job-submit.php:42 job_manager/job-submit.php:66
+msgid "(optional)"
+msgstr ""
+
+#: job_manager/job-submit.php:56
+msgid "Company Details"
+msgstr ""
+
+#: job_manager/job-submit.php:89
+msgid "Save Draft"
+msgstr ""
+
+#. Name of the template
+msgid "Front Template"
+msgstr ""
+
+#. Name of the template
+msgid "Fullwidth Template"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:25 template-parts/content.php:64
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content.php:60
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/content-search.php:42
+msgid "Read More"
+msgstr ""
+
+#: lib/espyjobs-tgmp.php:65
+msgid "One Click Demo Import"
+msgstr ""
+
+#: lib/espyjobs-tgmp.php:71
+msgid "Flawless Themes Demo Import"
+msgstr ""
+
+#: lib/espyjobs-tgmp.php:77
+msgid "WP Job Manager"
+msgstr ""
+
+#: lib/espyjobs-tgmp.php:84
+msgid "Regions for WP Job Manager"
+msgstr ""
+
+#: lib/espyjobs-tgmp.php:91
+msgid "WP Job Manager - Job Type Colors"
+msgstr ""
+
+#: template-parts/homepage/banner-section.php:51
+#: template-parts/homepage/banner-section.php:52
+msgid "Job Titles, Keywords, Phrase"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Espy Jobs is a well designed job board WordPress theme that’s powered by the "
+"flexible WP Job Manager plugin. Espy Jobs is a full-featured theme for "
+"launching your own job portal website. With this theme, the focus is equally "
+"divided between job seekers and employers, making it a good all-purpose "
+"choice.Thanks to a good set of high-quality inner page templates, the job "
+"listings pages, company Profile pages are all well-presented making them not "
+"only look nice but also ensure they’re easy to read. View Demo at https:"
+"//demo.flawlessthemes.com/espyjobsfree/"
+msgstr ""
+
+#. Author of the theme
+msgid "flawlessthemes"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://flawlessthemes.com/"
+msgstr ""
