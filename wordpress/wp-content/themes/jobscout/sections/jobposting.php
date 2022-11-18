@@ -20,24 +20,27 @@ if ($ed_jobposting && jobscout_is_wp_job_manager_activated() && $job_title) {
                 <div class="search_keywords">
                     <input type="text" id="search_keywords" name="search_keywords" placeholder="<?php esc_attr_e('Tìm kiếm việc làm, vị trí, kỹ năng', 'jobscout'); ?>">
                 </div>
-                <!-- Search locatin -->
-                <div class="search_location">
-                    <input type="text" id="search_location" name="search_location" placeholder="<?php esc_attr_e('Địa điểm', 'jobscout'); ?>">
+                <div class="searchlc">
+                    <!-- Search locatin -->
+                    <div class="search_location">
+                        <input type="text" id="search_location" name="search_location" placeholder="<?php esc_attr_e('Địa điểm', 'jobscout'); ?>">
+                    </div>
+                    <!-- Search category -->
+                    <div class="search_category">
+                        <select name="category" id="category" class="form-control">
+                            <option value="">Tất cả ngành nghề</option>
+                            <?php $args = array(
+                                'hide_empty' => 0,
+                                'taxonomy' => 'category'
+                            );
+                            $cates = get_categories($args);
+                            foreach ($cates as $cate) {  ?>
+                                <option value="<?php echo $cate->term_id; ?>"><?php echo $cate->name; ?></option>
+                            <?php } ?>
+                        </select>
+                    </div>
                 </div>
-                <!-- Search category -->
-                <div class="search_category">
-                    <select name="category" id="category" class="form-control">
-                        <option value="">Tất cả ngành nghề</option>
-                        <?php $args = array(
-                            'hide_empty' => 0,
-                            'taxonomy' => 'category'
-                        );
-                        $cates = get_categories($args);
-                        foreach ($cates as $cate) {  ?>
-                            <option value="<?php echo $cate->term_id; ?>"><?php echo $cate->name; ?></option>
-                        <?php } ?>
-                    </select>
-                </div>
+
 
 
                 <?php
@@ -73,23 +76,23 @@ if ($ed_jobposting && jobscout_is_wp_job_manager_activated() && $job_title) {
             );
             $categories = get_categories($args);
             ?>
-            <div class="row" style="display: flex;">
+            <h3>Việc làm theo ngành nghề</h3>
+            <div class="row jobygrod">
 
-                <div class="col-md-9" style="width:70%;">
-                    <h3>Việc làm theo ngành nghề</h3>
+                <div class="col-md-9 joby">
                     <?php
                     foreach ($categories as $category) :
                         $category_thumbnail =  get_term_meta($category->term_taxonomy_id, 'category-image-id', true);
                         $image = wp_get_attachment_url($category_thumbnail);
                     ?>
-                        <div class="col-md-3" style="width: 33.33%;">
+                        <div class="col-md-3 item">
                             <img src="<?php echo $image; ?>" alt="">
                             <p><?php echo $category->name ?></p>
                         </div>
                     <?php endforeach ?>
                 </div>
-                <div class="col-md-3" style="width:30%;">
-                <h3>Từ khóa phổ biến</h3>
+                <div class="col-md-3">
+                    <h3>Từ khóa phổ biến</h3>
                 </div>
             </div>
 
