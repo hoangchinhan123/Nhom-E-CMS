@@ -394,18 +394,13 @@ class WP_Theme_JSON {
 	/**
 	 * Defines which pseudo selectors are enabled for which elements.
 	 *
-	 * The order of the selectors should be: visited, hover, focus, active.
-	 * This is to ensure that 'visited' has the lowest specificity
-	 * and the other selectors can always overwrite it.
-	 *
-	 * See https://core.trac.wordpress.org/ticket/56928.
 	 * Note: this will affect both top-level and block-level elements.
 	 *
 	 * @since 6.1.0
 	 */
 	const VALID_ELEMENT_PSEUDO_SELECTORS = array(
-		'link'   => array( ':visited', ':hover', ':focus', ':active' ),
-		'button' => array( ':visited', ':hover', ':focus', ':active' ),
+		'link'   => array( ':hover', ':focus', ':active', ':visited' ),
+		'button' => array( ':hover', ':focus', ':active', ':visited' ),
 	);
 
 	/**
@@ -461,8 +456,6 @@ class WP_Theme_JSON {
 	public static function get_element_class_name( $element ) {
 		$class_name = '';
 
-		// TODO: Replace array_key_exists() with isset() check once WordPress drops
-		// support for PHP 5.6. See https://core.trac.wordpress.org/ticket/57067.
 		if ( array_key_exists( $element, static::__EXPERIMENTAL_ELEMENT_CLASS_NAMES ) ) {
 			$class_name = static::__EXPERIMENTAL_ELEMENT_CLASS_NAMES[ $element ];
 		}
@@ -521,10 +514,7 @@ class WP_Theme_JSON {
 		$nodes = static::get_setting_nodes( $this->theme_json );
 		foreach ( $nodes as $node ) {
 			foreach ( static::PRESETS_METADATA as $preset_metadata ) {
-				$path = $node['path'];
-				foreach ( $preset_metadata['path'] as $subpath ) {
-					$path[] = $subpath;
-				}
+				$path   = array_merge( $node['path'], $preset_metadata['path'] );
 				$preset = _wp_array_get( $this->theme_json, $path, null );
 				if ( null !== $preset ) {
 					// If the preset is not already keyed by origin.
@@ -613,7 +603,6 @@ class WP_Theme_JSON {
 		 */
 		$styles_non_top_level = static::VALID_STYLES;
 		foreach ( array_keys( $styles_non_top_level ) as $section ) {
-			// array_key_exists() needs to be used instead of isset() because the value can be null.
 			if ( array_key_exists( $section, $styles_non_top_level ) && is_array( $styles_non_top_level[ $section ] ) ) {
 				foreach ( array_keys( $styles_non_top_level[ $section ] ) as $prop ) {
 					if ( 'top' === $styles_non_top_level[ $section ][ $prop ] ) {
@@ -637,8 +626,6 @@ class WP_Theme_JSON {
 		foreach ( $valid_element_names as $element ) {
 			$schema_styles_elements[ $element ] = $styles_non_top_level;
 
-			// TODO: Replace array_key_exists() with isset() check once WordPress drops
-			// support for PHP 5.6. See https://core.trac.wordpress.org/ticket/57067.
 			if ( array_key_exists( $element, static::VALID_ELEMENT_PSEUDO_SELECTORS ) ) {
 				foreach ( static::VALID_ELEMENT_PSEUDO_SELECTORS[ $element ] as $pseudo_selector ) {
 					$schema_styles_elements[ $element ][ $pseudo_selector ] = $styles_non_top_level;
@@ -1281,12 +1268,8 @@ class WP_Theme_JSON {
 
 			$selector = $metadata['selector'];
 
-			$node                    = _wp_array_get( $this->theme_json, $metadata['path'], array() );
-			$declarations            = static::compute_preset_vars( $node, $origins );
-			$theme_vars_declarations = static::compute_theme_vars( $node );
-			foreach ( $theme_vars_declarations as $theme_vars_declaration ) {
-				$declarations[] = $theme_vars_declaration;
-			}
+			$node         = _wp_array_get( $this->theme_json, $metadata['path'], array() );
+			$declarations = array_merge( static::compute_preset_vars( $node, $origins ), static::compute_theme_vars( $node ) );
 
 			$stylesheet .= static::to_ruleset( $selector, $declarations );
 		}
@@ -1613,11 +1596,11 @@ class WP_Theme_JSON {
 			);
 
 			if ( is_array( $value ) ) {
-				$new_prefix        = $new_key . $token;
-				$flattened_subtree = static::flatten_tree( $value, $new_prefix, $token );
-				foreach ( $flattened_subtree as $subtree_key => $subtree_value ) {
-					$result[ $subtree_key ] = $subtree_value;
-				}
+				$new_prefix = $new_key . $token;
+				$result     = array_merge(
+					$result,
+					static::flatten_tree( $value, $new_prefix, $token )
+				);
 			} else {
 				$result[ $new_key ] = $value;
 			}
@@ -1679,8 +1662,6 @@ class WP_Theme_JSON {
 			if ( is_array( $value_path ) ) {
 				$path_string = implode( '.', $value_path );
 				if (
-					// TODO: Replace array_key_exists() with isset() check once WordPress drops
-					// support for PHP 5.6. See https://core.trac.wordpress.org/ticket/57067.
 					array_key_exists( $path_string, static::PROTECTED_PROPERTIES ) &&
 					_wp_array_get( $settings, static::PROTECTED_PROPERTIES[ $path_string ], null ) === null
 				) {
@@ -1756,7 +1737,7 @@ class WP_Theme_JSON {
 		 * where the values is an array with a "ref" key, pointing to a path.
 		 * For example: { "ref": "style.color.background" } => "#fff".
 		 */
-		if ( is_array( $value ) && isset( $value['ref'] ) ) {
+		if ( is_array( $value ) && array_key_exists( 'ref', $value ) ) {
 			$value_path = explode( '.', $value['ref'] );
 			$ref_value  = _wp_array_get( $theme_json, $value_path );
 			// Only use the ref value if we find anything.
@@ -1764,7 +1745,7 @@ class WP_Theme_JSON {
 				$value = $ref_value;
 			}
 
-			if ( is_array( $ref_value ) && isset( $ref_value['ref'] ) ) {
+			if ( is_array( $ref_value ) && array_key_exists( 'ref', $ref_value ) ) {
 				$path_string      = json_encode( $path );
 				$ref_value_string = json_encode( $ref_value );
 				_doing_it_wrong(
@@ -1900,8 +1881,6 @@ class WP_Theme_JSON {
 				);
 
 				// Handle any pseudo selectors for the element.
-				// TODO: Replace array_key_exists() with isset() check once WordPress drops
-				// support for PHP 5.6. See https://core.trac.wordpress.org/ticket/57067.
 				if ( array_key_exists( $element, static::VALID_ELEMENT_PSEUDO_SELECTORS ) ) {
 					foreach ( static::VALID_ELEMENT_PSEUDO_SELECTORS[ $element ] as $pseudo_selector ) {
 
@@ -1921,10 +1900,7 @@ class WP_Theme_JSON {
 			return $nodes;
 		}
 
-		$block_nodes = static::get_block_nodes( $theme_json );
-		foreach ( $block_nodes as $block_node ) {
-			$nodes[] = $block_node;
-		}
+		$nodes = array_merge( $nodes, static::get_block_nodes( $theme_json ) );
 
 		/**
 		 * Filters the list of style nodes with metadata.
@@ -1947,44 +1923,6 @@ class WP_Theme_JSON {
 	 */
 	public function get_styles_block_nodes() {
 		return static::get_block_nodes( $this->theme_json );
-	}
-
-	/**
-	 * Returns a filtered declarations array if there is a separator block with only a background
-	 * style defined in theme.json by adding a color attribute to reflect the changes in the front.
-	 *
-	 * @since 6.1.1
-	 *
-	 * @param array $declarations List of declarations.
-	 * @return array $declarations List of declarations filtered.
-	 */
-	private static function update_separator_declarations( $declarations ) {
-		$background_color     = '';
-		$border_color_matches = false;
-		$text_color_matches   = false;
-
-		foreach ( $declarations as $declaration ) {
-			if ( 'background-color' === $declaration['name'] && ! $background_color && isset( $declaration['value'] ) ) {
-				$background_color = $declaration['value'];
-			} elseif ( 'border-color' === $declaration['name'] ) {
-				$border_color_matches = true;
-			} elseif ( 'color' === $declaration['name'] ) {
-				$text_color_matches = true;
-			}
-
-			if ( $background_color && $border_color_matches && $text_color_matches ) {
-				break;
-			}
-		}
-
-		if ( $background_color && ! $border_color_matches && ! $text_color_matches ) {
-			$declarations[] = array(
-				'name'  => 'color',
-				'value' => $background_color,
-			);
-		}
-
-		return $declarations;
 	}
 
 	/**
@@ -2039,8 +1977,6 @@ class WP_Theme_JSON {
 					);
 
 					// Handle any pseudo selectors for the element.
-					// TODO: Replace array_key_exists() with isset() check once WordPress drops
-					// support for PHP 5.6. See https://core.trac.wordpress.org/ticket/57067.
 					if ( array_key_exists( $element, static::VALID_ELEMENT_PSEUDO_SELECTORS ) ) {
 						foreach ( static::VALID_ELEMENT_PSEUDO_SELECTORS[ $element ] as $pseudo_selector ) {
 							if ( isset( $theme_json['styles']['blocks'][ $name ]['elements'][ $element ][ $pseudo_selector ] ) ) {
@@ -2094,9 +2030,7 @@ class WP_Theme_JSON {
 					// the feature selector. This may occur when multiple block
 					// support features use the same custom selector.
 					if ( isset( $feature_declarations[ $feature_selector ] ) ) {
-						foreach ( $new_feature_declarations as $new_feature_declaration ) {
-							$feature_declarations[ $feature_selector ][] = $feature_declaration;
-						}
+						$feature_declarations[ $feature_selector ] = array_merge( $feature_declarations[ $feature_selector ], $new_feature_declarations );
 					} else {
 						$feature_declarations[ $feature_selector ] = $new_feature_declarations;
 					}
@@ -2120,8 +2054,6 @@ class WP_Theme_JSON {
 
 		$element_pseudo_allowed = array();
 
-		// TODO: Replace array_key_exists() with isset() check once WordPress drops
-		// support for PHP 5.6. See https://core.trac.wordpress.org/ticket/57067.
 		if ( array_key_exists( $current_element, static::VALID_ELEMENT_PSEUDO_SELECTORS ) ) {
 			$element_pseudo_allowed = static::VALID_ELEMENT_PSEUDO_SELECTORS[ $current_element ];
 		}
@@ -2147,8 +2079,6 @@ class WP_Theme_JSON {
 		 * Otherwise just compute the styles for the default selector as normal.
 		 */
 		if ( $pseudo_selector && isset( $node[ $pseudo_selector ] ) &&
-			// TODO: Replace array_key_exists() with isset() check once WordPress drops
-			// support for PHP 5.6. See https://core.trac.wordpress.org/ticket/57067.
 			array_key_exists( $current_element, static::VALID_ELEMENT_PSEUDO_SELECTORS )
 			&& in_array( $pseudo_selector, static::VALID_ELEMENT_PSEUDO_SELECTORS[ $current_element ], true )
 		) {
@@ -2169,11 +2099,6 @@ class WP_Theme_JSON {
 				unset( $declarations[ $index ] );
 				$declarations_duotone[] = $declaration;
 			}
-		}
-
-		// Update declarations if there are separators with only background color defined.
-		if ( '.wp-block-separator' === $selector ) {
-			$declarations = static::update_separator_declarations( $declarations );
 		}
 
 		// 2. Generate and append the rules that use the general selector.
@@ -2353,11 +2278,11 @@ class WP_Theme_JSON {
 		$nodes        = static::get_setting_nodes( $incoming_data );
 		$slugs_global = static::get_default_slugs( $this->theme_json, array( 'settings' ) );
 		foreach ( $nodes as $node ) {
-			// Replace the spacing.units.
-			$path   = $node['path'];
-			$path[] = 'spacing';
-			$path[] = 'units';
+			$slugs_node = static::get_default_slugs( $this->theme_json, $node['path'] );
+			$slugs      = array_merge_recursive( $slugs_global, $slugs_node );
 
+			// Replace the spacing.units.
+			$path    = array_merge( $node['path'], array( 'spacing', 'units' ) );
 			$content = _wp_array_get( $incoming_data, $path, null );
 			if ( isset( $content ) ) {
 				_wp_array_set( $this->theme_json, $path, $content );
@@ -2368,25 +2293,19 @@ class WP_Theme_JSON {
 				$override_preset = ! static::get_metadata_boolean( $this->theme_json['settings'], $preset['prevent_override'], true );
 
 				foreach ( static::VALID_ORIGINS as $origin ) {
-					$base_path = $node['path'];
-					foreach ( $preset['path'] as $leaf ) {
-						$base_path[] = $leaf;
-					}
-
-					$path   = $base_path;
-					$path[] = $origin;
-
-					$content = _wp_array_get( $incoming_data, $path, null );
+					$base_path = array_merge( $node['path'], $preset['path'] );
+					$path      = array_merge( $base_path, array( $origin ) );
+					$content   = _wp_array_get( $incoming_data, $path, null );
 					if ( ! isset( $content ) ) {
 						continue;
 					}
 
 					if ( 'theme' === $origin && $preset['use_default_names'] ) {
-						foreach ( $content as $key => $item ) {
-							if ( ! isset( $item['name'] ) ) {
+						foreach ( $content as &$item ) {
+							if ( ! array_key_exists( 'name', $item ) ) {
 								$name = static::get_name_from_defaults( $item['slug'], $base_path );
 								if ( null !== $name ) {
-									$content[ $key ]['name'] = $name;
+									$item['name'] = $name;
 								}
 							}
 						}
@@ -2398,9 +2317,6 @@ class WP_Theme_JSON {
 					) {
 						_wp_array_set( $this->theme_json, $path, $content );
 					} else {
-						$slugs_node = static::get_default_slugs( $this->theme_json, $node['path'] );
-						$slugs      = array_merge_recursive( $slugs_global, $slugs_node );
-
 						$slugs_for_preset = _wp_array_get( $slugs, $preset['path'], array() );
 						$content          = static::filter_slugs( $content, $slugs_for_preset );
 						_wp_array_set( $this->theme_json, $path, $content );
@@ -2513,12 +2429,7 @@ class WP_Theme_JSON {
 		$slugs = array();
 
 		foreach ( static::PRESETS_METADATA as $metadata ) {
-			$path = $node_path;
-			foreach ( $metadata['path'] as $leaf ) {
-				$path[] = $leaf;
-			}
-			$path[] = 'default';
-
+			$path   = array_merge( $node_path, $metadata['path'], array( 'default' ) );
 			$preset = _wp_array_get( $data, $path, null );
 			if ( ! isset( $preset ) ) {
 				continue;
@@ -2547,8 +2458,7 @@ class WP_Theme_JSON {
 	 * @return string|null
 	 */
 	protected function get_name_from_defaults( $slug, $base_path ) {
-		$path            = $base_path;
-		$path[]          = 'default';
+		$path            = array_merge( $base_path, array( 'default' ) );
 		$default_content = _wp_array_get( $this->theme_json, $path, null );
 		if ( ! $default_content ) {
 			return null;
@@ -2624,8 +2534,6 @@ class WP_Theme_JSON {
 			 * $output is stripped of pseudo selectors. Re-add and process them
 			 * or insecure styles here.
 			 */
-			// TODO: Replace array_key_exists() with isset() check once WordPress drops
-			// support for PHP 5.6. See https://core.trac.wordpress.org/ticket/57067.
 			if ( array_key_exists( $current_element, static::VALID_ELEMENT_PSEUDO_SELECTORS ) ) {
 				foreach ( static::VALID_ELEMENT_PSEUDO_SELECTORS[ $current_element ] as $pseudo_selector ) {
 					if ( isset( $input[ $pseudo_selector ] ) ) {
@@ -2680,9 +2588,8 @@ class WP_Theme_JSON {
 		$output = array();
 		foreach ( static::PRESETS_METADATA as $preset_metadata ) {
 			foreach ( static::VALID_ORIGINS as $origin ) {
-				$path_with_origin   = $preset_metadata['path'];
-				$path_with_origin[] = $origin;
-				$presets            = _wp_array_get( $input, $path_with_origin, null );
+				$path_with_origin = array_merge( $preset_metadata['path'], array( $origin ) );
+				$presets          = _wp_array_get( $input, $path_with_origin, null );
 				if ( null === $presets ) {
 					continue;
 				}
@@ -2927,10 +2834,7 @@ class WP_Theme_JSON {
 		 */
 		foreach ( $nodes as $node ) {
 			foreach ( static::PRESETS_METADATA as $preset_metadata ) {
-				$path = $node['path'];
-				foreach ( $preset_metadata['path'] as $preset_metadata_path ) {
-					$path[] = $preset_metadata_path;
-				}
+				$path   = array_merge( $node['path'], $preset_metadata['path'] );
 				$preset = _wp_array_get( $output, $path, null );
 				if ( null === $preset ) {
 					continue;
@@ -2964,10 +2868,7 @@ class WP_Theme_JSON {
 		foreach ( $nodes as $node ) {
 			$all_opt_ins_are_set = true;
 			foreach ( static::APPEARANCE_TOOLS_OPT_INS as $opt_in_path ) {
-				$full_path = $node['path'];
-				foreach ( $opt_in_path as $opt_in_path_item ) {
-					$full_path[] = $opt_in_path_item;
-				}
+				$full_path = array_merge( $node['path'], $opt_in_path );
 				// Use "unset prop" as a marker instead of "null" because
 				// "null" can be a valid value for some props (e.g. blockGap).
 				$opt_in_value = _wp_array_get( $output, $full_path, 'unset prop' );
@@ -2978,14 +2879,9 @@ class WP_Theme_JSON {
 			}
 
 			if ( $all_opt_ins_are_set ) {
-				$node_path_with_appearance_tools   = $node['path'];
-				$node_path_with_appearance_tools[] = 'appearanceTools';
-				_wp_array_set( $output, $node_path_with_appearance_tools, true );
+				_wp_array_set( $output, array_merge( $node['path'], array( 'appearanceTools' ) ), true );
 				foreach ( static::APPEARANCE_TOOLS_OPT_INS as $opt_in_path ) {
-					$full_path = $node['path'];
-					foreach ( $opt_in_path as $opt_in_path_item ) {
-						$full_path[] = $opt_in_path_item;
-					}
+					$full_path = array_merge( $node['path'], $opt_in_path );
 					// Use "unset prop" as a marker instead of "null" because
 					// "null" can be a valid value for some props (e.g. blockGap).
 					$opt_in_value = _wp_array_get( $output, $full_path, 'unset prop' );
@@ -3038,8 +2934,7 @@ class WP_Theme_JSON {
 	public function set_spacing_sizes() {
 		$spacing_scale = _wp_array_get( $this->theme_json, array( 'settings', 'spacing', 'spacingScale' ), array() );
 
-		if ( ! isset( $spacing_scale['steps'] )
-			|| ! is_numeric( $spacing_scale['steps'] )
+		if ( ! is_numeric( $spacing_scale['steps'] )
 			|| ! isset( $spacing_scale['mediumStep'] )
 			|| ! isset( $spacing_scale['unit'] )
 			|| ! isset( $spacing_scale['operator'] )
@@ -3136,10 +3031,7 @@ class WP_Theme_JSON {
 			$slug += 10;
 		}
 
-		$spacing_sizes = $below_sizes;
-		foreach ( $above_sizes as $above_sizes_item ) {
-			$spacing_sizes[] = $above_sizes_item;
-		}
+		$spacing_sizes = array_merge( $below_sizes, $above_sizes );
 
 		// If there are 7 or less steps in the scale revert to numbers for labels instead of t-shirt sizes.
 		if ( $spacing_scale['steps'] <= 7 ) {

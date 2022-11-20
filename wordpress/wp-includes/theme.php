@@ -1725,8 +1725,7 @@ function get_custom_header_markup() {
 	}
 
 	return sprintf(
-		'<div class="container"><div id="wp-custom-header" class="wp-custom-header">%s</div></div>',
-		
+		'<div id="wp-custom-header" class="wp-custom-header">%s</div>',
 		get_header_image_tag()
 	);
 }

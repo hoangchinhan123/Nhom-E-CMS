@@ -1999,11 +1999,12 @@ HEADER T SECTION
 }
 
 .site-header .header-t {
+  background: #f5f5f7;
   padding: 8px 0;
 }
 
 .site-header .header-t a:hover {
-  color: #017892;
+  color: #2ace5e;
 }
 
 .header-t .left-block {
@@ -2037,7 +2038,7 @@ HEADER T SECTION
 .secondary-nav ul li.current_page_item>a,
 .secondary-nav ul li.current-menu-ancestor>a,
 .secondary-nav ul li.current_page_ancestor>a {
-  color: black;
+  color: #2ace5e;
 }
 
 .secondary-nav ul.nav-menu>li:first-child>a {
@@ -2045,16 +2046,7 @@ HEADER T SECTION
 }
 
 .secondary-nav ul.nav-menu>li:last-child>a {
-
-  padding: 10px 15px;
-  border: 1px solid #fda382;
-  color: #017892;
-  font-weight: bold;
-}
-
-.secondary-nav ul.nav-menu>li:last-child>a:hover {
-  background: #fda382;
-  color: #ffff;
+  padding-right: 0;
 }
 
 .secondary-nav ul li .sub-menu {
@@ -2062,13 +2054,11 @@ HEADER T SECTION
   top: 100%;
   left: 0;
   width: 220px;
-  background: #ffff;
+  background: #f5f5f5;
   z-index: 99;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
   padding-top: 10px;
   opacity: 0;
-  text-align: left;
-  border-top: 3px solid #017892;
 }
 
 .secondary-nav ul li .sub-menu .sub-menu {
@@ -2089,29 +2079,17 @@ HEADER T SECTION
 
 .secondary-nav ul li ul li a {
   display: block;
-  padding: 5px 17px;
-}
-
-.secondary-nav ul li ul li a:hover {
-  color: #017892;
+  padding: 15px 17px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .header-t .right-block {
   display: inline-block;
   vertical-align: middle;
-  width: 40%;
+  width: 29%;
   text-align: right;
   float: right;
   margin-top: 2px;
-}
-
-.header-t {
-  background: #fff;
-  z-index: 1;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
 }
 
 .right-block a.btn-link {
@@ -2150,6 +2128,9 @@ HEADER MAIN SECTION
   transition: all ease 0.35s;
 }
 
+.header-main {
+  padding: 30px 0;
+}
 
 body:not(.home) .site-header,
 body.home:not(.banner-enabled) .site-header {
@@ -2367,47 +2348,6 @@ SITE BANNER SECTION
   background: none;
 }
 
-.search_jobs .search_keywords {
-  margin: 15px 15px 15px 10px;
-}
-
-.search_jobs #search_keywords {
-  height: 44px;
-}
-
-
-.search_jobs #search_location {
-  height: 44px;
-  border-top-right-radius: 0%;
-  border-bottom-right-radius: 0%;
-  width: 200px;
-  background: #85b1ce;
-  color: #fffff7;
-}
-
-.search_jobs #category {
-  border-top-left-radius: 0%;
-  border-bottom-left-radius: 0%;
-  height: 44px;
-  width: 245px;
-}
-
-.search_jobs .search_category {
-  margin-right: 15px;
-}
-
-.searchlc {
-  display: flex;
-}
-
-.search_jobs .search_submit input {
-  background: #ea8024;
-  border: #ea8024;
-  padding: 10px 50px;
-  height: 44px;
-  margin-right: 10px;
-}
-
 .banner-caption .search-filter-wrap .search-form {
   max-width: 540px;
   margin: 0 auto;
@@ -2420,11 +2360,6 @@ SITE BANNER SECTION
   flex-wrap: wrap;
   border-radius: 5px;
   overflow: hidden;
-}
-
-.search_jobs {
-  display: flex;
-  align-items: center;
 }
 
 .banner-caption .jobscout_job_filters .search_jobs div.filter_first,
@@ -2511,10 +2446,6 @@ SITE BANNER WITH VIDEO
   position: relative;
   height: 0;
   padding-top: 56.25%;
-}
-
-.site-banner #wp-custom-header {
-  margin-top: 60px;
 }
 
 .video-banner #wp-custom-header::before {
@@ -2606,7 +2537,7 @@ TOP JOB SECTION
 =============================*/
 section.top-job-section {
   background: #f5f5f7;
-  padding: 20px 0;
+  padding: 70px 0;
 }
 
 section.top-job-section .section-title {
@@ -2731,31 +2662,8 @@ section.top-job-section .section-title {
   color: #2ace5e;
 }
 
-.top-job-section h3 {
-  color: #434343;
-}
-
-.top-job-section .container .jobygrod .joby {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-.top-job-section .container .jobygrod {
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-}
-
-.top-job-section .item {
-  text-align: center;
-  font-weight: bold;
-  color: #017892;
-  font-size: 15px;
-}
-
-
 .job-manager li.job-type,
-.job-types li.job-type,
-.job_listing li.job-type {
+.job-types li.job-type {
   list-style: none;
   font-size: 0.7778em;
   text-transform: uppercase;
@@ -2789,6 +2697,13 @@ section.top-job-section .section-title {
 .job_listing li.part-time {
   color: #f08d3c;
   border-color: #f08d3c;
+}
+
+.job_listings .job-title-wrap .entry-meta .job-type {
+  list-style-type: none;
+  color: #989898 !important;
+  padding: 5px;
+  border-right: 1px solid;
 }
 
 .job-manager li.temporary,
@@ -3324,12 +3239,6 @@ LIST VIEW
   margin-top: 0;
 }
 
-.site-main article .entry-content p {
-  margin-top: 5px;
-  margin-bottom: 15px;
-  display: table;
-  width: 100%;
-}
 
 a.readmore-link {
   font-size: 0.888em;
@@ -5646,16 +5555,14 @@ JOB LISTING PAGE
 ==========================*/
 .site-main .entry-content div.job_listings div.job_listings article {
   background: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
-  margin-bottom: 25px;
-  border-radius: 5px;
-  padding: 30px;
+  padding: 10px;
   position: relative;
   display: flex;
   flex: 1;
   flex-wrap: wrap;
   overflow: hidden;
   align-items: flex-start;
+  margin: 0;
 }
 
 .site-main .entry-content div.job_listings div.job_listings article .company-logo {
@@ -5678,25 +5585,21 @@ JOB LISTING PAGE
 
 .site-main .entry-content div.job_listings div.job_listings article .company-name {
   font-size: 0.8888em;
-  color: rgba(0, 0, 0, 0.5);
-  font-weight: 400;
+  color: #989898 !important;
+  font-weight: bold;
   line-height: 1.44em;
-  margin-top: 5px;
-}
-
-.site-main .entry-content div.job_listings div.job_listings article .company-name:before {
-  content: "@";
+  padding: 5px;
+  border-right: 1px solid;
 }
 
 .site-main .entry-content div.job_listings div.job_listings article .entry-meta {
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  margin-top: 15px;
-  padding-top: 15px;
-  font-size: 1em;
   display: flex;
-  flex: 1;
-  flex-wrap: wrap;
-  align-items: center;
+  background: #eeeeee;
+  color: #989898 !important;
+  text-align: center;
+  padding: 5px;
+  font-size: 10px;
+  font-weight: bold;
 }
 
 .site-main .entry-content div.job_listings div.job_listings article .entry-meta .salary-amt,
@@ -5704,8 +5607,7 @@ JOB LISTING PAGE
   font-size: 0.8888em;
   line-height: 1.44em;
   font-weight: 400;
-  margin-bottom: 5px;
-  margin-right: 40px;
+  padding: 5px;
 }
 
 .site-main .entry-content div.job_listings div.job_listings article .entry-meta .salary-amt .currency {
@@ -5720,27 +5622,30 @@ JOB LISTING PAGE
 }
 
 .site-main .entry-content div.job_listings div.job_listings article .entry-meta a {
-  color: #000;
+  color: #989898 !important;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .site-main .entry-content div.job_listings div.job_listings article .entry-meta a:hover {
   color: #2ace5e;
 }
 
-.site-main .entry-content div.job_listings div.job_listings article .entry-meta .job-type {
-  margin-top: 0;
-  margin-left: auto;
-  display: table;
+.site-main #post-10 .entry-content .job_listings .job_listings {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  background: #eeeeee;
 }
 
 div.job_listings .load_more_jobs {
   display: table;
-  border: 1px solid #2ace5e;
+  border: 2px solid #f08d3c;
   text-transform: uppercase;
   font-size: 0.7778em;
   font-weight: 400;
-  background: #2ace5e;
-  color: #fff;
+  color: #f08d3c;
   padding: 15px 20px;
   margin-top: 40px;
   margin-left: auto;
@@ -5748,7 +5653,14 @@ div.job_listings .load_more_jobs {
   clear: both;
 }
 
-div.job_listings .load_more_jobs:hover,
+.entry-content a,
+.entry-summary a,
+.page-content a,
+.comment-content a,
+.widget .textwidget a {
+  text-decoration: none;
+}
+
 div.job_listings .load_more_jobs:focus {
   background: none;
   color: #2ace5e;
@@ -7907,13 +7819,44 @@ RESPONSIVE STYLESHEET
   text-decoration: underline;
 }
 
-.entry-content a:hover,
+.entry-content a {
+  text-decoration: none;
+}
+
+.job-content p::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 40%;
+  background: black;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+
+.job-content p {
+  position: relative;
+  overflow: hidden;
+  font-size: 15px;
+  text-overflow: ellipsis;
+  line-height: 15px;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  padding-left: 15px;
+  margin: 10px;
+}
+
+.job-title-wrap .entry-time {
+  font-size: 12px;
+}
+
 .entry-summary a:hover,
 .page-content a:hover,
 .comment-content a:hover,
 .widget .textwidget a:hover {
   color: #2ace5e;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* Accessibilty for secondary menu */

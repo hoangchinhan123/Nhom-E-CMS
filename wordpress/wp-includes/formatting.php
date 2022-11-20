@@ -1601,11 +1601,9 @@ function remove_accents( $string, $locale = '' ) {
 
 		// Unicode sequence normalization from NFD (Normalization Form Decomposed)
 		// to NFC (Normalization Form [Pre]Composed), the encoding used in this function.
-		if ( function_exists( 'normalizer_is_normalized' )
-			&& function_exists( 'normalizer_normalize' )
-		) {
-			if ( ! normalizer_is_normalized( $string ) ) {
-				$string = normalizer_normalize( $string );
+		if ( function_exists( 'normalizer_normalize' ) ) {
+			if ( ! normalizer_is_normalized( $string, Normalizer::FORM_C ) ) {
+				$string = normalizer_normalize( $string, Normalizer::FORM_C );
 			}
 		}
 

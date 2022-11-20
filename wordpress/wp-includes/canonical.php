@@ -331,9 +331,7 @@ function redirect_canonical( $requested_url = null, $do_redirect = true ) {
 			$term_count = 0;
 
 			foreach ( $wp_query->tax_query->queried_terms as $tax_query ) {
-				if ( isset( $tax_query['terms'] ) && is_countable( $tax_query['terms'] ) ) {
-					$term_count += count( $tax_query['terms'] );
-				}
+				$term_count += count( $tax_query['terms'] );
 			}
 
 			$obj = $wp_query->get_queried_object();
