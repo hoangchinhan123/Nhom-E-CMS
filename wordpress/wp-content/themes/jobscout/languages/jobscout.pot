@@ -1,0 +1,1642 @@
+# <!=Copyright (C) 2022 Rara Theme
+# This file is distributed under the GNU General Public License v2 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: JobScout 1.1.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/jobscout\n"
+"POT-Creation-Date: 2022-07-28 07:56:05+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: 404.php:18
+msgid "404"
+msgstr ""
+
+#: 404.php:14
+msgid "Uh - oh..."
+msgstr ""
+
+#: 404.php:17
+msgid ""
+"The page you are looking for may have been moved, deleted, or possibly "
+"never existed."
+msgstr ""
+
+#: 404.php:19
+msgid "Take me to the home page"
+msgstr ""
+
+#: comments.php:53
+msgid "Comments are closed."
+msgstr ""
+
+#: inc/custom-functions.php:46 inc/custom-functions.php:133
+msgid "Primary"
+msgstr ""
+
+#: inc/custom-functions.php:47
+msgid "Secondary"
+msgstr ""
+
+#: inc/custom-functions.php:342
+msgid "Name*"
+msgstr ""
+
+#: inc/custom-functions.php:342 inc/custom-functions.php:346
+msgid "Name"
+msgstr ""
+
+#: inc/custom-functions.php:343
+msgid "Email*"
+msgstr ""
+
+#: inc/custom-functions.php:343 inc/custom-functions.php:348
+msgid "Email"
+msgstr ""
+
+#: inc/custom-functions.php:350
+msgid "Website"
+msgstr ""
+
+#: inc/custom-functions.php:363
+msgid "Comment"
+msgstr ""
+
+#: inc/custom-functions.php:408 inc/extras.php:760 inc/extras.php:762
+#: inc/extras.php:767 inc/extras.php:772 inc/partials.php:203
+msgid "Y"
+msgstr ""
+
+#: inc/custom-functions.php:410
+msgid "F Y"
+msgstr ""
+
+#: inc/custom-functions.php:412
+msgid "F j, Y"
+msgstr ""
+
+#: inc/custom-functions.php:488
+msgid "Congratulations!"
+msgstr ""
+
+#: inc/custom-functions.php:489
+msgid ""
+"%1$s is now installed and ready to use. Click below to see theme "
+"documentation, plugins to install and other details to get started."
+msgstr ""
+
+#: inc/custom-functions.php:490
+msgid "Go to the getting started."
+msgstr ""
+
+#: inc/custom-functions.php:491
+msgid "Dismiss"
+msgstr ""
+
+#: inc/customizer/customizer.php:55
+msgid "Successfully Flushed!"
+msgstr ""
+
+#: inc/customizer/customizer.php:80
+#. translators: %s: plugin name
+msgid ""
+"If you want to take full advantage of the features this theme has to offer, "
+"please install and activate %s plugin."
+msgstr ""
+
+#: inc/customizer/customizer.php:84
+msgid "Recommended Plugin"
+msgstr ""
+
+#: inc/customizer/customizer.php:85
+msgid "Install and Activate"
+msgstr ""
+
+#: inc/customizer/customizer.php:86
+#: inc/customizer-plugin-recommend/plugin-install/class-plugin-install-helper.php:75
+#: inc/getting-started/class-getting-start-plugin-helper.php:89
+#: inc/getting-started/class-getting-start-plugin-helper.php:109
+#: inc/tgmpa/class-tgm-plugin-activation.php:2876
+msgid "Activate"
+msgstr ""
+
+#: inc/customizer/customizer.php:87
+#: inc/getting-started/class-getting-start-plugin-helper.php:104
+msgid "Deactivate"
+msgstr ""
+
+#: inc/customizer/panels/appearance.php:15
+msgid "Appearance Settings"
+msgstr ""
+
+#: inc/customizer/panels/appearance.php:18
+msgid "Change color and body background."
+msgstr ""
+
+#: inc/customizer/panels/appearance.php:26
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer/panels/appearance.php:43
+msgid "Load Google Fonts Locally"
+msgstr ""
+
+#: inc/customizer/panels/appearance.php:60
+msgid "Preload Local Fonts"
+msgstr ""
+
+#: inc/customizer/panels/appearance.php:79
+#: inc/customizer/panels/appearance.php:85
+msgid "Flush Local Fonts Cache"
+msgstr ""
+
+#: inc/customizer/panels/appearance.php:80
+msgid "Click the button to reset the local fonts cache."
+msgstr ""
+
+#: inc/customizer/panels/appearance.php:97
+msgid "Background"
+msgstr ""
+
+#: inc/customizer/panels/appearance.php:98
+msgid "Background color of the theme."
+msgstr ""
+
+#: inc/customizer/panels/contact.php:15
+msgid "Contact Page Settings"
+msgstr ""
+
+#: inc/customizer/panels/contact.php:18
+msgid "Contact Form, Google Map and Contact Details settings."
+msgstr ""
+
+#: inc/customizer/panels/general/header.php:15
+msgid "Header Settings"
+msgstr ""
+
+#: inc/customizer/panels/general/header.php:25 inc/extras.php:168
+#: inc/partials.php:40 inc/template-functions.php:38
+msgid "Post Jobs"
+msgstr ""
+
+#: inc/customizer/panels/general/header.php:36
+msgid "Post Job Label"
+msgstr ""
+
+#: inc/customizer/panels/general/header.php:59
+msgid "Post Job Url"
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:16
+msgid "Posts(Blog) & Pages Settings"
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:37
+msgid "Hide Prefix in Archive Page"
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:38
+msgid "Enable to hide prefix in archive page."
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:58
+msgid "Enable Blog Excerpt"
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:59
+msgid "Enable to show excerpt or disable to show full post content."
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:79
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:80
+msgid "Automatically generated excerpt length (in words)."
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:94 inc/partials.php:170
+#: inc/template-functions.php:321
+msgid "Read More"
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:105
+msgid "Read More Text"
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:129
+msgid "%s These options affect your individual posts."
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:149
+msgid "Hide Author Section"
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:150
+msgid "Enable to hide author section."
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:159 inc/partials.php:183
+#: inc/template-functions.php:439
+msgid "About Author"
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:170
+msgid "Author Section Title"
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:196
+msgid "Show Comments"
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:197
+msgid "Enable to show Comments in Single Post/Page."
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:217
+msgid "Hide Category"
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:218
+msgid "Enable to hide category."
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:238
+msgid "Hide Post Author"
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:239
+msgid "Enable to hide post author."
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:259
+msgid "Hide Posted Date"
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:260
+msgid "Enable to hide posted date."
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:280
+msgid "Show Featured Image"
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:281
+msgid "Enable to show featured image in post detail (single post)."
+msgstr ""
+
+#: inc/customizer/panels/general/seo.php:15
+msgid "SEO Settings"
+msgstr ""
+
+#: inc/customizer/panels/general/seo.php:36
+msgid "Enable Last Update Post Date"
+msgstr ""
+
+#: inc/customizer/panels/general/seo.php:37
+msgid "Enable to show last updated post date on listing as well as in single post."
+msgstr ""
+
+#: inc/customizer/panels/general.php:18
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer/panels/general.php:19
+msgid ""
+"Customize Header, Social, Sharing, SEO, Post/Page, Newsletter, Performance "
+"and Miscellaneous settings."
+msgstr ""
+
+#: inc/customizer/panels/home/banner.php:12
+msgid "Banner Section"
+msgstr ""
+
+#: inc/customizer/panels/home/banner.php:33
+msgid "Enable Banner Section"
+msgstr ""
+
+#: inc/customizer/panels/home/banner.php:34
+msgid "Enable to show banner section."
+msgstr ""
+
+#: inc/customizer/panels/home/banner.php:45 inc/partials.php:53
+#: sections/banner.php:9
+msgid "Aim Higher, Dream Bigger"
+msgstr ""
+
+#: inc/customizer/panels/home/banner.php:54
+msgid "Title"
+msgstr ""
+
+#: inc/customizer/panels/home/banner.php:69 inc/partials.php:66
+#: sections/banner.php:10
+msgid ""
+"Each month, more than 7 million JobScout turn to website in their search "
+"for work, making over 160,000 applications every day."
+msgstr ""
+
+#: inc/customizer/panels/home/banner.php:78
+msgid "Sub Title"
+msgstr ""
+
+#: inc/customizer/panels/home/blog.php:15
+msgid "Blog Section"
+msgstr ""
+
+#: inc/customizer/panels/home/blog.php:36
+msgid "Enable/Disable Blog Section"
+msgstr ""
+
+#: inc/customizer/panels/home/blog.php:37
+msgid "Enable Blog Section to display latest posts in the Front Page"
+msgstr ""
+
+#: inc/customizer/panels/home/blog.php:46 inc/partials.php:105
+#: sections/blog.php:8
+msgid "Latest Articles"
+msgstr ""
+
+#: inc/customizer/panels/home/blog.php:56
+msgid "Blog Title"
+msgstr ""
+
+#: inc/customizer/panels/home/blog.php:73
+#: inc/customizer/panels/home/testimonial.php:75 inc/partials.php:118
+#: inc/partials.php:157 sections/blog.php:9 sections/testimonial.php:9
+msgid ""
+"We will help you find it. We are your first step to becoming everything you "
+"want to be."
+msgstr ""
+
+#: inc/customizer/panels/home/blog.php:83
+msgid "Blog Description"
+msgstr ""
+
+#: inc/customizer/panels/home/blog.php:101 inc/partials.php:131
+msgid "Browse All"
+msgstr ""
+
+#: inc/customizer/panels/home/blog.php:110
+msgid "View All Label"
+msgstr ""
+
+#: inc/customizer/panels/home/client.php:18
+#: inc/customizer/panels/home/client.php:49 inc/widgets.php:27
+msgid "Client Section"
+msgstr ""
+
+#: inc/customizer/panels/home/client.php:38
+msgid ""
+"Please install/activate the %1$sRaraTheme Companion%2$s Plugin to add "
+"\"Rara: Client Logo\" Widget."
+msgstr ""
+
+#: inc/customizer/panels/home/cta.php:18 inc/customizer/panels/home/cta.php:49
+#: inc/widgets.php:17
+msgid "Call To Action Section"
+msgstr ""
+
+#: inc/customizer/panels/home/cta.php:38
+msgid ""
+"Please install/activate the %1$sRaraTheme Companion%2$s Plugin to add "
+"\"Rara: Call to Action\" Widget."
+msgstr ""
+
+#: inc/customizer/panels/home/jobposting.php:17
+msgid "Job Posting Section"
+msgstr ""
+
+#: inc/customizer/panels/home/jobposting.php:38
+msgid "Enable/Disable Job Posting Section"
+msgstr ""
+
+#: inc/customizer/panels/home/jobposting.php:39
+msgid "Enable Job Section to display the jobs listed in the Front Page"
+msgstr ""
+
+#: inc/customizer/panels/home/jobposting.php:48 inc/partials.php:92
+#: sections/jobposting.php:8
+msgid "Job Posting"
+msgstr ""
+
+#: inc/customizer/panels/home/jobposting.php:58
+msgid "Job Posting Title"
+msgstr ""
+
+#: inc/customizer/panels/home/jobposting.php:78
+msgid "Instructions"
+msgstr ""
+
+#: inc/customizer/panels/home/jobposting.php:82
+msgid ""
+"Please install the recommended plugin \"WP Job Manager\" for setting of "
+"this section."
+msgstr ""
+
+#: inc/customizer/panels/home/testimonial.php:17
+#: inc/customizer/panels/home/testimonial.php:141 inc/widgets.php:22
+msgid "Testimonial Section"
+msgstr ""
+
+#: inc/customizer/panels/home/testimonial.php:38
+msgid "Enable/Disable Testimonial Section"
+msgstr ""
+
+#: inc/customizer/panels/home/testimonial.php:39
+msgid "Enable Testimonial to display the testimonials in the Front Page"
+msgstr ""
+
+#: inc/customizer/panels/home/testimonial.php:48 inc/partials.php:144
+#: sections/testimonial.php:8
+msgid "Clients Testimonials"
+msgstr ""
+
+#: inc/customizer/panels/home/testimonial.php:58
+msgid "Testimonial Title"
+msgstr ""
+
+#: inc/customizer/panels/home/testimonial.php:85
+msgid "Testimonial Description"
+msgstr ""
+
+#: inc/customizer/panels/home/testimonial.php:112
+msgid ""
+"Please install/activate the %1$sRaraTheme Companion%2$s to add \"Rara: "
+"Testimonial\" Widget."
+msgstr ""
+
+#: inc/customizer/panels/home/testimonial.php:131 inc/widgets.php:24
+msgid "Add \"Rara: Testimonial\" widget for testimonial section."
+msgstr ""
+
+#: inc/customizer/panels/home.php:17
+msgid "Front Page Settings"
+msgstr ""
+
+#: inc/customizer/panels/home.php:18
+msgid "Static Home Page settings."
+msgstr ""
+
+#: inc/customizer/panels/layout/general.php:15
+msgid "General Sidebar Layout"
+msgstr ""
+
+#: inc/customizer/panels/layout/general.php:36
+msgid "Page Sidebar Layout"
+msgstr ""
+
+#: inc/customizer/panels/layout/general.php:37
+msgid ""
+"This is the general sidebar layout for pages. You can override the sidebar "
+"layout for individual page in repective page."
+msgstr ""
+
+#: inc/customizer/panels/layout/general.php:62
+msgid "Post Sidebar Layout"
+msgstr ""
+
+#: inc/customizer/panels/layout/general.php:63
+msgid ""
+"This is the general sidebar layout for posts & custom post. You can "
+"override the sidebar layout for individual post in repective post."
+msgstr ""
+
+#: inc/customizer/panels/layout/general.php:88
+msgid "Default Sidebar Layout"
+msgstr ""
+
+#: inc/customizer/panels/layout/general.php:89
+msgid "This is the general sidebar layout for whole site."
+msgstr ""
+
+#: inc/customizer/panels/layout.php:17
+msgid "Layout Settings"
+msgstr ""
+
+#: inc/customizer/panels/layout.php:18
+msgid "Change different page layout from here."
+msgstr ""
+
+#: inc/customizer/sections/breadcrumbs.php:16
+msgid "Breadcrumbs Settings"
+msgstr ""
+
+#: inc/customizer/sections/breadcrumbs.php:36
+msgid "Enable Breadcrumbs"
+msgstr ""
+
+#: inc/customizer/sections/breadcrumbs.php:37
+msgid "Enable to show breadcrumbs."
+msgstr ""
+
+#: inc/customizer/sections/breadcrumbs.php:46 inc/extras.php:690
+msgid "Home"
+msgstr ""
+
+#: inc/customizer/sections/breadcrumbs.php:56
+msgid "Breadcrumb Home Text"
+msgstr ""
+
+#: inc/customizer/sections/breadcrumbs.php:64 inc/extras.php:691
+msgid ">"
+msgstr ""
+
+#: inc/customizer/sections/breadcrumbs.php:74
+msgid "Breadcrumb Separator"
+msgstr ""
+
+#: inc/customizer/sections/footer.php:14
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/customizer/sections/footer.php:33
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: inc/customizer/sections/info.php:15
+msgid "Demo & Documentation"
+msgstr ""
+
+#: inc/customizer/sections/info.php:30
+#. translators: 1: string, 2: preview url, 3: string
+msgid "Demo Link : "
+msgstr ""
+
+#: inc/customizer/sections/info.php:30
+msgid "https://rarathemes.com/previews/?theme=jobscout"
+msgstr ""
+
+#: inc/customizer/sections/info.php:30 inc/customizer/sections/info.php:35
+msgid "Click here."
+msgstr ""
+
+#: inc/customizer/sections/info.php:35
+#. translators: 1: string, 2: documentation url, 3: string
+msgid "Documentation Link : "
+msgstr ""
+
+#: inc/customizer/sections/info.php:134
+msgid "Pro Available"
+msgstr ""
+
+#: inc/customizer/sections/info.php:136
+msgid "VIEW PRO THEME"
+msgstr ""
+
+#: inc/customizer-plugin-recommend/customizer-notice/class-customizer-notice.php:141
+msgid "Activating"
+msgstr ""
+
+#: inc/customizer-plugin-recommend/plugin-install/class-plugin-install-helper.php:59
+#: inc/getting-started/class-getting-start-plugin-helper.php:85
+msgid "Install and activate"
+msgstr ""
+
+#: inc/customizer-plugin-recommend/plugin-install/class-plugin-install-helper.php:110
+#: inc/getting-started/getting-started.php:40
+msgid "Activating "
+msgstr ""
+
+#: inc/extras.php:65
+#. translators: %s: post title
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/extras.php:88
+#. translators: used between list items, there is a space after the comma
+msgid ", "
+msgstr ""
+
+#: inc/extras.php:109
+#. translators: 1: list of tags.
+msgid "%1$sTags:%2$s %3$s"
+msgstr ""
+
+#: inc/extras.php:204 inc/extras.php:242
+msgid "Click here to add a menu"
+msgstr ""
+
+#: inc/extras.php:272
+msgid ""
+"<b class=\"fn\" itemprop=\"creator\" itemscope "
+"itemtype=\"https://schema.org/Person\">%s<span "
+"class=\"says\">says:</span></b>"
+msgstr ""
+
+#: inc/extras.php:276
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/extras.php:280
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/extras.php:626
+msgid "%1$s Showing:  %2$s - %3$s of %4$s Items %5$s"
+msgstr ""
+
+#: inc/extras.php:762
+msgid "m"
+msgstr ""
+
+#: inc/extras.php:762 inc/extras.php:769
+msgid "F"
+msgstr ""
+
+#: inc/extras.php:764
+msgid "d"
+msgstr ""
+
+#: inc/extras.php:776
+msgid "Search Results for \"%s\""
+msgstr ""
+
+#: inc/extras.php:953
+msgid "Page %s"
+msgstr ""
+
+#: inc/extras.php:962
+msgid "404 Error - Page Not Found"
+msgstr ""
+
+#: inc/extras.php:965
+msgid " (Page %s)"
+msgstr ""
+
+#: inc/getting-started/class-getting-start-plugin-helper.php:109
+msgid "Jetpack Portfolio"
+msgstr ""
+
+#: inc/getting-started/getting-started.php:16
+#: inc/getting-started/getting-started.php:17
+#: inc/getting-started/getting-started.php:127
+msgid "Getting Started"
+msgstr ""
+
+#: inc/getting-started/getting-started.php:105
+msgid "Getting started with %1$s v%2$s"
+msgstr ""
+
+#: inc/getting-started/getting-started.php:106
+msgid "You will find everything you need to get started with %1$s below."
+msgstr ""
+
+#: inc/getting-started/getting-started.php:118
+#: inc/getting-started/tabs/plugins-panel.php:10
+msgid "Recommended Plugins"
+msgstr ""
+
+#: inc/getting-started/getting-started.php:136
+msgid "FAQ's &amp; Support"
+msgstr ""
+
+#: inc/getting-started/getting-started.php:145
+msgid "Free Vs Pro"
+msgstr ""
+
+#: inc/getting-started/tabs/free-vs-pro-panel.php:11
+msgid "Free vs Pro"
+msgstr ""
+
+#: inc/getting-started/tabs/free-vs-pro-panel.php:12
+#: inc/getting-started/tabs/link-panel.php:13
+msgid "View Premium Version"
+msgstr ""
+
+#: inc/getting-started/tabs/free-vs-pro-panel.php:13
+msgid "View Pro"
+msgstr ""
+
+#: inc/getting-started/tabs/help-panel.php:12
+msgid "View Our Documentation Link"
+msgstr ""
+
+#: inc/getting-started/tabs/help-panel.php:13
+msgid ""
+"Are you new to the WordPress world? Our step by step easy documentation "
+"guide will help you create an attractive and engaging website without any "
+"prior coding knowledge or experience."
+msgstr ""
+
+#: inc/getting-started/tabs/help-panel.php:14
+msgid "Visit the Documentation"
+msgstr ""
+
+#: inc/getting-started/tabs/help-panel.php:15
+msgid "View Documentation"
+msgstr ""
+
+#: inc/getting-started/tabs/help-panel.php:20
+msgid "Support Ticket"
+msgstr ""
+
+#: inc/getting-started/tabs/help-panel.php:21
+msgid ""
+"It's always better to visit our %1$sDocumentation Guide%2$s before you send "
+"us a support query."
+msgstr ""
+
+#: inc/getting-started/tabs/help-panel.php:22
+msgid ""
+"If the Documentation Guide didn't help you, contact us via our %1$sSupport "
+"Ticket%2$s. We reply to all the support queries within one business day, "
+"except on the weekends."
+msgstr ""
+
+#: inc/getting-started/tabs/help-panel.php:23
+msgid "Visit the Support"
+msgstr ""
+
+#: inc/getting-started/tabs/help-panel.php:24
+msgid "Contact Support"
+msgstr ""
+
+#: inc/getting-started/tabs/help-panel.php:29
+msgid "View Our JobScout Demo"
+msgstr ""
+
+#: inc/getting-started/tabs/help-panel.php:30
+msgid "Visit the demo to get more idea about our theme design and its features."
+msgstr ""
+
+#: inc/getting-started/tabs/help-panel.php:31
+msgid "Visit the Demo"
+msgstr ""
+
+#: inc/getting-started/tabs/help-panel.php:32
+msgid "View Demo"
+msgstr ""
+
+#: inc/getting-started/tabs/link-panel.php:10
+msgid "Upgrade To Pro"
+msgstr ""
+
+#: inc/getting-started/tabs/link-panel.php:11
+msgid ""
+"The Pro version of the theme allows you to change the look and feel of the "
+"website with just a few clicks. You can easily change the color, background "
+"image and pattern as well as fonts of the website with the Pro version. "
+"Also, the Pro theme features more homepage sections than free version to "
+"allow you to showcase your organization services in a better way boosting "
+"the growth of the organization. Furthermore, the premium theme comes with "
+"multiple predefined page templates."
+msgstr ""
+
+#: inc/getting-started/tabs/link-panel.php:12
+msgid ""
+"Also, the Pro version gets regular updates and has a dedicated support team "
+"to solve your queries."
+msgstr ""
+
+#: inc/getting-started/tabs/link-panel.php:14
+msgid "Read more about the features here"
+msgstr ""
+
+#: inc/getting-started/tabs/link-panel.php:19
+#: inc/getting-started/tabs/link-panel.php:23
+msgid "Visit the Knowledge Base"
+msgstr ""
+
+#: inc/getting-started/tabs/link-panel.php:20
+msgid ""
+"Need help with WordPress and our theme as quickly as possible? Visit our "
+"well-organized documentation."
+msgstr ""
+
+#: inc/getting-started/tabs/link-panel.php:21
+msgid ""
+"Our documentation comes with a step-by-step guide from installing WordPress "
+"to customizing our theme to creating an attractive and engaging website."
+msgstr ""
+
+#: inc/getting-started/tabs/link-panel.php:23
+msgid "Visit the knowledge base"
+msgstr ""
+
+#: inc/getting-started/tabs/plugins-panel.php:12
+msgid ""
+"Here is a list of recommended plugins you should install to get most out of "
+"the Jobscout. Though every plugin is optional, we recommend you to at least "
+"install %1$sWP Job Manager%2$s, %1$sWPJM Extra Fields%2$s, %1$sRaraTheme "
+"Companion%2$s & %1$sRara One Click Demo Import%2$s to create a website "
+"similar to the Jobscout demo and also to ensure every feature of the theme "
+"works correctly."
+msgstr ""
+
+#: inc/getting-started/tabs/plugins-panel.php:37
+msgid "Free Plugins"
+msgstr ""
+
+#: inc/getting-started/tabs/plugins-panel.php:38
+msgid "These Free Plugins might be handy for you."
+msgstr ""
+
+#: inc/getting-started/tabs/plugins-panel.php:48
+msgid "Version %s"
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:11
+msgid "What is the difference between Free and Pro?"
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:13
+msgid ""
+"Both the Free and Pro version of the themes are coded well and are "
+"developed with best coding practices. However, the Pro version of the theme "
+"comes with extended features and dedicated support team to help you solve "
+"your queries. The Pro theme comes with multiple homepage sections which you "
+"can sort and hide as per your requirements. Also, the Pro theme comes with "
+"several predefined page templates."
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:14
+msgid ""
+"Overall, you will have more control over the customization and editing of "
+"your website with the Pro version."
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:19
+msgid "What are the perks of upgrading to the Premium version?"
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:21
+msgid ""
+"Along with the additional features and regular updates, you get dedicated "
+"and quick support with the premium theme. If you run into any issue while "
+"creating a website with the premium theme, you will get a quicker response "
+"compared to the free support."
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:26
+msgid "Upgrading to the Pro version- will I lose my changes?"
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:28
+msgid ""
+"When you upgrade to the Pro theme, your posts, pages, media, categories, "
+"and other data will remain intact-- all your data is saved."
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:29
+msgid ""
+"However, since the Pro version comes with added features and settings, you "
+"will need to set up the additional features in the customizer. This process "
+"is simple and only takes a few minutes."
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:30
+msgid ""
+"The Pro version is built with lots of flexibility in mind for future "
+"upgrades. Therefore, it is slightly different than the free theme but "
+"extremely flexible and easy-to-use."
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:35
+msgid "How do I change the copyright text?"
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:37
+msgid ""
+"You can change the copyright text going to %1$sAppearance > Customize > "
+"Footer Settings%2$s. However, if you want to hide the author credit text, "
+"please %3$supgrade to the Pro version%4$s."
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:42
+msgid "Why is my theme not working well?"
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:44
+msgid ""
+"If your customizer is not loading properly or you are having issues with "
+"the theme, it might be due to the plugin conflict."
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:45
+msgid ""
+"To solve the issue, deactivate all the plugins first, except the ones "
+"recommended by the theme. Then, hard reload your website using "
+"%1$s\"Ctrl+Shift+R\"%2$s on Windows and %1$s\"Cmd+Shift+R\"%2$s on Mac. If "
+"the issues are fixed, start activating the plugins one by one, and reload "
+"and check your site each time. This will help you find out the plugin that "
+"is causing the problem."
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:46
+msgid "If this didn't help, please contact us via our %1$sSupport Ticket%2$s."
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:51
+msgid "How can I solve my issues quickly and get faster support?"
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:53
+msgid ""
+"Please ensure that you have updated to the latest version of the theme "
+"before you submit a support ticket for any issue. We might have already "
+"fixed the bug in the previous theme update."
+msgstr ""
+
+#: inc/getting-started/tabs/support-panel.php:54
+msgid ""
+"Also, when you submit the support ticket, please try to provide maximum "
+"details possible so that we can look into your issue in detail and solve it "
+"in minimum time. We recommend you to send us a screenshot(s) with issues "
+"explained and your website's address (URL)."
+msgstr ""
+
+#: inc/metabox.php:21 inc/metabox.php:32
+msgid "Sidebar Layout"
+msgstr ""
+
+#: inc/metabox.php:44 inc/widgets.php:14
+msgid "Default Sidebar"
+msgstr ""
+
+#: inc/metabox.php:49
+msgid "Full Width"
+msgstr ""
+
+#: inc/metabox.php:54
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/metabox.php:59
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/metabox.php:69
+msgid "Choose Sidebar Template"
+msgstr ""
+
+#: inc/partials.php:79
+msgid "Popular Categories"
+msgstr ""
+
+#: inc/partials.php:202
+msgid "&copy; Copyright "
+msgstr ""
+
+#: inc/partials.php:205
+msgid "All Rights Reserved. "
+msgstr ""
+
+#: inc/partials.php:216
+msgid "JobScout | Developed By "
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Rara Theme"
+msgstr ""
+
+#: inc/partials.php:225
+msgid " Powered by %s"
+msgstr ""
+
+#: inc/partials.php:225
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: inc/template-functions.php:50
+msgid "Mobile"
+msgstr ""
+
+#: inc/template-functions.php:89
+msgid "Skip to content (Press Enter)"
+msgstr ""
+
+#: inc/template-functions.php:159
+msgid "All Posts by"
+msgstr ""
+
+#: inc/template-functions.php:172 template-parts/header-form.php:50
+msgid "Search"
+msgstr ""
+
+#: inc/template-functions.php:299
+msgid "Pages:"
+msgstr ""
+
+#: inc/template-functions.php:344
+#. translators: %s: Name of current post. Only visible to screen readers
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/template-functions.php:399
+msgid "Previous Article"
+msgstr ""
+
+#: inc/template-functions.php:407
+msgid "Next Article"
+msgstr ""
+
+#: inc/template-functions.php:415
+msgid "Post Navigation"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:340
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:341
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:343
+#. translators: %s: plugin name.
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:345
+#. translators: %s: plugin name.
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:346
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:348
+#. translators: 1: plugin name(s).
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:354
+#. translators: 1: plugin name(s).
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:360
+#. translators: 1: plugin name(s).
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:366
+#. translators: 1: plugin name(s).
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:372
+#. translators: 1: plugin name(s).
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:378
+#. translators: 1: plugin name(s).
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:383
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:388
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:393
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:398
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:399
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:400
+#: inc/tgmpa/class-tgm-plugin-activation.php:3311
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:401
+#: inc/tgmpa/class-tgm-plugin-activation.php:3103
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:403
+#. translators: 1: plugin name.
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:405
+#. translators: 1: plugin name.
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:407
+#. translators: 1: dashboard link.
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:408
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:409
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:410
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:616
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:617
+msgid "Update Required"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:735
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1042
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1042
+#: inc/tgmpa/class-tgm-plugin-activation.php:1052
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1052
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2112
+#. translators: %s: version number
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2421
+msgid "Required"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2424
+msgid "Recommended"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2440
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2443
+msgid "External Source"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2446
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2463
+msgid "Not Installed"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2467
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2469
+msgid "Active"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2475
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2478
+msgid "Requires Update"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2481
+msgid "Update recommended"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2540
+#. translators: 1: number of plugins.
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2544
+#. translators: 1: number of plugins.
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2548
+#. translators: 1: number of plugins.
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2638
+msgid "Installed version:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2646
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2658
+msgid "Available version:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2681
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2695
+msgid "Plugin"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2696
+msgid "Source"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2697
+msgid "Type"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2701
+msgid "Version"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2702
+msgid "Status"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2751
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2756
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2762
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2834
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2867
+msgid "Install"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2873
+msgid "Update"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2907
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2909
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2950
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2952
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3059
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3085
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3310
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3655
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3658
+#. translators: 1: plugin name, 2: error message.
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3660
+#. translators: 1: plugin name.
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3664
+msgid ""
+"The installation and activation process is starting. This process may take "
+"a while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3666
+#. translators: 1: plugin name.
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3667
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3669
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3672
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3674
+#. translators: 1: plugin name.
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3675
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3677
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3682
+msgid "Show Details"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3682
+msgid "Hide Details"
+msgstr ""
+
+#: inc/tgmpa/recommended-plugins.php:51
+msgid "WP Job Manager"
+msgstr ""
+
+#: inc/tgmpa/recommended-plugins.php:56
+msgid "WPJM Extra Fields"
+msgstr ""
+
+#: inc/tgmpa/recommended-plugins.php:61
+msgid "RaraTheme Companion"
+msgstr ""
+
+#: inc/tgmpa/recommended-plugins.php:66
+msgid "Rara One Click Demo Import"
+msgstr ""
+
+#: inc/widgets.php:12
+msgid "Sidebar"
+msgstr ""
+
+#: inc/widgets.php:19
+msgid "Add \"Rara: Call To Action\" widget for Call to Action section."
+msgstr ""
+
+#: inc/widgets.php:29
+msgid "Add \"Rara Client Logo\" widget for client section."
+msgstr ""
+
+#: inc/widgets.php:32
+msgid "Footer One"
+msgstr ""
+
+#: inc/widgets.php:34
+msgid "Add footer one widgets here."
+msgstr ""
+
+#: inc/widgets.php:37
+msgid "Footer Two"
+msgstr ""
+
+#: inc/widgets.php:39
+msgid "Add footer two widgets here."
+msgstr ""
+
+#: inc/widgets.php:42
+msgid "Footer Three"
+msgstr ""
+
+#: inc/widgets.php:44
+msgid "Add footer three widgets here."
+msgstr ""
+
+#: inc/widgets.php:47
+msgid "Footer Four"
+msgstr ""
+
+#: inc/widgets.php:49
+msgid "Add footer four widgets here."
+msgstr ""
+
+#: inc/woocommerce-functions.php:39
+msgid "Shop Sidebar"
+msgstr ""
+
+#: inc/woocommerce-functions.php:41
+msgid "Sidebar displaying only in woocommerce pages."
+msgstr ""
+
+#: job_manager/content-job_listing.php:72
+msgid "Featured"
+msgstr ""
+
+#: job_manager/job-application.php:7
+msgid "Apply for job"
+msgstr ""
+
+#: sections/blog.php:11
+msgid "See More Posts"
+msgstr ""
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:23
+#. translators: 1: link to WP admin new post page.
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/header-form.php:28 template-parts/header-form.php:29
+msgid "Keywords"
+msgstr ""
+
+#: template-parts/header-form.php:33 template-parts/header-form.php:34
+msgid "Location"
+msgstr ""
+
+#: template-parts/header-form.php:39
+msgid "Job Category"
+msgstr ""
+
+#: template-parts/header-form.php:41
+msgid "Select Job Category"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "JobScout"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://rarathemes.com/wordpress-themes/jobscout/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"JobScout free WordPress theme is a complete solution for creating a website "
+"and posting jobs online for recruiters, employment agencies, and human "
+"resource company. You can create a fully-responsive and professional "
+"JobScout website with this theme without writing a single line of code. The "
+"theme features an attractive and engaging layout that helps you keep your "
+"visitors engaged on the website. This theme is optimized for speed and "
+"helps your website load in a blink of an eye and provides your visitors "
+"with the excellent user experience. Also, it is developed with SEO "
+"optimized codes and is Schema.org markup ready which boosts the ranking of "
+"your website in search engine results. Furthermore, it is a cross-browser "
+"compatible, translation ready and supports RTL scripts. Also, it is backed "
+"up by the super-friendly and experienced support team to help you with your "
+"issues and queries while using our theme. Check the demo at "
+"https://rarathemes.com/previews/?theme=jobscout, documentation at "
+"https://docs.rarathemes.com/docs/jobscout/ and get support at "
+"https://rarathemes.com/support-forum/."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://rarathemes.com/"
+msgstr ""
+
+#: comments.php:32
+#. translators: 1: comment count number.
+msgctxt "comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/custom-functions.php:102
+msgctxt "header image description"
+msgid "Default Banner"
+msgstr ""
+
+#: inc/extras.php:106
+#. translators: used between list items, there is a space after the comma
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: inc/extras.php:442
+#. Translators: If there are characters in your language that are not supported
+#. by respective fonts, translate this to 'off'. Do not translate into your own
+#. language.
+msgctxt "Nunito Sans: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1243
+#: inc/tgmpa/class-tgm-plugin-activation.php:3099
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2490
+#. translators: 1: install status, 2: update status
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2536
+#. translators: 1: number of plugins.
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2630
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
