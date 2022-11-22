@@ -51,6 +51,7 @@
 
 					<header class="entry-header has-text-align-center">
 						<div class="entry-header-inner section-inner medium">
+
 							<?php
 
 							/**
@@ -81,6 +82,7 @@
 								?>
 
 								<div class="to-the-content-wrapper">
+
 									<a href="#post-inner" class="to-the-content fill-children-current-color">
 										<?php twentytwenty_the_theme_svg( 'arrow-down' ); ?>
 										<div class="screen-reader-text"><?php _e( 'Scroll Down', 'twentytwenty' ); ?></div>
@@ -127,7 +129,6 @@
 
 		<?php
 		the_content();
-		
 		?>
 
 		</div><!-- .entry-content -->
