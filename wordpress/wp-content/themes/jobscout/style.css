@@ -2564,6 +2564,7 @@ section.top-job-section .section-title {
   flex-wrap: wrap;
   align-items: flex-start;
   overflow: hidden;
+  height: 250px;
 }
 
 .top-job-section .row div.job_listings article:nth-child(2n) {
@@ -2618,11 +2619,10 @@ section.top-job-section .section-title {
 }
 
 .top-job-section .row div.job_listings article .company-name::before {
-  content: "@";
+  content: "Created:";
 }
 
 .top-job-section .row div.job_listings article .entry-meta {
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
   margin-top: 15px;
   padding-top: 15px;
   font-size: 1em;
@@ -5565,6 +5565,7 @@ JOB LISTING PAGE
   flex-wrap: wrap;
   overflow: hidden;
   align-items: flex-start;
+  height: 256px;
 }
 
 .site-main .entry-content div.job_listings div.job_listings article .company-logo {
@@ -8158,4 +8159,24 @@ RESPONSIVE STYLESHEET
 
 .wp-block-social-links {
   flex-wrap: wrap !important;
+}
+
+/* TOP JOB */
+.meta-company {
+  padding: 1px 3px;
+  background: #e6e6e6;
+  color: #595959;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.meta-company .name-company::before,
+.meta-company .location::before {
+  content: "|";
+  color: #bfbfbf;
+  padding-right: 5px;
+}
+
+.meta-company .location a {
+  color: #595959;
 }

@@ -34,6 +34,11 @@
     do_action( 'jobscout_after_footer' );
 
     wp_footer(); ?>
+    <script src="./js/WOW.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 
 </body>
 </html>
