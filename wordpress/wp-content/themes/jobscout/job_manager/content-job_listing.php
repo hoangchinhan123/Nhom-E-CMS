@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Job listing in the loop.
  *
@@ -12,55 +13,65 @@
  * @version     1.27.0
  */
 
-if ( ! defined( 'ABSPATH' ) ) {
+if (!defined('ABSPATH')) {
 	exit; // Exit if accessed directly.
 }
 
 global $post;
-$job_salary   = get_post_meta( get_the_ID(), '_job_salary', true );
-$job_featured = get_post_meta( get_the_ID(), '_featured', true );
-$company_name = get_post_meta( get_the_ID(), '_company_name', true );
+$job_salary   = get_post_meta(get_the_ID(), '_job_salary', true);
+$job_featured = get_post_meta(get_the_ID(), '_featured', true);
+$company_name = get_post_meta(get_the_ID(), '_company_name', true);
 
 ?>
-<article class="top-job" <?php job_listing_class(); ?> data-longitude="<?php echo esc_attr($post->geolocation_lat); ?>" data-latitude="<?php echo esc_attr($post->geolocation_long); ?>">
+<article <?php job_listing_class(); ?> data-longitude="<?php echo esc_attr($post->geolocation_lat); ?>" data-latitude="<?php echo esc_attr($post->geolocation_long); ?>">
 
-<figure class="company-logo">
-	<?php the_company_logo('thumbnail'); ?>
-</figure>
+	<figure class="company-logo">
+		<?php the_company_logo('thumbnail'); ?>
+	</figure>
 
-<div class="job-title-wrap">
+	<div class="job-title-wrap">
 
-	<h2 class="entry-title">
-		<a href="<?php the_job_permalink(); ?>"><?php wpjm_the_job_title(); ?></a>
-	</h2>
-
-	<?php if ($company_name) { ?>
-		<div class="company-name" style="padding-bottom: 5px;">
-			<?php echo get_the_date('F j, Y', get_the_ID()); ?>
+		<h2 class="entry-title">
+			<a href="<?php the_job_permalink(); ?>"><?php wpjm_the_job_title(); ?></a>
+		</h2>
+		<div class="entry-time">
+			<?php echo get_the_date(' j M, Y', get_the_ID()); ?>
 		</div>
-		<div class="meta-company">
+
+		<div class="entry-meta">
 			<?php
 			if (get_option('job_manager_enable_types')) {
 				$types = wpjm_get_the_job_types();
 				if (!empty($types)) : foreach ($types as $jobtype) : ?>
-						<span class="category"><?php echo esc_html($jobtype->name); ?></span>
+						<li class="job-type <?php echo esc_attr(sanitize_title($jobtype->slug)); ?>"><?php echo esc_html($jobtype->name); ?></li>
 			<?php endforeach;
 				endif;
 			}
 			do_action('job_listing_meta_end');
 			?>
-			<span class="name-company"><?php the_company_name(); ?></span>
-			<span class="location"><?php the_job_location(true); ?></span>
+			<?php if ($company_name) { ?>
+				<div class="company-name">
+					<?php the_company_name(); ?>
+				</div>
+			<?php } ?>
+			<?php
+			do_action('job_listing_meta_start');
+			?>
+			<div class="company-address">
+				<?php the_job_location(true); ?>
+			</div>
+
 		</div>
-	<?php } ?>
 
-	<div class="description" style="position: absolute;left: 30px;">
-		<?php wpjm_the_job_description(); ?>
 	</div>
-</div>
+	<div class="entry-content">
+		<div class="job-content">
+			<?php the_content(); ?>
+		</div>
+	</div><!-- .entry-content -->
 
-<?php if ($job_featured) { ?>
-	<div class="featured-label"><?php esc_html_e('Featured', 'jobscout'); ?></div>
-<?php } ?>
+	<?php if ($job_featured) { ?>
+		<div class="featured-label"><?php esc_html_e('Featured', 'jobscout'); ?></div>
+	<?php } ?>
 
 </article>
