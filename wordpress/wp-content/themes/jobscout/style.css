@@ -2321,6 +2321,7 @@ SITE BANNER SECTION
 }
 
 .banner-caption .title {
+  margin-top: 20px !important;
   text-align: left;
   margin: 0;
   font-size: 2.5em;
@@ -2328,10 +2329,11 @@ SITE BANNER SECTION
   font-weight: 800;
   line-height: 1.4;
 }
+
 .jobscout_job_filters .search_keywords svg,
 .search_location svg{
   margin-left: 10px;
-    margin-top: 20px;
+    margin-top: 13px;
     width: 20px;
     fill: orangered;
     height: 20px;
@@ -2349,7 +2351,7 @@ SITE BANNER SECTION
 }
 .jobscout_job_filters .search_jobs{
   padding: 20px 10px !important;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 .jobscout_job_filters .search_jobs .search_keywords{
   width: 51% !important ;
@@ -2372,21 +2374,24 @@ SITE BANNER SECTION
   background-position: calc(100% - 25px) 50% !important;
 }
 
-
 .banner-caption .description {
   text-align: left;
-  margin-top: 10px;
+  margin-top: -10px;
   font-size: 1em;
   color: #fff;
   line-height: 1.5;
   font-weight: 400;
+}
+.jobscout_job_filters:hover .search_jobs .search_submit button{
+  color: #fff;
 }
 .banner-caption .description p{
   opacity: 0.7;
 }
 
 .banner-caption .form-wrap {
-  margin-top: 20px;
+  margin-top: -5px;
+  width: 105%;
 }
 
 .banner-caption div.job_listings {
@@ -2443,7 +2448,7 @@ SITE BANNER SECTION
 .banner-caption .jobscout_job_filters .search_jobs input,
 .banner-caption .jobscout_job_filters .search_jobs select {
   border-radius: 0;
-  height: 60px;
+  height: 48px;
   border-top: none;
   border-bottom: none;
   border-right: none;
@@ -8235,3 +8240,24 @@ RESPONSIVE STYLESHEET
 .wp-block-social-links {
   flex-wrap: wrap !important;
 }
+/* Hieu */
+/* TOP JOB */
+.meta-company {
+  padding: 1px 3px;
+  background: #e6e6e6;
+  color: #595959;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.meta-company .name-company::before,
+.meta-company .location::before {
+  content: "|";
+  color: #bfbfbf;
+  padding-right: 5px;
+}
+
+.meta-company .location a {
+  color: #595959;
+}
+/* /Hieu */
