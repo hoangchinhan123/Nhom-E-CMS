@@ -1,8 +1,11 @@
 <?php
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> yeu_cau_2_top_jobs
+=======
+>>>>>>> yeu_cau_3-blog
 /**
  * Job listing in the loop.
  *
@@ -17,15 +20,22 @@
  */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 if ( ! defined( 'ABSPATH' ) ) {
 =======
 if (!defined('ABSPATH')) {
 >>>>>>> yeu_cau_2_top_jobs
+=======
+if ( ! defined( 'ABSPATH' ) ) {
+>>>>>>> yeu_cau_3-blog
 	exit; // Exit if accessed directly.
 }
 
 global $post;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> yeu_cau_3-blog
 $job_salary   = get_post_meta( get_the_ID(), '_job_salary', true );
 $job_featured = get_post_meta( get_the_ID(), '_featured', true );
 $company_name = get_post_meta( get_the_ID(), '_company_name', true );
@@ -82,6 +92,7 @@ $company_name = get_post_meta( get_the_ID(), '_company_name', true );
 	<?php } ?>
 
 </article>
+<<<<<<< HEAD
 =======
 $job_salary   = get_post_meta(get_the_ID(), '_job_salary', true);
 $job_featured = get_post_meta(get_the_ID(), '_featured', true);
@@ -131,3 +142,5 @@ $company_name = get_post_meta(get_the_ID(), '_company_name', true);
 
 </article>
 >>>>>>> yeu_cau_2_top_jobs
+=======
+>>>>>>> yeu_cau_3-blog

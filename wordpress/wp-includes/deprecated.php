@@ -4311,6 +4311,7 @@ function wp_skip_spacing_serialization( $block_type ) {
 function wp_add_iframed_editor_assets_html() {
 	_deprecated_function( __FUNCTION__, '6.0.0' );
 }
+<<<<<<< HEAD
 
 /**
  * Retrieves thumbnail for an attachment.
@@ -4528,3 +4529,5 @@ function _filter_query_attachment_filenames( $clauses ) {
 	remove_filter( 'posts_clauses', __FUNCTION__ );
 	return $clauses;
 }
+=======
+>>>>>>> yeu_cau_3-blog

@@ -33,9 +33,15 @@ function jobscout_posted_on( $single = false ) {
         $time_svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><defs><style>.ca{opacity:0.6;}</style></defs><path class="ca" d="M14.6,1.5H12.461V.5a.5.5,0,1,0-1,0v1H8.474V.5a.5.5,0,1,0-1,0v1H4.486V.5a.472.472,0,0,0-.5-.5.472.472,0,0,0-.5.5v1H1.346A1.342,1.342,0,0,0,0,2.85V14.7A1.332,1.332,0,0,0,1.346,16H14.654A1.342,1.342,0,0,0,16,14.65V2.85A1.419,1.419,0,0,0,14.6,1.5Zm.349,13.15A.341.341,0,0,1,14.6,15H1.346A.341.341,0,0,1,1,14.65V2.85a.341.341,0,0,1,.349-.35H3.489v1a.472.472,0,0,0,.5.5.472.472,0,0,0,.5-.5v-1H7.477v1a.5.5,0,1,0,1,0v-1h2.991v1a.5.5,0,1,0,1,0v-1H14.6a.341.341,0,0,1,.349.35ZM3.489,6H5.483V7.5H3.489Zm0,2.5H5.483V10H3.489Zm0,2.5H5.483v1.5H3.489Zm3.489,0H8.972v1.5H6.978Zm0-2.5H8.972V10H6.978Zm0-2.5H8.972V7.5H6.978Zm3.489,5h1.994v1.5H10.467Zm0-2.5h1.994V10H10.467Zm0-2.5h1.994V7.5H10.467Z"/></svg>';
     }
     
+<<<<<<< HEAD
     $posted_on = '<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">'. $time_svg .'<time class="updated published">' . $time_string . '</time></a>';
 	
 	echo '<span class="posted-on">' . $posted_on . '</span>'; // WPCS: XSS OK.
+=======
+    $posted_on = '<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">'.$time_string.'</a>';
+	
+	echo '<span class="posted-on read-more">' . $posted_on . '</span>'; // WPCS: XSS OK.
+>>>>>>> yeu_cau_3-blog
 
 }
 endif;
@@ -937,7 +943,11 @@ function jobscout_breadcrumbs_cb(){
                 $breadcrumbs = array_reverse( $breadcrumbs );
                 for ( $i = 0; $i < count( $breadcrumbs); $i++ ){
                     echo '<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="' . esc_url( get_permalink( $breadcrumbs[$i] ) ) . '" itemprop="item"><span itemprop="name">' . esc_html( get_the_title( $breadcrumbs[$i] ) ) . '</span></a><meta itemprop="position" content="'. absint( $depth ).'" /></span>';
+<<<<<<< HEAD
                     if ( $i != count( $breadcrumbs ) - 1 ) echo ' <span class="separator">' . esc_html( $delimiter ) . '</span> ';
+=======
+                if ( $i != count( $breadcrumbs ) - 1 ) echo ' <span class="separator">' . esc_html( $delimiter ) . '</span> ';
+>>>>>>> yeu_cau_3-blog
                     $depth++;
                 }
 

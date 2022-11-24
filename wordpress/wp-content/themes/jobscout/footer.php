@@ -35,6 +35,7 @@
 
     wp_footer(); ?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <script src="./js/WOW.js"></script>
     <script src="./js/wow.min.js"></script>
@@ -42,6 +43,8 @@
         new WOW().init();
     </script>
 >>>>>>> yeu_cau_2_top_jobs
+=======
+>>>>>>> yeu_cau_3-blog
 
 </body>
 </html>

@@ -2356,9 +2356,14 @@ function comment_form( $args = array(), $post = null ) {
 	$required_attribute = ( $html5 ? ' required' : ' required="required"' );
 	$checked_attribute  = ( $html5 ? ' checked' : ' checked="checked"' );
 
+<<<<<<< HEAD
 	// Identify required fields visually and create a message about the indicator.
 	$required_indicator = ' ' . wp_required_field_indicator();
 	$required_text      = ' ' . wp_required_field_message();
+=======
+	// Identify required fields visually.
+	$required_indicator = ' <span class="required" aria-hidden="true">*</span>';
+>>>>>>> yeu_cau_3-blog
 
 	$fields = array(
 		'author' => sprintf(

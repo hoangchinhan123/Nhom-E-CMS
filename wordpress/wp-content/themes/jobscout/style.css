@@ -2314,6 +2314,7 @@ SITE BANNER SECTION
   transform: translateY(-50%);
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* TUAN */
 .banner-caption .caption-inner {
   max-width: 980px;
@@ -2322,21 +2323,30 @@ SITE BANNER SECTION
 .banner-caption .caption-inner {
   max-width: 770px;
 >>>>>>> yeu_cau_2_top_jobs
+=======
+
+.banner-caption .caption-inner {
+  max-width: 770px;
+>>>>>>> yeu_cau_3-blog
   margin-left: auto;
   margin-right: auto;
 }
 
 .banner-caption .title {
 <<<<<<< HEAD
+<<<<<<< HEAD
   text-align: left;
 =======
 >>>>>>> yeu_cau_2_top_jobs
+=======
+>>>>>>> yeu_cau_3-blog
   margin: 0;
   font-size: 2.5em;
   color: #fff;
   font-weight: 800;
   line-height: 1.4;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .jobscout_job_filters .search_keywords svg,
 .search_location svg{
@@ -2389,6 +2399,10 @@ SITE BANNER SECTION
 
 .banner-caption .description {
 >>>>>>> yeu_cau_2_top_jobs
+=======
+
+.banner-caption .description {
+>>>>>>> yeu_cau_3-blog
   margin-top: 10px;
   font-size: 1em;
   color: #fff;
@@ -2396,11 +2410,14 @@ SITE BANNER SECTION
   font-weight: 400;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .banner-caption .description p{
   opacity: 0.7;
 }
 =======
 >>>>>>> yeu_cau_2_top_jobs
+=======
+>>>>>>> yeu_cau_3-blog
 
 .banner-caption .form-wrap {
   margin-top: 20px;
@@ -2452,9 +2469,13 @@ SITE BANNER SECTION
 .banner-caption .jobscout_job_filters .search_submit {
   display: flex;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   flex: 0;
 >>>>>>> yeu_cau_2_top_jobs
+=======
+  flex: 0;
+>>>>>>> yeu_cau_3-blog
 }
 
 .banner-caption .form-wrap form .search_jobs label {
@@ -2634,9 +2655,12 @@ section.top-job-section .section-title {
   align-items: flex-start;
   overflow: hidden;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   height: 250px;
 >>>>>>> yeu_cau_2_top_jobs
+=======
+>>>>>>> yeu_cau_3-blog
 }
 
 .top-job-section .row div.job_listings article:nth-child(2n) {
@@ -2692,17 +2716,23 @@ section.top-job-section .section-title {
 
 .top-job-section .row div.job_listings article .company-name::before {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> yeu_cau_3-blog
   content: "@";
 }
 
 .top-job-section .row div.job_listings article .entry-meta {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
+<<<<<<< HEAD
 =======
   content: "Created:";
 }
 
 .top-job-section .row div.job_listings article .entry-meta {
 >>>>>>> yeu_cau_2_top_jobs
+=======
+>>>>>>> yeu_cau_3-blog
   margin-top: 15px;
   padding-top: 15px;
   font-size: 1em;
@@ -2978,16 +3008,54 @@ section.article-section {
   margin: 70px 0;
   text-align: center;
 }
+<<<<<<< HEAD
 
 .article-section .article-wrap {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+=======
+/* Trung */
+.article-section .article-wrap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+>>>>>>> yeu_cau_3-blog
   grid-gap: 30px;
   text-align: left;
   margin-top: 50px;
   margin-bottom: 40px;
 }
+<<<<<<< HEAD
 
+=======
+.style-card {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  border: 1.5 solid whitesmoke !important;
+}
+
+.img-card {
+  width: 40%;
+  margin: 15px !important;
+}
+
+.img-card>a>img {
+  width: 220px !important;
+  height: 220px !important;
+}
+
+.title-card {
+  width: 60%;
+  padding: 15px !important;
+}
+
+.read-more-card {
+  color: rgb(255, 149, 0) !important;
+  font-weight: bold !important;
+  font-size: 20px !important;
+}
+/* /Trung */
+>>>>>>> yeu_cau_3-blog
 .article-section .article-wrap article {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
   border-radius: 5px;
@@ -3009,6 +3077,10 @@ section.article-section {
   font-weight: 700;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> yeu_cau_3-blog
 /*=========================
 TESTIMONIAL SECTION
 =========================*/
@@ -5646,9 +5718,12 @@ JOB LISTING PAGE
   overflow: hidden;
   align-items: flex-start;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   height: 256px;
 >>>>>>> yeu_cau_2_top_jobs
+=======
+>>>>>>> yeu_cau_3-blog
 }
 
 .site-main .entry-content div.job_listings div.job_listings article .company-logo {
@@ -8243,6 +8318,7 @@ RESPONSIVE STYLESHEET
 .wp-block-social-links {
   flex-wrap: wrap !important;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 }
 
@@ -8265,4 +8341,6 @@ RESPONSIVE STYLESHEET
 .meta-company .location a {
   color: #595959;
 >>>>>>> yeu_cau_2_top_jobs
+=======
+>>>>>>> yeu_cau_3-blog
 }

@@ -1,8 +1,11 @@
 <?php
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> yeu_cau_2_top_jobs
+=======
+>>>>>>> yeu_cau_3-blog
 /**
  *
  * Creating a custom job search form for homepage
@@ -13,6 +16,7 @@
  * @package JobScout
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 $find_a_job_link = get_option('job_manager_jobs_page_id', 0);
 $post_slug       = get_post_field('post_name', $find_a_job_link);
 $ed_job_category = get_option('job_manager_enable_categories');
@@ -22,6 +26,8 @@ if ($post_slug) {
 } else {
   $action_page =  home_url('/');
 =======
+=======
+>>>>>>> yeu_cau_3-blog
 $find_a_job_link = get_option( 'job_manager_jobs_page_id', 0 );
 $post_slug       = get_post_field( 'post_name', $find_a_job_link );
 $ed_job_category = get_option( 'job_manager_enable_categories' );  
@@ -30,12 +36,16 @@ if( $post_slug ){
     $action_page =  home_url( '/'. $post_slug );
 }else {
     $action_page =  home_url( '/' );
+<<<<<<< HEAD
 >>>>>>> yeu_cau_2_top_jobs
+=======
+>>>>>>> yeu_cau_3-blog
 }
 ?>
 
 <div class="job_listings">
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   <form class="jobscout_job_filters" method="GET" action="<?php echo esc_url($action_page) ?>" 
   style="background: rgb(0 0 0 / 65%);">
@@ -93,6 +103,8 @@ if( $post_slug ){
         <button type="submit" value="<?php esc_attr_e('Search', 'jobscout'); ?>">Search Job</button>
 
 =======
+=======
+>>>>>>> yeu_cau_3-blog
   <form class="jobscout_job_filters" method="GET" action="<?php echo esc_url( $action_page ) ?>">
     <div class="search_jobs">
 
@@ -120,12 +132,16 @@ if( $post_slug ){
       
       <div class="search_submit">
         <input type="submit" value="<?php esc_attr_e( 'Search', 'jobscout'); ?>" />
+<<<<<<< HEAD
 >>>>>>> yeu_cau_2_top_jobs
+=======
+>>>>>>> yeu_cau_3-blog
       </div>
 
     </div>
   </form>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
   <?php
@@ -153,4 +169,6 @@ if( $post_slug ){
 
 =======
 >>>>>>> yeu_cau_2_top_jobs
+=======
+>>>>>>> yeu_cau_3-blog
 </div>

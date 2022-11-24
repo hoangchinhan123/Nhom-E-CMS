@@ -90,8 +90,17 @@ function get_block_core_post_featured_image_overlay_element_markup( $attributes 
 		$class_names[] = $border_attributes['class'];
 	}
 
+<<<<<<< HEAD
 	if ( ! empty( $border_attributes['style'] ) ) {
 		$styles[] = $border_attributes['style'];
+=======
+	if ( $has_height ) {
+		$image_styles = "height:{$attributes['height']};";
+		if ( ! empty( $attributes['scale'] ) ) {
+			$image_styles .= "object-fit:{$attributes['scale']};";
+		}
+		$featured_image = str_replace( 'src=', 'style="' . esc_attr( $image_styles ) . '" src=', $featured_image );
+>>>>>>> yeu_cau_3-blog
 	}
 
 	// Apply overlay and gradient classes.

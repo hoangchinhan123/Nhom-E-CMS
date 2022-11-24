@@ -14,9 +14,12 @@ get_header(); ?>
 			<?php
 			while ( have_posts() ) : the_post();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 			
 >>>>>>> yeu_cau_2_top_jobs
+=======
+>>>>>>> yeu_cau_3-blog
 		        get_template_part( 'template-parts/content', 'job-single' );
 
 			endwhile; // End of the loop.

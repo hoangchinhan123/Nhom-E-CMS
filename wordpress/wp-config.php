@@ -49,6 +49,7 @@ define( 'DB_COLLATE', '' );
  * @since 2.6.0
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 define( 'AUTH_KEY',         '`s`R9zmNWAJ|}cx}Rw7:G>7e4Fn6at2*[>g-%TD~iu!|L h[dEI/M*s+Vbq8Zz22' );
 define( 'SECURE_AUTH_KEY',  'cVMr:7n|!WWA]y6A ]=@nsOi77{il|n<+?Kb$l3;lfB6,AhbFo0uC0mk$T0}@jaN' );
 define( 'LOGGED_IN_KEY',    'w7.H=dtyP#eBF(MS}?.[04iT*HZS_|LT0{2/,lV,b>v,TvayUG4EZMhVz{15]K=}' );
@@ -67,6 +68,16 @@ define( 'SECURE_AUTH_SALT', 'ib3kaa{8.){,S_vv(Co-w*%xad<bAxi5-%mQLo.prC(C!=kZ=EF
 define( 'LOGGED_IN_SALT',   'dq@tIBx:PN{>g;xBDWoKB)#vg@go^iaA>H1pBU||nss(G{=PW(zM`#g)?%vJ/58-' );
 define( 'NONCE_SALT',       '4>>&mWY9p>0Y7a,&&^o6.ol[|#>Gj7<No;nB%3Z[Vbw_?J(H45 %J}{w&8I?t!|)' );
 >>>>>>> yeu_cau_2_top_jobs
+=======
+define( 'AUTH_KEY',         '}J5SM-34HJ. CiISeHCMw6waRQ?KO3WDFQK]/:eu=J)::0@Q(Obb=zatAen%EL6Z' );
+define( 'SECURE_AUTH_KEY',  'lk7{[rZo1o@_?lOtibUcu;tH,G5Q.NfoCi92D eHOTfS>a$q ?M~bg,!5a$yIdo;' );
+define( 'LOGGED_IN_KEY',    'n,c[^y;usOWb|B,&D<K{^?lji^F<#,)cytN;G{~s3s2o^!h!<b8lL]o<wH9uP_.0' );
+define( 'NONCE_KEY',        'Q{hA,{K>a<cQTu<dD@jMRQxC`1!{a@-7BC}J|/e&p$f){RDK.Ag.tT ;l,WJAdd4' );
+define( 'AUTH_SALT',        '(oVE^!cJ0L@p(;S@:!1IKwCTm~eONLmd[dXbDAh>? mFM!MU&<DnlZd{5Zn,t|?6' );
+define( 'SECURE_AUTH_SALT', 'Sn,;Pu:gAGi(Ff2s&pqt>HD2qfPO[Zi6Q4]5@).(WL3F+9~VhU+dm0X[9M.,CpNY' );
+define( 'LOGGED_IN_SALT',   '~i67{aELuERV3K&EkLVT/LL1aTYq]|$UJ^4oz#74a|jPVWIw2y8QYqi|jP>LxvH{' );
+define( 'NONCE_SALT',       '_KyC[.9shiU+0Qz%D4TU&~e6*:V]9Ii/kvKp6M^;)2$!:1+tSzFIg>Nk/0kbr/{Y' );
+>>>>>>> yeu_cau_3-blog
 
 /**#@-*/
 
