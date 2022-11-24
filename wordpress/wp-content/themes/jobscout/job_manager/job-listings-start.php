@@ -1,8 +1,4 @@
 <?php
-<<<<<<< HEAD
-=======
-
->>>>>>> yeu-cau-4-jobs-new
 /**
  * Content shown before job listings in `[jobs]` shortcode.
  *
@@ -15,16 +11,8 @@
  * @version     1.15.0
  */
 
-<<<<<<< HEAD
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 ?>
 <div class="job_listings">
-=======
-if (!defined('ABSPATH')) {
-	exit; // Exit if accessed directly.
-}
-?>
-<div class="job_listings">
->>>>>>> yeu-cau-4-jobs-new

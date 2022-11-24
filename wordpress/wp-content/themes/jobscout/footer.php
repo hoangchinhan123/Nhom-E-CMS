@@ -34,20 +34,6 @@
     do_action( 'jobscout_after_footer' );
 
     wp_footer(); ?>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    <script src="./js/WOW.js"></script>
-    <script src="./js/wow.min.js"></script>
-    <script>
-        new WOW().init();
-    </script>
->>>>>>> yeu_cau_2_top_jobs
-=======
->>>>>>> yeu_cau_3-blog
-=======
->>>>>>> yeu-cau-4-jobs-new
 
 </body>
 </html>

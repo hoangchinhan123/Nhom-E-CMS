@@ -2313,51 +2313,21 @@ SITE BANNER SECTION
   -moz-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 /* TUAN */
 .banner-caption .caption-inner {
   max-width: 980px;
-=======
-
-.banner-caption .caption-inner {
-  max-width: 770px;
->>>>>>> yeu_cau_2_top_jobs
-=======
-
-.banner-caption .caption-inner {
-  max-width: 770px;
->>>>>>> yeu_cau_3-blog
-=======
-
-.banner-caption .caption-inner {
-  max-width: 770px;
->>>>>>> yeu-cau-4-jobs-new
   margin-left: auto;
   margin-right: auto;
 }
 
 .banner-caption .title {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   text-align: left;
-=======
->>>>>>> yeu_cau_2_top_jobs
-=======
->>>>>>> yeu_cau_3-blog
-=======
->>>>>>> yeu-cau-4-jobs-new
   margin: 0;
   font-size: 2.5em;
   color: #fff;
   font-weight: 800;
   line-height: 1.4;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 .jobscout_job_filters .search_keywords svg,
 .search_location svg{
   margin-left: 10px;
@@ -2405,36 +2375,15 @@ SITE BANNER SECTION
 
 .banner-caption .description {
   text-align: left;
-=======
-
-.banner-caption .description {
->>>>>>> yeu_cau_2_top_jobs
-=======
-
-.banner-caption .description {
->>>>>>> yeu_cau_3-blog
-=======
-
-.banner-caption .description {
->>>>>>> yeu-cau-4-jobs-new
   margin-top: 10px;
   font-size: 1em;
   color: #fff;
   line-height: 1.5;
   font-weight: 400;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 .banner-caption .description p{
   opacity: 0.7;
 }
-=======
->>>>>>> yeu_cau_2_top_jobs
-=======
->>>>>>> yeu_cau_3-blog
-=======
->>>>>>> yeu-cau-4-jobs-new
 
 .banner-caption .form-wrap {
   margin-top: 20px;
@@ -2485,18 +2434,6 @@ SITE BANNER SECTION
 
 .banner-caption .jobscout_job_filters .search_submit {
   display: flex;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  flex: 0;
->>>>>>> yeu_cau_2_top_jobs
-=======
-  flex: 0;
->>>>>>> yeu_cau_3-blog
-=======
-  flex: 0;
->>>>>>> yeu-cau-4-jobs-new
 }
 
 .banner-caption .form-wrap form .search_jobs label {
@@ -2675,16 +2612,6 @@ section.top-job-section .section-title {
   flex-wrap: wrap;
   align-items: flex-start;
   overflow: hidden;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  height: 250px;
->>>>>>> yeu_cau_2_top_jobs
-=======
->>>>>>> yeu_cau_3-blog
-=======
->>>>>>> yeu-cau-4-jobs-new
 }
 
 .top-job-section .row div.job_listings article:nth-child(2n) {
@@ -2739,30 +2666,11 @@ section.top-job-section .section-title {
 }
 
 .top-job-section .row div.job_listings article .company-name::before {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> yeu_cau_3-blog
-=======
->>>>>>> yeu-cau-4-jobs-new
   content: "@";
 }
 
 .top-job-section .row div.job_listings article .entry-meta {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  content: "Created:";
-}
-
-.top-job-section .row div.job_listings article .entry-meta {
->>>>>>> yeu_cau_2_top_jobs
-=======
->>>>>>> yeu_cau_3-blog
-=======
->>>>>>> yeu-cau-4-jobs-new
   margin-top: 15px;
   padding-top: 15px;
   font-size: 1em;
@@ -2803,12 +2711,8 @@ section.top-job-section .section-title {
 }
 
 .job-manager li.job-type,
-<<<<<<< HEAD
 .job-types li.job-type,
 .job_listing li.job-type {
-=======
-.job-types li.job-type {
->>>>>>> yeu-cau-4-jobs-new
   list-style: none;
   font-size: 0.7778em;
   text-transform: uppercase;
@@ -2844,16 +2748,6 @@ section.top-job-section .section-title {
   border-color: #f08d3c;
 }
 
-<<<<<<< HEAD
-=======
-.job_listings .job-title-wrap .entry-meta .job-type {
-  list-style-type: none;
-  color: #989898 !important;
-  padding: 5px;
-  border-right: 1px solid;
-}
-
->>>>>>> yeu-cau-4-jobs-new
 .job-manager li.temporary,
 .job-types li.temporary,
 .job_listing li.temporary {
@@ -3052,32 +2946,16 @@ section.article-section {
   margin: 70px 0;
   text-align: center;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> yeu-cau-4-jobs-new
-
-.article-section .article-wrap {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-<<<<<<< HEAD
-=======
 /* Trung */
 .article-section .article-wrap {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
->>>>>>> yeu_cau_3-blog
-=======
->>>>>>> yeu-cau-4-jobs-new
   grid-gap: 30px;
   text-align: left;
   margin-top: 50px;
   margin-bottom: 40px;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
 .style-card {
   display: flex;
   width: 100%;
@@ -3106,10 +2984,6 @@ section.article-section {
   font-size: 20px !important;
 }
 /* /Trung */
->>>>>>> yeu_cau_3-blog
-=======
-
->>>>>>> yeu-cau-4-jobs-new
 .article-section .article-wrap article {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
   border-radius: 5px;
@@ -3131,13 +3005,6 @@ section.article-section {
   font-weight: 700;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> yeu_cau_3-blog
-=======
->>>>>>> yeu-cau-4-jobs-new
 /*=========================
 TESTIMONIAL SECTION
 =========================*/
@@ -3442,15 +3309,12 @@ LIST VIEW
   margin-top: 0;
 }
 
-<<<<<<< HEAD
 .site-main article .entry-content p {
   margin-top: 5px;
   margin-bottom: 15px;
   display: table;
   width: 100%;
 }
-=======
->>>>>>> yeu-cau-4-jobs-new
 
 a.readmore-link {
   font-size: 0.888em;
@@ -5767,31 +5631,16 @@ JOB LISTING PAGE
 ==========================*/
 .site-main .entry-content div.job_listings div.job_listings article {
   background: #fff;
-<<<<<<< HEAD
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
   margin-bottom: 25px;
   border-radius: 5px;
   padding: 30px;
-=======
-  padding: 10px;
->>>>>>> yeu-cau-4-jobs-new
   position: relative;
   display: flex;
   flex: 1;
   flex-wrap: wrap;
   overflow: hidden;
   align-items: flex-start;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  height: 256px;
->>>>>>> yeu_cau_2_top_jobs
-=======
->>>>>>> yeu_cau_3-blog
-=======
-  margin: 0;
->>>>>>> yeu-cau-4-jobs-new
 }
 
 .site-main .entry-content div.job_listings div.job_listings article .company-logo {
@@ -5814,7 +5663,6 @@ JOB LISTING PAGE
 
 .site-main .entry-content div.job_listings div.job_listings article .company-name {
   font-size: 0.8888em;
-<<<<<<< HEAD
   color: rgba(0, 0, 0, 0.5);
   font-weight: 400;
   line-height: 1.44em;
@@ -5834,23 +5682,6 @@ JOB LISTING PAGE
   flex: 1;
   flex-wrap: wrap;
   align-items: center;
-=======
-  color: #989898 !important;
-  font-weight: bold;
-  line-height: 1.44em;
-  padding: 5px;
-  border-right: 1px solid;
-}
-
-.site-main .entry-content div.job_listings div.job_listings article .entry-meta {
-  display: flex;
-  background: #eeeeee;
-  color: #989898 !important;
-  text-align: center;
-  padding: 5px;
-  font-size: 10px;
-  font-weight: bold;
->>>>>>> yeu-cau-4-jobs-new
 }
 
 .site-main .entry-content div.job_listings div.job_listings article .entry-meta .salary-amt,
@@ -5858,12 +5689,8 @@ JOB LISTING PAGE
   font-size: 0.8888em;
   line-height: 1.44em;
   font-weight: 400;
-<<<<<<< HEAD
   margin-bottom: 5px;
   margin-right: 40px;
-=======
-  padding: 5px;
->>>>>>> yeu-cau-4-jobs-new
 }
 
 .site-main .entry-content div.job_listings div.job_listings article .entry-meta .salary-amt .currency {
@@ -5878,50 +5705,27 @@ JOB LISTING PAGE
 }
 
 .site-main .entry-content div.job_listings div.job_listings article .entry-meta a {
-<<<<<<< HEAD
   color: #000;
-=======
-  color: #989898 !important;
-  text-decoration: none;
-  font-weight: bold;
->>>>>>> yeu-cau-4-jobs-new
 }
 
 .site-main .entry-content div.job_listings div.job_listings article .entry-meta a:hover {
   color: #2ace5e;
 }
 
-<<<<<<< HEAD
 .site-main .entry-content div.job_listings div.job_listings article .entry-meta .job-type {
   margin-top: 0;
   margin-left: auto;
   display: table;
-=======
-.site-main #post-10 .entry-content .job_listings .job_listings {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  padding: 20px;
-  background: #eeeeee;
->>>>>>> yeu-cau-4-jobs-new
 }
 
 div.job_listings .load_more_jobs {
   display: table;
-<<<<<<< HEAD
   border: 1px solid #2ace5e;
   text-transform: uppercase;
   font-size: 0.7778em;
   font-weight: 400;
   background: #2ace5e;
   color: #fff;
-=======
-  border: 2px solid #f08d3c;
-  text-transform: uppercase;
-  font-size: 0.7778em;
-  font-weight: 400;
-  color: #f08d3c;
->>>>>>> yeu-cau-4-jobs-new
   padding: 15px 20px;
   margin-top: 40px;
   margin-left: auto;
@@ -5929,18 +5733,7 @@ div.job_listings .load_more_jobs {
   clear: both;
 }
 
-<<<<<<< HEAD
 div.job_listings .load_more_jobs:hover,
-=======
-.entry-content a,
-.entry-summary a,
-.page-content a,
-.comment-content a,
-.widget .textwidget a {
-  text-decoration: none;
-}
-
->>>>>>> yeu-cau-4-jobs-new
 div.job_listings .load_more_jobs:focus {
   background: none;
   color: #2ace5e;
@@ -8099,52 +7892,13 @@ RESPONSIVE STYLESHEET
   text-decoration: underline;
 }
 
-<<<<<<< HEAD
 .entry-content a:hover,
-=======
-.entry-content a {
-  text-decoration: none;
-}
-
-.job-content p::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 40%;
-  background: black;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-}
-
-.job-content p {
-  position: relative;
-  overflow: hidden;
-  font-size: 15px;
-  text-overflow: ellipsis;
-  line-height: 15px;
-  -webkit-line-clamp: 1;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  padding-left: 15px;
-  margin: 10px;
-}
-
-.job-title-wrap .entry-time {
-  font-size: 12px;
-}
-
->>>>>>> yeu-cau-4-jobs-new
 .entry-summary a:hover,
 .page-content a:hover,
 .comment-content a:hover,
 .widget .textwidget a:hover {
   color: #2ace5e;
-<<<<<<< HEAD
   text-decoration: underline;
-=======
-  text-decoration: none;
->>>>>>> yeu-cau-4-jobs-new
 }
 
 /* Accessibilty for secondary menu */
@@ -8480,33 +8234,4 @@ RESPONSIVE STYLESHEET
 
 .wp-block-social-links {
   flex-wrap: wrap !important;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-}
-
-/* TOP JOB */
-.meta-company {
-  padding: 1px 3px;
-  background: #e6e6e6;
-  color: #595959;
-  font-weight: 500;
-  font-size: 16px;
-}
-
-.meta-company .name-company::before,
-.meta-company .location::before {
-  content: "|";
-  color: #bfbfbf;
-  padding-right: 5px;
-}
-
-.meta-company .location a {
-  color: #595959;
->>>>>>> yeu_cau_2_top_jobs
-=======
->>>>>>> yeu_cau_3-blog
-=======
->>>>>>> yeu-cau-4-jobs-new
 }
