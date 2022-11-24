@@ -1,0 +1,34 @@
+<?php
+/**
+ * The template for displaying all single job posts.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
+ *
+ * @package JobScout
+ */
+get_header(); ?>
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main">
+
+			<?php
+			while ( have_posts() ) : the_post();
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+			
+>>>>>>> yeu_cau_2_top_jobs
+=======
+>>>>>>> yeu_cau_3-blog
+=======
+>>>>>>> yeu-cau-4-jobs-new
+		        get_template_part( 'template-parts/content', 'job-single' );
+
+			endwhile; // End of the loop.
+			?>
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+<?php 
+get_footer();
