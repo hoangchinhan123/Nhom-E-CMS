@@ -1,11 +1,15 @@
 <?php
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> yeu_cau_2_top_jobs
 =======
 >>>>>>> yeu_cau_3-blog
+=======
+
+>>>>>>> yeu-cau-4-jobs-new
 /**
  *
  * Creating a custom job search form for homepage
@@ -17,6 +21,9 @@
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> yeu-cau-4-jobs-new
 $find_a_job_link = get_option('job_manager_jobs_page_id', 0);
 $post_slug       = get_post_field('post_name', $find_a_job_link);
 $ed_job_category = get_option('job_manager_enable_categories');
@@ -25,6 +32,7 @@ if ($post_slug) {
   $action_page =  home_url('/' . $post_slug);
 } else {
   $action_page =  home_url('/');
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> yeu_cau_3-blog
@@ -40,10 +48,13 @@ if( $post_slug ){
 >>>>>>> yeu_cau_2_top_jobs
 =======
 >>>>>>> yeu_cau_3-blog
+=======
+>>>>>>> yeu-cau-4-jobs-new
 }
 ?>
 
 <div class="job_listings">
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -85,6 +96,19 @@ if( $post_slug ){
           <?php endforeach ?>
         </select>
 
+=======
+  <form class="jobscout_job_filters" method="GET" action="<?php echo esc_url($action_page) ?>">
+    <div class="search_jobs">
+
+      <div class="search_keywords">
+        <label for="search_keywords"><?php esc_html_e('Keywords', 'jobscout'); ?></label>
+        <input type="text" id="search_keywords" name="search_keywords" placeholder="<?php esc_attr_e('Keywords', 'jobscout'); ?>">
+      </div>
+
+      <div class="search_location">
+        <label for="search_location"><?php esc_html_e('Location', 'jobscout'); ?></label>
+        <input type="text" id="search_location" name="search_location" placeholder="<?php esc_attr_e('Location', 'jobscout'); ?>">
+>>>>>>> yeu-cau-4-jobs-new
       </div>
 
       <?php if ($ed_job_category) { ?>
@@ -100,6 +124,7 @@ if( $post_slug ){
       <?php } ?>
 
       <div class="search_submit">
+<<<<<<< HEAD
         <button type="submit" value="<?php esc_attr_e('Search', 'jobscout'); ?>">Search Job</button>
 
 =======
@@ -136,11 +161,15 @@ if( $post_slug ){
 >>>>>>> yeu_cau_2_top_jobs
 =======
 >>>>>>> yeu_cau_3-blog
+=======
+        <input type="submit" value="<?php esc_attr_e('Search', 'jobscout'); ?>" />
+>>>>>>> yeu-cau-4-jobs-new
       </div>
 
     </div>
   </form>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -171,4 +200,6 @@ if( $post_slug ){
 >>>>>>> yeu_cau_2_top_jobs
 =======
 >>>>>>> yeu_cau_3-blog
+=======
+>>>>>>> yeu-cau-4-jobs-new
 </div>

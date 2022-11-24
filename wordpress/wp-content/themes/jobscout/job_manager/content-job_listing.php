@@ -1,11 +1,15 @@
 <?php
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> yeu_cau_2_top_jobs
 =======
 >>>>>>> yeu_cau_3-blog
+=======
+
+>>>>>>> yeu-cau-4-jobs-new
 /**
  * Job listing in the loop.
  *
@@ -21,6 +25,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 if ( ! defined( 'ABSPATH' ) ) {
 =======
 if (!defined('ABSPATH')) {
@@ -28,10 +33,14 @@ if (!defined('ABSPATH')) {
 =======
 if ( ! defined( 'ABSPATH' ) ) {
 >>>>>>> yeu_cau_3-blog
+=======
+if (!defined('ABSPATH')) {
+>>>>>>> yeu-cau-4-jobs-new
 	exit; // Exit if accessed directly.
 }
 
 global $post;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -94,12 +103,18 @@ $company_name = get_post_meta( get_the_ID(), '_company_name', true );
 </article>
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> yeu-cau-4-jobs-new
 $job_salary   = get_post_meta(get_the_ID(), '_job_salary', true);
 $job_featured = get_post_meta(get_the_ID(), '_featured', true);
 $company_name = get_post_meta(get_the_ID(), '_company_name', true);
 
 ?>
+<<<<<<< HEAD
 <article class="top-job" <?php job_listing_class(); ?> data-longitude="<?php echo esc_attr($post->geolocation_lat); ?>" data-latitude="<?php echo esc_attr($post->geolocation_long); ?>">
+=======
+<article <?php job_listing_class(); ?> data-longitude="<?php echo esc_attr($post->geolocation_lat); ?>" data-latitude="<?php echo esc_attr($post->geolocation_long); ?>">
+>>>>>>> yeu-cau-4-jobs-new
 
 	<figure class="company-logo">
 		<?php the_company_logo('thumbnail'); ?>
@@ -110,6 +125,7 @@ $company_name = get_post_meta(get_the_ID(), '_company_name', true);
 		<h2 class="entry-title">
 			<a href="<?php the_job_permalink(); ?>"><?php wpjm_the_job_title(); ?></a>
 		</h2>
+<<<<<<< HEAD
 
 		<?php if ($company_name) { ?>
 			<div class="company-name" style="padding-bottom: 5px;">
@@ -135,12 +151,53 @@ $company_name = get_post_meta(get_the_ID(), '_company_name', true);
 			<?php wpjm_the_job_description(); ?>
 		</div>
 	</div>
+=======
+		<div class="entry-time">
+			<?php echo get_the_date(' j M, Y', get_the_ID()); ?>
+		</div>
+
+		<div class="entry-meta">
+			<?php
+			if (get_option('job_manager_enable_types')) {
+				$types = wpjm_get_the_job_types();
+				if (!empty($types)) : foreach ($types as $jobtype) : ?>
+						<li class="job-type <?php echo esc_attr(sanitize_title($jobtype->slug)); ?>"><?php echo esc_html($jobtype->name); ?></li>
+			<?php endforeach;
+				endif;
+			}
+			do_action('job_listing_meta_end');
+			?>
+			<?php if ($company_name) { ?>
+				<div class="company-name">
+					<?php the_company_name(); ?>
+				</div>
+			<?php } ?>
+			<?php
+			do_action('job_listing_meta_start');
+			?>
+			<div class="company-address">
+				<?php the_job_location(true); ?>
+			</div>
+
+		</div>
+
+	</div>
+	<div class="entry-content">
+		<div class="job-content">
+			<?php the_content(); ?>
+		</div>
+	</div><!-- .entry-content -->
+>>>>>>> yeu-cau-4-jobs-new
 
 	<?php if ($job_featured) { ?>
 		<div class="featured-label"><?php esc_html_e('Featured', 'jobscout'); ?></div>
 	<?php } ?>
 
+<<<<<<< HEAD
 </article>
 >>>>>>> yeu_cau_2_top_jobs
 =======
 >>>>>>> yeu_cau_3-blog
+=======
+</article>
+>>>>>>> yeu-cau-4-jobs-new

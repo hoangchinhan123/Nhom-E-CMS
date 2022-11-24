@@ -49,6 +49,7 @@ require_once ABSPATH . 'wp-admin/admin-header.php';
 					<?php
 					printf(
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 						/* translators: 1: WordPress version number, 2: plural number of bugs. More than one security issue. */
 						_n(
@@ -76,6 +77,8 @@ require_once ABSPATH . 'wp-admin/admin-header.php';
 					<?php
 					printf(
 >>>>>>> yeu_cau_3-blog
+=======
+>>>>>>> yeu-cau-4-jobs-new
 						/* translators: 1: WordPress version number, 2: Plural number of bugs. */
 						_n(
 							'<strong>Version %1$s</strong> addressed %2$s bug.',

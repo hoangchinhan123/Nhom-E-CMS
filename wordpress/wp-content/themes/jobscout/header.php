@@ -27,11 +27,14 @@
     wp_head(); ?>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 >>>>>>> yeu_cau_2_top_jobs
 =======
 >>>>>>> yeu_cau_3-blog
+=======
+>>>>>>> yeu-cau-4-jobs-new
 </head>
 
 <body <?php body_class(); ?> itemscope itemtype="https://schema.org/WebPage">

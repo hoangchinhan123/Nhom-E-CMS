@@ -34,6 +34,7 @@ function jobscout_posted_on( $single = false ) {
     }
     
 <<<<<<< HEAD
+<<<<<<< HEAD
     $posted_on = '<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">'. $time_svg .'<time class="updated published">' . $time_string . '</time></a>';
 	
 	echo '<span class="posted-on">' . $posted_on . '</span>'; // WPCS: XSS OK.
@@ -42,6 +43,11 @@ function jobscout_posted_on( $single = false ) {
 	
 	echo '<span class="posted-on read-more">' . $posted_on . '</span>'; // WPCS: XSS OK.
 >>>>>>> yeu_cau_3-blog
+=======
+    $posted_on = '<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">'. $time_svg .'<time class="updated published">' . $time_string . '</time></a>';
+	
+	echo '<span class="posted-on">' . $posted_on . '</span>'; // WPCS: XSS OK.
+>>>>>>> yeu-cau-4-jobs-new
 
 }
 endif;
@@ -944,10 +950,14 @@ function jobscout_breadcrumbs_cb(){
                 for ( $i = 0; $i < count( $breadcrumbs); $i++ ){
                     echo '<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="' . esc_url( get_permalink( $breadcrumbs[$i] ) ) . '" itemprop="item"><span itemprop="name">' . esc_html( get_the_title( $breadcrumbs[$i] ) ) . '</span></a><meta itemprop="position" content="'. absint( $depth ).'" /></span>';
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if ( $i != count( $breadcrumbs ) - 1 ) echo ' <span class="separator">' . esc_html( $delimiter ) . '</span> ';
 =======
                 if ( $i != count( $breadcrumbs ) - 1 ) echo ' <span class="separator">' . esc_html( $delimiter ) . '</span> ';
 >>>>>>> yeu_cau_3-blog
+=======
+                    if ( $i != count( $breadcrumbs ) - 1 ) echo ' <span class="separator">' . esc_html( $delimiter ) . '</span> ';
+>>>>>>> yeu-cau-4-jobs-new
                     $depth++;
                 }
 

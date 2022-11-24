@@ -404,11 +404,14 @@ function styles_for_block_core_search( $attributes ) {
 		'button'  => ! empty( $button_styles ) ? sprintf( ' style="%s"', esc_attr( safecss_filter_attr( implode( ' ', $button_styles ) ) ) ) : '',
 		'wrapper' => ! empty( $wrapper_styles ) ? sprintf( ' style="%s"', esc_attr( safecss_filter_attr( implode( ' ', $wrapper_styles ) ) ) ) : '',
 		'label'   => ! empty( $label_styles ) ? sprintf( ' style="%s"', esc_attr( safecss_filter_attr( implode( ' ', $label_styles ) ) ) ) : '',
+<<<<<<< HEAD
 =======
 		'input'   => ! empty( $input_styles ) ? sprintf( ' style="%s"', safecss_filter_attr( implode( ' ', $input_styles ) ) ) : '',
 		'button'  => ! empty( $button_styles ) ? sprintf( ' style="%s"', safecss_filter_attr( implode( ' ', $button_styles ) ) ) : '',
 		'wrapper' => ! empty( $wrapper_styles ) ? sprintf( ' style="%s"', safecss_filter_attr( implode( ' ', $wrapper_styles ) ) ) : '',
 >>>>>>> yeu_cau_3-blog
+=======
+>>>>>>> yeu-cau-4-jobs-new
 	);
 }
 

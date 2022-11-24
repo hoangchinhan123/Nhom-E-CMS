@@ -91,6 +91,7 @@ function get_block_core_post_featured_image_overlay_element_markup( $attributes 
 	}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	if ( ! empty( $border_attributes['style'] ) ) {
 		$styles[] = $border_attributes['style'];
 =======
@@ -101,6 +102,10 @@ function get_block_core_post_featured_image_overlay_element_markup( $attributes 
 		}
 		$featured_image = str_replace( 'src=', 'style="' . esc_attr( $image_styles ) . '" src=', $featured_image );
 >>>>>>> yeu_cau_3-blog
+=======
+	if ( ! empty( $border_attributes['style'] ) ) {
+		$styles[] = $border_attributes['style'];
+>>>>>>> yeu-cau-4-jobs-new
 	}
 
 	// Apply overlay and gradient classes.

@@ -1,8 +1,11 @@
 <?php
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> yeu_cau_3-blog
+=======
+>>>>>>> yeu-cau-4-jobs-new
 /**
  * Blog Section
  * 
@@ -10,6 +13,9 @@
  */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> yeu-cau-4-jobs-new
 $blog_heading = get_theme_mod( 'blog_section_title', __( 'Latest Articles', 'jobscout' ) );
 $sub_title    = get_theme_mod( 'blog_section_subtitle', __( 'We will help you find it. We are your first step to becoming everything you want to be.', 'jobscout' ) );
 $blog         = get_option( 'page_for_posts' );
@@ -17,6 +23,7 @@ $label        = get_theme_mod( 'blog_view_all', __( 'See More Posts', 'jobscout'
 $hide_author  = get_theme_mod( 'ed_post_author', false );
 $hide_date    = get_theme_mod( 'ed_post_date', false );
 $ed_blog      = get_theme_mod( 'ed_blog', true );
+<<<<<<< HEAD
 =======
 $blog_heading = get_theme_mod('blog_section_title', __('NEWEST BLOG ENTRIES', 'jobscout'));
 $sub_title    = get_theme_mod('blog_section_subtitle', __('', 'jobscout'));
@@ -26,11 +33,16 @@ $hide_author  = get_theme_mod('ed_post_author', false);
 $hide_date    = get_theme_mod('ed_post_date', false);
 $ed_blog      = get_theme_mod('ed_blog', true);
 >>>>>>> yeu_cau_3-blog
+=======
+>>>>>>> yeu-cau-4-jobs-new
 
 $args = array(
     'post_type'           => 'post',
     'post_status'         => 'publish',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> yeu-cau-4-jobs-new
     'posts_per_page'      => 3,
     'ignore_sticky_posts' => true
 );
@@ -90,6 +102,7 @@ if( $ed_blog && ( $blog_heading || $sub_title || $qry->have_posts() ) ){ ?>
 	</div>
 </section>
 <?php 
+<<<<<<< HEAD
 }
 =======
     'posts_per_page'      => 4,
@@ -162,3 +175,6 @@ if ($ed_blog && ($blog_heading || $sub_title || $qry->have_posts())) { ?>
 <?php
 }
 >>>>>>> yeu_cau_3-blog
+=======
+}
+>>>>>>> yeu-cau-4-jobs-new
