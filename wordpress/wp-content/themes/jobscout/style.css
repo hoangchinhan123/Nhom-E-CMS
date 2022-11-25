@@ -2617,6 +2617,7 @@ section.top-job-section .section-title {
   flex-wrap: wrap;
   align-items: flex-start;
   overflow: hidden;
+  height: 250px;
 }
 
 .top-job-section .row div.job_listings article:nth-child(2n) {
