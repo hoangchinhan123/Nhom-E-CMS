@@ -2313,14 +2313,16 @@ SITE BANNER SECTION
   -moz-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-
+/* TUAN */
 .banner-caption .caption-inner {
-  max-width: 770px;
+  max-width: 980px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .banner-caption .title {
+  margin-top: 20px !important;
+  text-align: left;
   margin: 0;
   font-size: 2.5em;
   color: #fff;
@@ -2328,16 +2330,68 @@ SITE BANNER SECTION
   line-height: 1.4;
 }
 
+.jobscout_job_filters .search_keywords svg,
+.search_location svg{
+  margin-left: 10px;
+    margin-top: 13px;
+    width: 20px;
+    fill: orangered;
+    height: 20px;
+}
+.search_location svg path{
+  fill: orangered !important;
+}
+.banner-caption .jobscout_job_filters .search_jobs input{
+  padding: 10px 10px !important;
+}
+.banner-caption .jobscout_job_filters .search_jobs div.search_keywords,
+.banner-caption .jobscout_job_filters .search_jobs div.search_location
+{
+  flex: none !important;
+}
+.jobscout_job_filters .search_jobs{
+  padding: 20px 10px !important;
+  justify-content: space-around;
+}
+.jobscout_job_filters .search_jobs .search_keywords{
+  width: 51% !important ;
+}
+.jobscout_job_filters .search_jobs .search_location{
+  width: 28% !important;
+}
+.jobscout_job_filters .search_jobs .search_submit{
+  /* width: 16% !important; */
+}
+.jobscout_job_filters .search_jobs .search_submit button{
+  border-radius: 0px;
+  border: none;
+  background: #ff7f26;
+  text-transform: uppercase;
+  padding: 10px 20px !important;
+}
+.search_location select{
+  border-left:none !important ;
+  background-position: calc(100% - 25px) 50% !important;
+}
+
 .banner-caption .description {
-  margin-top: 10px;
+  text-align: left;
+  margin-top: -10px;
   font-size: 1em;
   color: #fff;
   line-height: 1.5;
   font-weight: 400;
 }
+.jobscout_job_filters:hover .search_jobs .search_submit button{
+  color: #fff;
+}
+.banner-caption .description p{
+  opacity: 0.7;
+}
 
 .banner-caption .form-wrap {
-  margin-top: 20px;
+  margin-top: -5px;
+  width: 105%;
 }
 
 .banner-caption div.job_listings {
@@ -2385,7 +2439,6 @@ SITE BANNER SECTION
 
 .banner-caption .jobscout_job_filters .search_submit {
   display: flex;
-  flex: 0;
 }
 
 .banner-caption .form-wrap form .search_jobs label {
@@ -2395,7 +2448,7 @@ SITE BANNER SECTION
 .banner-caption .jobscout_job_filters .search_jobs input,
 .banner-caption .jobscout_job_filters .search_jobs select {
   border-radius: 0;
-  height: 60px;
+  height: 48px;
   border-top: none;
   border-bottom: none;
   border-right: none;
@@ -2564,6 +2617,7 @@ section.top-job-section .section-title {
   flex-wrap: wrap;
   align-items: flex-start;
   overflow: hidden;
+  height: 250px;
 }
 
 .top-job-section .row div.job_listings article:nth-child(2n) {
@@ -2663,7 +2717,8 @@ section.top-job-section .section-title {
 }
 
 .job-manager li.job-type,
-.job-types li.job-type {
+.job-types li.job-type,
+.job_listing li.job-type {
   list-style: none;
   font-size: 0.7778em;
   text-transform: uppercase;
@@ -2697,13 +2752,6 @@ section.top-job-section .section-title {
 .job_listing li.part-time {
   color: #f08d3c;
   border-color: #f08d3c;
-}
-
-.job_listings .job-title-wrap .entry-meta .job-type {
-  list-style-type: none;
-  color: #989898 !important;
-  padding: 5px;
-  border-right: 1px solid;
 }
 
 .job-manager li.temporary,
@@ -2904,16 +2952,44 @@ section.article-section {
   margin: 70px 0;
   text-align: center;
 }
-
+/* Trung */
 .article-section .article-wrap {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 30px;
   text-align: left;
   margin-top: 50px;
   margin-bottom: 40px;
 }
 
+.style-card {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  border: 1.5 solid whitesmoke !important;
+}
+
+.img-card {
+  width: 40%;
+  margin: 15px !important;
+}
+
+.img-card>a>img {
+  width: 220px !important;
+  height: 220px !important;
+}
+
+.title-card {
+  width: 60%;
+  padding: 15px !important;
+}
+
+.read-more-card {
+  color: rgb(255, 149, 0) !important;
+  font-weight: bold !important;
+  font-size: 20px !important;
+}
+/* /Trung */
 .article-section .article-wrap article {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
   border-radius: 5px;
@@ -3239,6 +3315,12 @@ LIST VIEW
   margin-top: 0;
 }
 
+.site-main article .entry-content p {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  display: table;
+  width: 100%;
+}
 
 a.readmore-link {
   font-size: 0.888em;
@@ -5555,14 +5637,16 @@ JOB LISTING PAGE
 ==========================*/
 .site-main .entry-content div.job_listings div.job_listings article {
   background: #fff;
-  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
+  margin-bottom: 25px;
+  border-radius: 5px;
+  padding: 30px;
   position: relative;
   display: flex;
   flex: 1;
   flex-wrap: wrap;
   overflow: hidden;
   align-items: flex-start;
-  margin: 0;
 }
 
 .site-main .entry-content div.job_listings div.job_listings article .company-logo {
@@ -5585,21 +5669,25 @@ JOB LISTING PAGE
 
 .site-main .entry-content div.job_listings div.job_listings article .company-name {
   font-size: 0.8888em;
-  color: #989898 !important;
-  font-weight: bold;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
   line-height: 1.44em;
-  padding: 5px;
-  border-right: 1px solid;
+  margin-top: 5px;
+}
+
+.site-main .entry-content div.job_listings div.job_listings article .company-name:before {
+  content: "@";
 }
 
 .site-main .entry-content div.job_listings div.job_listings article .entry-meta {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 15px;
+  padding-top: 15px;
+  font-size: 1em;
   display: flex;
-  background: #eeeeee;
-  color: #989898 !important;
-  text-align: center;
-  padding: 5px;
-  font-size: 10px;
-  font-weight: bold;
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .site-main .entry-content div.job_listings div.job_listings article .entry-meta .salary-amt,
@@ -5607,7 +5695,8 @@ JOB LISTING PAGE
   font-size: 0.8888em;
   line-height: 1.44em;
   font-weight: 400;
-  padding: 5px;
+  margin-bottom: 5px;
+  margin-right: 40px;
 }
 
 .site-main .entry-content div.job_listings div.job_listings article .entry-meta .salary-amt .currency {
@@ -5622,30 +5711,27 @@ JOB LISTING PAGE
 }
 
 .site-main .entry-content div.job_listings div.job_listings article .entry-meta a {
-  color: #989898 !important;
-  text-decoration: none;
-  font-weight: bold;
+  color: #000;
 }
 
 .site-main .entry-content div.job_listings div.job_listings article .entry-meta a:hover {
   color: #2ace5e;
 }
 
-.site-main #post-10 .entry-content .job_listings .job_listings {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  padding: 20px;
-  background: #eeeeee;
+.site-main .entry-content div.job_listings div.job_listings article .entry-meta .job-type {
+  margin-top: 0;
+  margin-left: auto;
+  display: table;
 }
 
 div.job_listings .load_more_jobs {
   display: table;
-  border: 2px solid #f08d3c;
+  border: 1px solid #2ace5e;
   text-transform: uppercase;
   font-size: 0.7778em;
   font-weight: 400;
-  color: #f08d3c;
+  background: #2ace5e;
+  color: #fff;
   padding: 15px 20px;
   margin-top: 40px;
   margin-left: auto;
@@ -5653,14 +5739,7 @@ div.job_listings .load_more_jobs {
   clear: both;
 }
 
-.entry-content a,
-.entry-summary a,
-.page-content a,
-.comment-content a,
-.widget .textwidget a {
-  text-decoration: none;
-}
-
+div.job_listings .load_more_jobs:hover,
 div.job_listings .load_more_jobs:focus {
   background: none;
   color: #2ace5e;
@@ -7819,44 +7898,13 @@ RESPONSIVE STYLESHEET
   text-decoration: underline;
 }
 
-.entry-content a {
-  text-decoration: none;
-}
-
-.job-content p::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 40%;
-  background: black;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-}
-
-.job-content p {
-  position: relative;
-  overflow: hidden;
-  font-size: 15px;
-  text-overflow: ellipsis;
-  line-height: 15px;
-  -webkit-line-clamp: 1;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  padding-left: 15px;
-  margin: 10px;
-}
-
-.job-title-wrap .entry-time {
-  font-size: 12px;
-}
-
+.entry-content a:hover,
 .entry-summary a:hover,
 .page-content a:hover,
 .comment-content a:hover,
 .widget .textwidget a:hover {
   color: #2ace5e;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 /* Accessibilty for secondary menu */
@@ -8193,3 +8241,24 @@ RESPONSIVE STYLESHEET
 .wp-block-social-links {
   flex-wrap: wrap !important;
 }
+/* Hieu */
+/* TOP JOB */
+.meta-company {
+  padding: 1px 3px;
+  background: #e6e6e6;
+  color: #595959;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.meta-company .name-company::before,
+.meta-company .location::before {
+  content: "|";
+  color: #bfbfbf;
+  padding-right: 5px;
+}
+
+.meta-company .location a {
+  color: #595959;
+}
+/* /Hieu */

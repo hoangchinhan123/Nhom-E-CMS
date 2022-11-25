@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Content shown before job listings in `[jobs]` shortcode.
  *
@@ -12,7 +11,7 @@
  * @version     1.15.0
  */
 
-if (!defined('ABSPATH')) {
+if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 ?>
