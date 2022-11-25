@@ -2373,6 +2373,20 @@ SITE BANNER SECTION
   border-left:none !important ;
   background-position: calc(100% - 25px) 50% !important;
 }
+.select2-selection {
+  height: 48px !important;
+  border-radius: 0px !important;
+}
+#select2-search_location-container{
+  margin-top: 8px !important;
+  padding-right: 160px !important ;
+}
+.select2-selection__arrow b{
+  margin-top: 6px !important;
+}
+.job_filters .select2-container{
+  width: 100% !important;
+}
 
 .banner-caption .description {
   text-align: left;
@@ -2382,6 +2396,7 @@ SITE BANNER SECTION
   line-height: 1.5;
   font-weight: 400;
 }
+/* /Tuan */
 .jobscout_job_filters:hover .search_jobs .search_submit button{
   color: #fff;
 }

@@ -51,8 +51,8 @@ if ($post_slug) {
             </g>
           </svg>
         </span>
-        <select id="search_location" name="search_location" value="location">
-          <option value="">Location</option>
+        <select id="search_location" name="search_location" class="form-control js-example-tags">
+        <option selected="selected">Location</option>
           <?php foreach ($data as $value) : ?>
             <option value="<?php echo $value->location; ?>"><?php echo $value->location; ?></option>
           <?php endforeach ?>
