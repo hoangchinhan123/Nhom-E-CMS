@@ -2382,6 +2382,20 @@ SITE BANNER SECTION
   border-left: none !important;
   background-position: calc(100% - 25px) 50% !important;
 }
+.select2-selection {
+  height: 48px !important;
+  border-radius: 0px !important;
+}
+#select2-search_location-container{
+  margin-top: 8px !important;
+  padding-right: 160px !important ;
+}
+.select2-selection__arrow b{
+  margin-top: 6px !important;
+}
+.job_filters .select2-container{
+  width: 100% !important;
+}
 
 .banner-caption .description {
   text-align: left;
@@ -5696,7 +5710,10 @@ JOB LISTING PAGE
 }
 
 .site-main .entry-content div.job_listings div.job_listings article {
-
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
+  margin-bottom: 25px;
+  border-radius: 5px;
   padding: 30px;
   position: relative;
   display: flex;
@@ -8316,5 +8333,4 @@ RESPONSIVE STYLESHEET
 .meta-company .location a {
   color: #595959;
 }
-
 /* /Hieu */
