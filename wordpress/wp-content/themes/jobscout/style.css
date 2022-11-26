@@ -3369,12 +3369,12 @@ LIST VIEW
   position: relative;
   overflow: hidden;
   text-overflow: ellipsis;
-  line-height: 25px;
+  line-height: 32px;
   -webkit-line-clamp: 1;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   padding-left: 10px;
-  margin: 0;
+  margin: 8px;
 }
 
 .site-main article .entry-content p::before {
@@ -5738,15 +5738,15 @@ JOB LISTING PAGE
 .site-main .entry-content div.job_listings div.job_listings article .entry-title {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 1.1112em;
+  font-size: 15px;
   line-height: 1.45em;
 }
 
 .site-main .entry-content div.job_listings div.job_listings article .company-name {
-  font-size: 0.8888em;
+  font-size: 13px;
   color: rgba(0, 0, 0, 0.5);
   font-weight: 400;
-  line-height: 1.44em;
+  line-height: 15px;
   margin-top: 5px;
 }
 
