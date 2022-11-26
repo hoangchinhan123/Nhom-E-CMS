@@ -23,7 +23,7 @@ if ($post_slug) {
 <div class="job_listings">
 
   <form class="jobscout_job_filters" method="GET" action="<?php echo esc_url($action_page) ?>" 
-  style="background: rgb(0 0 0 / 65%);">
+  style="background: rgb(0 0 0 / 40%);">
     <div class="search_jobs">
 
       <div class="search_keywords">
