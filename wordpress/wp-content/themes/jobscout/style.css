@@ -2366,10 +2366,6 @@ SITE BANNER SECTION
   width: 28% !important;
 }
 
-.jobscout_job_filters .search_jobs .search_submit {
-  /* width: 16% !important; */
-}
-
 .jobscout_job_filters .search_jobs .search_submit button {
   border-radius: 0px;
   border: none;
@@ -2385,10 +2381,12 @@ SITE BANNER SECTION
 .select2-selection {
   height: 48px !important;
   border-radius: 0px !important;
+  border-left: none !important;
 }
 #select2-search_location-container{
   margin-top: 8px !important;
   padding-right: 160px !important ;
+ 
 }
 .select2-selection__arrow b{
   margin-top: 6px !important;
@@ -2396,7 +2394,9 @@ SITE BANNER SECTION
 .job_filters .select2-container{
   width: 100% !important;
 }
-
+#select2-search_location-container{
+  text-align: left !important;
+}
 .banner-caption .description {
   text-align: left;
   margin-top: -10px;
@@ -2405,7 +2405,9 @@ SITE BANNER SECTION
   line-height: 1.5;
   font-weight: 400;
 }
-
+#wp-custom-header img{
+  filter: brightness(0.5);
+}
 .jobscout_job_filters:hover .search_jobs .search_submit button {
   color: #fff;
 }
