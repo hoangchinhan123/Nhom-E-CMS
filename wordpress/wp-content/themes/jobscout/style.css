@@ -2382,22 +2382,18 @@ SITE BANNER SECTION
   border-left: none !important;
   background-position: calc(100% - 25px) 50% !important;
 }
-
 .select2-selection {
   height: 48px !important;
   border-radius: 0px !important;
 }
-
-#select2-search_location-container {
+#select2-search_location-container{
   margin-top: 8px !important;
-  padding-right: 160px !important;
+  padding-right: 160px !important ;
 }
-
-.select2-selection__arrow b {
+.select2-selection__arrow b{
   margin-top: 6px !important;
 }
-
-.job_filters .select2-container {
+.job_filters .select2-container{
   width: 100% !important;
 }
 
@@ -2631,7 +2627,7 @@ section.top-job-section .description p {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   padding-left: 10px;
-  margin: 8px;
+  margin: 0;
 }
 
 section.top-job-section .description p::before {
@@ -2660,15 +2656,16 @@ section.top-job-section .section-title {
   width: 48%;
   background: #fff;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  margin-right: 1.5%;
-  margin-bottom: 2%;
-  padding: 20px;
+  margin-right: 2.5%;
+  margin-bottom: 3%;
+  border-radius: 5px;
+  padding: 30px;
   position: relative;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
   overflow: hidden;
-  height: 245px;
+  height: 250px;
 }
 
 .top-job-section .row div.job_listings article:nth-child(2n) {
@@ -2676,9 +2673,8 @@ section.top-job-section .section-title {
 }
 
 .top-job-section .row div.job_listings article .company-logo {
+  width: 100px;
   margin: 0;
-  width: 120px;
-  height: 55%;
   background: #eeeeee;
 }
 
@@ -2703,7 +2699,7 @@ section.top-job-section .section-title {
 }
 
 .top-job-section .row div.job_listings article .job-title-wrap {
-  width: calc(90% - 100px);
+  width: calc(100% - 100px);
   padding-left: 20px;
 }
 
@@ -2721,6 +2717,10 @@ section.top-job-section .section-title {
   font-weight: 400;
   line-height: 1.44em;
   margin-top: 5px;
+}
+
+.top-job-section .row div.job_listings article .company-name::before {
+  content: "@";
 }
 
 .top-job-section .row div.job_listings article .entry-meta {
@@ -3369,12 +3369,12 @@ LIST VIEW
   position: relative;
   overflow: hidden;
   text-overflow: ellipsis;
-  line-height: 32px;
+  line-height: 25px;
   -webkit-line-clamp: 1;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   padding-left: 10px;
-  margin: 8px;
+  margin: 0;
 }
 
 .site-main article .entry-content p::before {
@@ -5712,6 +5712,8 @@ JOB LISTING PAGE
 .site-main .entry-content div.job_listings div.job_listings article {
   background: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
+  margin-bottom: 25px;
+  border-radius: 5px;
   padding: 30px;
   position: relative;
   display: flex;
@@ -5720,8 +5722,6 @@ JOB LISTING PAGE
   overflow: hidden;
   align-items: flex-start;
   background: #ffff;
-  overflow: hidden;
-  height: 264px;
 }
 
 .site-main .entry-content div.job_listings div.job_listings article .company-logo {
@@ -5738,15 +5738,15 @@ JOB LISTING PAGE
 .site-main .entry-content div.job_listings div.job_listings article .entry-title {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 15px;
+  font-size: 1.1112em;
   line-height: 1.45em;
 }
 
 .site-main .entry-content div.job_listings div.job_listings article .company-name {
-  font-size: 13px;
+  font-size: 0.8888em;
   color: rgba(0, 0, 0, 0.5);
   font-weight: 400;
-  line-height: 15px;
+  line-height: 1.44em;
   margin-top: 5px;
 }
 
@@ -8320,7 +8320,7 @@ RESPONSIVE STYLESHEET
   background: #e6e6e6;
   color: #595959;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .meta-company .name-company::before,
@@ -8333,5 +8333,4 @@ RESPONSIVE STYLESHEET
 .meta-company .location a {
   color: #595959;
 }
-
 /* /Hieu */

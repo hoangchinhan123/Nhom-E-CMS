@@ -14,7 +14,7 @@
  */
 
 if (!defined('ABSPATH')) {
-    exit; // Exit if accessed directly.
+	exit; // Exit if accessed directly.
 }
 
 global $post;
@@ -42,15 +42,15 @@ $company_name = get_post_meta(get_the_ID(), '_company_name', true);
         </div>
         <div class="meta-company">
             <?php
-                if (get_option('job_manager_enable_types')) {
-                    $types = wpjm_get_the_job_types();
-                    if (!empty($types)) : foreach ($types as $jobtype) : ?>
+				if (get_option('job_manager_enable_types')) {
+					$types = wpjm_get_the_job_types();
+					if (!empty($types)) : foreach ($types as $jobtype) : ?>
             <span class="category"><?php echo esc_html($jobtype->name); ?></span>
             <?php endforeach;
-                    endif;
-                }
-                do_action('job_listing_meta_end');
-                ?>
+					endif;
+				}
+				do_action('job_listing_meta_end');
+				?>
             <span class="name-company"><?php the_company_name(); ?></span>
             <span class="location"><?php the_job_location(true); ?></span>
         </div>
@@ -59,6 +59,7 @@ $company_name = get_post_meta(get_the_ID(), '_company_name', true);
     <div class="description">
         <?php wpjm_the_job_description(); ?>
     </div>
+
     <?php if ($job_featured) { ?>
     <div class="featured-label"><?php esc_html_e('Featured', 'jobscout'); ?></div>
     <?php } ?>
